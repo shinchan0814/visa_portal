@@ -177,8 +177,8 @@ const CountryDetailPage = () => {
 
                             <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                             {activeTab === 'About' && <About data={aboutData} />}
-                            {activeTab === 'Process' && <Process data={processInfo} />}
-                            {activeTab === 'Documents' && <Documents data={documents} />}
+                            {activeTab === 'Process' && <Documents data={documents} />}
+                            {activeTab === 'Documents' && <Process data={processInfo} />}
                         </>
                     ) : (
                         <p>Loading...</p>
