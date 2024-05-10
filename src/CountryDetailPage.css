@@ -1,0 +1,48 @@
+.country-detail-page {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header {
+    width: 100%;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-panel, .right-panel {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Spacing between components */
+}
+
+.left-panel {
+    flex: 3; /* Larger portion for more complex content */
+}
+
+.right-panel {
+    flex: 2; /* Smaller side for concise components */
+}
+
+.selector-based-info {
+    background: #f9f9f9; /* Optional: adds background color for the tab content area */
+    padding: 20px;
+    border: 1px solid #ccc; /* Optional: adds border around the tab content area */
+}
+.content-layout {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-panel {
+    flex: 3; 
+}
+
+.right-panel {
+    flex: 1; 
+}
+

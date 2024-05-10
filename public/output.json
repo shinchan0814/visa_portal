@@ -1,0 +1,4311 @@
+[
+  {
+    "countryName": "Sri Lanka",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Colombo • ",
+      "Southern Asia • ",
+      "Asia",
+      "Developing • ",
+      "21M people",
+      " Sri Lanka Rupee, 100 INR = 371.18 LKR",
+      "Sri Lanka",
+      "• Sinhalese, Tamil",
+      "same time"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/sri-lanka/sri-lanka-11d05de3.moz.jpg",
+    "latitude": "6.9270786",
+    "longitude": "79.861243"
+  },
+  {
+    "countryName": "Maldives",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Male • ",
+      "Southern Asia • ",
+      "Asia",
+      "Developing • ",
+      "344K people",
+      "Rufiyaa, 100 INR = 18.61 MVR",
+      "• Divehi",
+      "30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/maldives/maldives-f5f5a86d.moz.jpg",
+    "latitude": "4.1754959",
+    "longitude": "73.5093474"
+  },
+  {
+    "countryName": "Oman",
+    "visaType": "Visa Required",
+    "details": [
+      "Muscat • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "4M people",
+      "Rial Omani, 100 INR = 0.47 OMR",
+      "• Arabic",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/oman/oman-9ee0d7e4.moz.jpg",
+    "latitude": "23.58589",
+    "longitude": "58.4059227"
+  },
+  {
+    "countryName": "Myanmar",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Naypyidaw • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "51M people",
+      "Kyat, 100 INR = 2535.09 MMK",
+      "• Burmese",
+      "1 hr ahead"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/myanmar/myanmar-33565e9c.moz.jpg",
+    "latitude": "16.8660694",
+    "longitude": "96.195132"
+  },
+  {
+    "countryName": "Tajikistan",
+    "visaType": "E-visa",
+    "details": [
+      "Dushanbe • ",
+      "Central Asia • ",
+      "Asia",
+      "Developing • ",
+      "9M people",
+      "Somoni, 100 INR = 13.22 TJS",
+      "• Tajik, Russian",
+      "30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/tajikistan/tajikistan-eb802d90.moz.jpg",
+    "latitude": "38.5597722",
+    "longitude": "68.7870384"
+  },
+  {
+    "countryName": "Kyrgyzstan",
+    "visaType": "E-visa",
+    "details": [
+      "Bishkek • ",
+      "Central Asia • ",
+      "Asia",
+      "Developing • ",
+      "6M people",
+      "Som, 100 INR = 108.07 KGS",
+      "• Kyrgyz, Russian",
+      "30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/kyrgyzstan/kyrgyzstan-be3abc7d.moz.jpg",
+    "latitude": "42.8746212",
+    "longitude": "74.5697617"
+  },
+  {
+    "countryName": "UAE",
+    "visaType": "E-visa",
+    "details": [
+      "Abu Dhabi • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "10M people",
+      "UAE Dirham, 100 INR = 4.44 AED",
+      "• Arabic",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/united-arab-emirates/united-arab-emirates-5c5cc019.moz.jpg",
+    "latitude": "25.2048493",
+    "longitude": "55.2707828"
+  },
+  {
+    "countryName": "Uzbekistan",
+    "visaType": "E-visa",
+    "details": [
+      "Tashkent • ",
+      "Central Asia • ",
+      "Asia",
+      "Developing • ",
+      "32M people",
+      "Uzbekistan Sum, 100 INR = 15094.41 UZS",
+      "• Uzbek, Russian",
+      "30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/uzbekistan/uzbekistan-8bde4eb5.moz.jpg",
+    "latitude": "41.2994958",
+    "longitude": "69.2400734"
+  },
+  {
+    "countryName": "Iran",
+    "visaType": "Visa Free",
+    "details": [
+      "Tehran • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "79M people",
+      "Iranian Rial, 100 INR = 50802.19 IRR",
+      "• Persian (Farsi)",
+      "2 hrs behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/iran/iran-ac1044d8.moz.jpg",
+    "latitude": "35.6891975",
+    "longitude": "51.3889736"
+  },
+  {
+    "countryName": "Bahrain",
+    "visaType": "E-visa",
+    "details": [
+      "Manama • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "1M people",
+      "Bahraini Dinar, 100 INR = 0.46 BHD",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/bahrain/bahrain-57c070bc.moz.jpg",
+    "latitude": "26.2285161",
+    "longitude": "50.5860497"
+  },
+  {
+    "countryName": "Laos",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Vientiane • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "6M people",
+      "Lao Kip, 100 INR = 25206.30 LAK",
+      "• Lao",
+      "1 hr 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/laos/laos-6f683189.moz.jpg",
+    "latitude": "17.9757058",
+    "longitude": "102.6331035"
+  },
+  {
+    "countryName": "Cambodia",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Phnom Penh • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "16M people",
+      "Riel, 100 INR = 4895.31 KHR",
+      "• Khmer",
+      "1 hr 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/cambodia/cambodia-26160e38.moz.jpg",
+    "latitude": "11.5563738",
+    "longitude": "104.9282099"
+  },
+  {
+    "countryName": "Somalia",
+    "visaType": "Visa Required",
+    "details": [
+      "Mogadishu • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "11M people",
+      "Somali Shilling, 100 INR = 690.61 SOS",
+      "• Somali, Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/somalia/somalia-ecb6daac.moz.jpg",
+    "latitude": "2.0469343",
+    "longitude": "45.3181623"
+  },
+  {
+    "countryName": "China",
+    "visaType": "Visa Required",
+    "details": [
+      "Beijing • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "1B people",
+      "Yuan Renminbi, 100 INR = 8.68 CNY",
+      "• Chinese",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/china/china-a377af9a.moz.jpg",
+    "latitude": "31.230416",
+    "longitude": "121.473701"
+  },
+  {
+    "countryName": "Kazakhstan",
+    "visaType": "Visa Free",
+    "details": [
+      "Astana • ",
+      "Central Asia • ",
+      "Asia",
+      "Developing • ",
+      "18M people",
+      "Tenge, 100 INR = 539.61 KZT",
+      "• Kazakh, Russian",
+      "30 min behind to 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/kazakhstan/kazakhstan-f47333f.moz.jpg",
+    "latitude": "43.2220146",
+    "longitude": "76.8512485"
+  },
+  {
+    "countryName": "Vietnam",
+    "visaType": "E-visa",
+    "details": [
+      "Hanoi • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "93M people",
+      "Dong, 100 INR = 29793.72 VND",
+      "• Vietnamese",
+      "1 hr 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/vietnam/vietnam-d04d9fb8.moz.jpg",
+    "latitude": "10.8230989",
+    "longitude": "106.6296638"
+  },
+  {
+    "countryName": "Seychelles",
+    "visaType": "E-visa",
+    "details": [
+      "Victoria • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Developing • ",
+      "91K people",
+      "Seychelles Rupee, 100 INR = 16.48 SCR",
+      "• French, English",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/seychelles/seychelles-e20a1603.moz.jpg",
+    "latitude": "-4.619143",
+    "longitude": "55.4513149"
+  },
+  {
+    "countryName": "Azerbaijan",
+    "visaType": "E-visa",
+    "details": [
+      "Baku • ",
+      "Western Asia • ",
+      "Asia",
+      "Developing • ",
+      "10M people",
+      "Azerbaijan Manat, 100 INR = 2.05 AZN",
+      "• Azerbaijani",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/azerbaijan/azerbaijan-5e1ff64b.moz.jpg",
+    "latitude": "40.4092617",
+    "longitude": "49.8670924"
+  },
+  {
+    "countryName": "Djibouti",
+    "visaType": "E-visa",
+    "details": [
+      "Djibouti • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "900K people",
+      "Djibouti Franc, 100 INR = 214.98 DJF",
+      "• French, Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/djibouti/djibouti-f98aa1b5.moz.jpg",
+    "latitude": "11.5720765",
+    "longitude": "43.1456475"
+  },
+  {
+    "countryName": "Hong Kong",
+    "visaType": "E-visa",
+    "details": [
+      "Hong Kong • ",
+      "Eastern Asia • ",
+      "Part of China",
+      "Developed • ",
+      "7M people",
+      "Hong Kong Dollar, 100 INR = 9.45 HKD",
+      "• English, Chinese",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/hong-kong/hong-kong-72d98b57.moz.jpg",
+    "latitude": "22.3193039",
+    "longitude": "114.1693611"
+  },
+  {
+    "countryName": "Mongolia",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Ulan Bator • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "3M people",
+      "Tugrik, ",
+      "• Mongolian",
+      "1 hr 30 min to 2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/mongolia/mongolia-ebc3904c.moz.jpg",
+    "latitude": "47.8863988",
+    "longitude": "106.9057439"
+  },
+  {
+    "countryName": "Georgia",
+    "visaType": "Visa Required",
+    "details": [
+      "Tbilisi • ",
+      "Western Asia • ",
+      "Asia",
+      "Developing • ",
+      "4M people",
+      "Lari, 100 INR = 3.21 GEL",
+      "• Georgian",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/georgia/georgia-ae1faab1.moz.jpg",
+    "latitude": "41.7151377",
+    "longitude": "44.827096"
+  },
+  {
+    "countryName": "Malaysia",
+    "visaType": "Visa Free",
+    "details": [
+      "Kuala Lumpur • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "31M people",
+      "Malaysian Ringgit, 100 INR = 5.66 MYR",
+      "• Malaysian",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/malaysia/malaysia-8b04c7a1.moz.jpg",
+    "latitude": "3.139003",
+    "longitude": "101.686855"
+  },
+  {
+    "countryName": "Ethiopia",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Addis Ababa • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "92M people",
+      "Ethiopian Birr, 100 INR = 68.53 ETB",
+      "• Amharic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/ethiopia/ethiopia-fde96306.moz.jpg",
+    "latitude": "8.9806034",
+    "longitude": "38.7577605"
+  },
+  {
+    "countryName": "Turkey",
+    "visaType": "E-visa",
+    "details": [
+      "Ankara • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "79M people",
+      "Turkish Lira, 100 INR = 38.49 TRY",
+      "• Turkish",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/turkey/turkey-6674bd0b.moz.jpg",
+    "latitude": "41.0082376",
+    "longitude": "28.9783589"
+  },
+  {
+    "countryName": "Taiwan",
+    "visaType": "Visa Required",
+    "details": [
+      "Taipei • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developed • ",
+      "24M people",
+      "New Taiwan dollar, 100 INR = 37.97 TWD",
+      "• Chinese",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/taiwan/taiwan-d60250e5.moz.jpg",
+    "latitude": "25.0169826",
+    "longitude": "121.4627868"
+  },
+  {
+    "countryName": "Kenya",
+    "visaType": "E-visa",
+    "details": [
+      "Nairobi • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Developing • ",
+      "47M people",
+      "Kenyan Shilling, 100 INR = 174.38 KES",
+      "• English, Swahili",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/kenya/kenya-470d6fb.moz.jpg",
+    "latitude": "-1.2920659",
+    "longitude": "36.8219462"
+  },
+  {
+    "countryName": "Russia",
+    "visaType": "E-visa",
+    "details": [
+      "Moscow • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "147M people",
+      "Russian Ruble, 100 INR = 109.91 RUB",
+      "• Russian",
+      "2 hrs 30 min behind to 6 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/russia/russia-19b64b26.moz.jpg",
+    "latitude": "55.755826",
+    "longitude": "37.6172999"
+  },
+  {
+    "countryName": "Egypt",
+    "visaType": "Visa Required",
+    "details": [
+      "Cairo • ",
+      "Middle East • ",
+      "Africa",
+      "Developing • ",
+      "91M people",
+      "Egyptian Pound, 100 INR = 59.64 EGP",
+      "• Arabic",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/egypt/egypt-f3c49d96.moz.jpg",
+    "latitude": "30.0444196",
+    "longitude": "31.2357116"
+  },
+  {
+    "countryName": "Philippines",
+    "visaType": "Visa Required",
+    "details": [
+      "Manila • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "103M people",
+      "Philippine Peso, 100 INR = 67.16 PHP",
+      "• English",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/philippines/philippines-247723ed.moz.jpg",
+    "latitude": "14.5995124",
+    "longitude": "120.9842195"
+  },
+  {
+    "countryName": "Mauritius",
+    "visaType": "Visa Free",
+    "details": [
+      "Port Louis • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Developing • ",
+      "1M people",
+      "Mauritius Rupee, 100 INR = 55.42 MUR",
+      "• English",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/mauritius/mauritius-9d2b9de.moz.jpg",
+    "latitude": "-20.1608912",
+    "longitude": "57.5012222"
+  },
+  {
+    "countryName": "Moldova",
+    "visaType": "E-visa",
+    "details": [
+      "Chisinau • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "4M people",
+      "Moldovan Leu, 100 INR = 21.29 MDL",
+      "• Romanian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/moldova/moldova-12d5d89.moz.jpg",
+    "latitude": "47.0104529",
+    "longitude": "28.8638102"
+  },
+  {
+    "countryName": "South Sudan",
+    "visaType": "E-visa",
+    "details": [
+      "Juba • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "12M people",
+      "South Sudanese Pound, ",
+      "• English",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/south-sudan/south-sudan-5b25e2db.moz.jpg",
+    "latitude": "4.859363",
+    "longitude": "31.57125"
+  },
+  {
+    "countryName": "Uganda",
+    "visaType": "E-visa",
+    "details": [
+      "Kampala • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "34M people",
+      "Uganda Shilling, 100 INR = 4714.24 UGX",
+      "• English, Swahili",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/uganda/uganda-85096c2b.moz.jpg",
+    "latitude": "0.3475964",
+    "longitude": "32.5825197"
+  },
+  {
+    "countryName": "Tanzania",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Dodoma • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "55M people",
+      "Tanzanian Shilling, 100 INR = 3078.39 TZS",
+      "• Swahili, English",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/tanzania/tanzania-be32ae65.moz.jpg",
+    "latitude": "-6.792354",
+    "longitude": "39.2083284"
+  },
+  {
+    "countryName": "Indonesia",
+    "visaType": "E-visa",
+    "details": [
+      "Jakarta • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "259M people",
+      "Rupiah, 100 INR = 18780.50 IDR",
+      "• Indonesian",
+      "1 hr 30 min to 3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/indonesia/indonesia-9717114f.moz.jpg",
+    "latitude": "-6.2087634",
+    "longitude": "106.845599"
+  },
+  {
+    "countryName": "Madagascar",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Antananarivo • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "22M people",
+      "Malagasy Ariary, 100 INR = 5434.08 MGA",
+      "• French, Malagasy",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/madagascar/madagascar-76d487f8.moz.jpg",
+    "latitude": "-18.8791902",
+    "longitude": "47.5079055"
+  },
+  {
+    "countryName": "Malawi",
+    "visaType": "E-visa",
+    "details": [
+      "Lilongwe • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "17M people",
+      "Malawi Kwacha, 100 INR = 2032.20 MWK",
+      "• English, Chichewa",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/malawi/malawi-8637a18b.moz.jpg",
+    "latitude": "-13.9626121",
+    "longitude": "33.7741195"
+  },
+  {
+    "countryName": "Japan",
+    "visaType": "Visa Required",
+    "details": [
+      "Tokyo • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developed • ",
+      "127M people",
+      "Yen, 100 INR = 178.06 JPY",
+      "• Japanese",
+      "3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/japan/japan-c4c370dd.moz.jpg",
+    "latitude": "35.6803997",
+    "longitude": "139.7690174"
+  },
+  {
+    "countryName": "Zambia",
+    "visaType": "Visa Required",
+    "details": [
+      "Lusaka • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "16M people",
+      "Zambian Kwacha, 100 INR = 29.17 ZMW",
+      "• English",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/zambia/zambia-42f8e707.moz.jpg",
+    "latitude": "-15.3875259",
+    "longitude": "28.3228165"
+  },
+  {
+    "countryName": "Guam",
+    "visaType": "Visa Required",
+    "details": [
+      "Hagatna • ",
+      "Micronesia • ",
+      "Territory of US",
+      "Developing • ",
+      "184K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English, Chamorro, Spanish",
+      "4 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/guam/guam-7d56481a.moz.jpg",
+    "latitude": "13.4762824",
+    "longitude": "144.7502228"
+  },
+  {
+    "countryName": "Botswana",
+    "visaType": "E-visa",
+    "details": [
+      "Gaborone • ",
+      "Southern Africa • ",
+      "Africa",
+      "Developing • ",
+      "2M people",
+      "Pula, 100 INR = 16.38 BWP",
+      "• English, Tswana",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/botswana/botswana-15ca798.moz.jpg",
+    "latitude": "-24.6282079",
+    "longitude": "25.9231471"
+  },
+  {
+    "countryName": "Gabon",
+    "visaType": "E-visa",
+    "details": [
+      "Libreville • ",
+      "Middle Africa • ",
+      "Africa",
+      "Developing • ",
+      "2M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/gabon/gabon-e14b4ec3.moz.jpg",
+    "latitude": "0.4161976",
+    "longitude": "9.4672676"
+  },
+  {
+    "countryName": "UK",
+    "visaType": "Visa Required",
+    "details": [
+      "London • ",
+      "Northern Europe • ",
+      "Europe",
+      "Developed • ",
+      "65M people",
+      "Pound Sterling, 100 INR = 0.94 GBP",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/united-kingdom/united-kingdom-809efadb.moz.jpg",
+    "latitude": "51.5073509",
+    "longitude": "-0.1277583"
+  },
+  {
+    "countryName": "Equatorial Guinea",
+    "visaType": "Visa Required",
+    "details": [
+      "Malabo • ",
+      "Middle Africa • ",
+      "Africa",
+      "Developing • ",
+      "1M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• Spanish, French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.35 °C",
+    "imageUrl": "https://visalist.io/images/countries/equatorial-guinea/equatorial-guinea-bad4de8.moz.jpg",
+    "latitude": "1.8533177",
+    "longitude": "9.7790227"
+  },
+  {
+    "countryName": "Sao Tome and Principe",
+    "visaType": "E-visa",
+    "details": [
+      "Sao Tome • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "187K people",
+      "Dobra, ",
+      "• Portuguese",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.00 °C",
+    "imageUrl": "https://visalist.io/images/countries/sao-tome-and-principe/sao-tome-and-principe-9930c43f.moz.jpg",
+    "latitude": "0.3301924",
+    "longitude": "6.733343"
+  },
+  {
+    "countryName": "Australia",
+    "visaType": "E-visa",
+    "details": [
+      "Canberra • ",
+      "Australia and New Zealand • ",
+      "Oceania",
+      "Developed • ",
+      "24M people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• English",
+      "2 hrs 30 min to 6 hrs ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/australia/australia-8b200988.moz.jpg",
+    "latitude": "-33.8688197",
+    "longitude": "151.2092955"
+  },
+  {
+    "countryName": "Benin",
+    "visaType": "E-visa",
+    "details": [
+      "Porto Novo • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "11M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/benin/benin-af1695bc.moz.jpg",
+    "latitude": "6.3702928",
+    "longitude": "2.3912362"
+  },
+  {
+    "countryName": "Morocco",
+    "visaType": "E-visa",
+    "details": [
+      "Rabat • ",
+      "Northern Africa • ",
+      "Africa",
+      "Developing • ",
+      "33M people",
+      "Moroccan Dirham, 100 INR = 12.10 MAD",
+      "• Arabic",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/morocco/morocco-2ce5fd49.moz.jpg",
+    "latitude": "33.5731104",
+    "longitude": "-7.5898434"
+  },
+  {
+    "countryName": "Papua New Guinea",
+    "visaType": "E-visa",
+    "details": [
+      "Port Moresby • ",
+      "Melanesia • ",
+      "Oceania",
+      "Developing • ",
+      "8M people",
+      "Kina, 100 INR = 4.61 PGK",
+      "• English",
+      "4 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/papua-new-guinea/papua-new-guinea-afddf825.moz.jpg",
+    "latitude": "-9.4438004",
+    "longitude": "147.1802671"
+  },
+  {
+    "countryName": "Togo",
+    "visaType": "E-visa",
+    "details": [
+      "Lome • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "7M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 29.32 °C",
+    "imageUrl": "https://visalist.io/images/countries/togo/togo-326f83c8.moz.jpg",
+    "latitude": "6.1256261",
+    "longitude": "1.2254183"
+  },
+  {
+    "countryName": "Burkina Faso",
+    "visaType": "E-visa",
+    "details": [
+      "Ouagadougou • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "19M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French, Fula",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/burkina-faso/burkina-faso-ea0c936.moz.jpg",
+    "latitude": "12.3714277",
+    "longitude": "-1.5196603"
+  },
+  {
+    "countryName": "Ivory Coast",
+    "visaType": "E-visa",
+    "details": [
+      "Yamoussoukro • ",
+      "Western Africa • ",
+      "Africa",
+      "Developing • ",
+      "23M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/cote-divoire/cote-divoire-850b12a5.moz.jpg",
+    "latitude": "5.3599517",
+    "longitude": "-4.0082563"
+  },
+  {
+    "countryName": "Guinea",
+    "visaType": "E-visa",
+    "details": [
+      "Conakry • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "13M people",
+      "Guinean Franc, 100 INR = 10376.86 GNF",
+      "• French, Fula",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/guinea/guinea-2c9394a1.moz.jpg",
+    "latitude": "9.6411855",
+    "longitude": "-13.5784012"
+  },
+  {
+    "countryName": "Cabo Verde",
+    "visaType": "Visa Required",
+    "details": [
+      "Praia • ",
+      "Western Africa • ",
+      "Africa",
+      "Developing • ",
+      "531K people",
+      "Cabo Verde Escudo, 100 INR = 121.74 CVE",
+      "• Portuguese",
+      "6 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 21.76 °C",
+    "imageUrl": "https://visalist.io/images/countries/cape-verde/cape-verde-2bbd8c7f.moz.jpg",
+    "latitude": "14.93305",
+    "longitude": "-23.5133267"
+  },
+  {
+    "countryName": "Canada",
+    "visaType": "Visa Required",
+    "details": [
+      "Ottawa • ",
+      "Northern America • ",
+      "North America",
+      "Developed • ",
+      "36M people",
+      "Canadian Dollar, 100 INR = 1.63 CAD",
+      "• English, French",
+      "8 hrs 30 min to 12 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/canada/canada-f3549bcd.moz.jpg",
+    "latitude": "43.653226",
+    "longitude": "-79.3831843"
+  },
+  {
+    "countryName": "Bermuda",
+    "visaType": "Visa Required",
+    "details": [
+      "Hamilton • ",
+      "Northern America • ",
+      "Territory of UK",
+      "Developed • ",
+      "62K people",
+      "Bermudian Dollar, 100 INR = 1.21 BMD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 18.37 °C",
+    "imageUrl": "https://visalist.io/images/countries/bermuda/bermuda-1be95b60.moz.jpg",
+    "latitude": "32.3078",
+    "longitude": "-64.7505"
+  },
+  {
+    "countryName": "US",
+    "visaType": "Visa Required",
+    "details": [
+      "Washington, D.C. • ",
+      "Northern America • ",
+      "North America",
+      "Developed • ",
+      "324M people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "9 hrs 30 min to 12 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/united-states-of-america/united-states-of-america-20918cc0.moz.jpg",
+    "latitude": "40.7127753",
+    "longitude": "-74.0059728"
+  },
+  {
+    "countryName": "Antigua and Barbuda",
+    "visaType": "E-visa",
+    "details": [
+      "Saint John's • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "86K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.28 °C",
+    "imageUrl": "https://visalist.io/images/countries/antigua-and-barbuda/antigua-and-barbuda-87d09fdb.moz.jpg",
+    "latitude": "17.0746557",
+    "longitude": "-61.8175207"
+  },
+  {
+    "countryName": "Anguilla",
+    "visaType": "E-visa",
+    "details": [
+      "The Valley • ",
+      "Caribbean • ",
+      "Territory of UK",
+      "Developing • ",
+      "13K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.61 °C",
+    "imageUrl": "https://visalist.io/images/countries/anguilla/anguilla-6e84c423.moz.jpg",
+    "latitude": "18.2148129",
+    "longitude": "-63.0574406"
+  },
+  {
+    "countryName": "Barbados",
+    "visaType": "Visa Free",
+    "details": [
+      "Bridgetown • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "285K people",
+      "Barbados Dollar, 100 INR = 2.44 BBD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.82 °C",
+    "imageUrl": "https://visalist.io/images/countries/barbados/barbados-36f1e953.moz.jpg",
+    "latitude": "13.0968511",
+    "longitude": "-59.6144819"
+  },
+  {
+    "countryName": "Saint Lucia",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Castries • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "186K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.24 °C",
+    "imageUrl": "https://visalist.io/images/countries/saint-lucia/saint-lucia-ba9e70f7.moz.jpg",
+    "latitude": "14.0101094",
+    "longitude": "-60.9874687"
+  },
+  {
+    "countryName": "Puerto Rico",
+    "visaType": "Visa Required",
+    "details": [
+      "San Juan • ",
+      "Caribbean • ",
+      "Commonwealth of US",
+      "Developing • ",
+      "3M people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• Spanish, English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.10 °C",
+    "imageUrl": "https://visalist.io/images/countries/puerto-rico/puerto-rico-dd310352.moz.jpg",
+    "latitude": "18.4655394",
+    "longitude": "-66.1057355"
+  },
+  {
+    "countryName": "Suriname",
+    "visaType": "E-visa",
+    "details": [
+      "Paramaribo • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "542K people",
+      "Surinam Dollar, 100 INR = 42.88 SRD",
+      "• Dutch",
+      "8 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.56 °C",
+    "imageUrl": "https://visalist.io/images/countries/suriname/suriname-bd310919.moz.jpg",
+    "latitude": "5.8520355",
+    "longitude": "-55.2038278"
+  },
+  {
+    "countryName": "Bahamas",
+    "visaType": "E-visa",
+    "details": [
+      "Nassau • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "378K people",
+      "Bahamian Dollar, 100 INR = 1.21 BSD",
+      "• English",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/bahamas/bahamas-7488ef86.moz.jpg",
+    "latitude": "25.0479835",
+    "longitude": "-77.355413"
+  },
+  {
+    "countryName": "Dominican Republic",
+    "visaType": "Visa Required",
+    "details": [
+      "Santo Domingo • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "10M people",
+      "Dominican Peso, 100 INR = 71.17 DOP",
+      "• Spanish",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/dominican-republic/dominican-republic-2ac4116.moz.jpg",
+    "latitude": "18.4860575",
+    "longitude": "-69.9312117"
+  },
+  {
+    "countryName": "Curacao",
+    "visaType": "Visa Required",
+    "details": [
+      "Willemstad • ",
+      "Caribbean • ",
+      "Part of Netherlands",
+      "Developing • ",
+      "155K people",
+      "Netherlands Antillean Guilder, 100 INR = 2.18 ANG",
+      "• Dutch, Punjabi, English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹76,834.00",
+    "imageUrl": "https://visalist.io/images/countries/curacao/curacao-5abda7cf.moz.jpg",
+    "latitude": "12.1224221",
+    "longitude": "-68.8824233"
+  },
+  {
+    "countryName": "Aruba",
+    "visaType": "Visa Required",
+    "details": [
+      "Oranjestad • ",
+      "Caribbean • ",
+      "Part of Netherlands",
+      "Developing • ",
+      "107K people",
+      "Aruban Florin, 100 INR = 2.18 AWG",
+      "• Dutch, Punjabi",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 27.64 °C",
+    "imageUrl": "https://visalist.io/images/countries/aruba/aruba-700b2560.moz.jpg",
+    "latitude": "12.5092044",
+    "longitude": "-70.0086306"
+  },
+  {
+    "countryName": "Jamaica",
+    "visaType": "Visa Free",
+    "details": [
+      "Kingston • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "3M people",
+      "Jamaican Dollar, 100 INR = 187.34 JMD",
+      "• English",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/jamaica/jamaica-ebabc6f5.moz.jpg",
+    "latitude": "18.0178743",
+    "longitude": "-76.8099041"
+  },
+  {
+    "countryName": "Cayman Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "George Town • ",
+      "Caribbean • ",
+      "Territory of UK",
+      "Developing • ",
+      "58K people",
+      "Cayman Islands Dollar, 100 INR = 1.01 KYD",
+      "• English",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 26.37 °C",
+    "imageUrl": "https://visalist.io/images/countries/cayman-islands/cayman-islands-ae4729bf.moz.jpg",
+    "latitude": "19.2869323",
+    "longitude": "-81.3674389"
+  },
+  {
+    "countryName": "Mexico",
+    "visaType": "Visa Required",
+    "details": [
+      "Mexico City • ",
+      "Northern America • ",
+      "North America",
+      "Developing • ",
+      "122M people",
+      "Mexican Peso, 100 INR = 20.30 MXN",
+      "• Spanish",
+      "11 hrs 30 min to 13 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/mexico/mexico-f0d76471.moz.jpg",
+    "latitude": "19.2464696",
+    "longitude": "-99.1013498"
+  },
+  {
+    "countryName": "Colombia",
+    "visaType": "Visa Required",
+    "details": [
+      "Bogotá • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "49M people",
+      "Colombian Peso, 100 INR = 4726.83 COP",
+      "• Spanish",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/colombia/colombia-54283ac6.moz.jpg",
+    "latitude": "4.648594",
+    "longitude": "-74.104466"
+  },
+  {
+    "countryName": "Honduras",
+    "visaType": "Visa Required",
+    "details": [
+      "Tegucigalpa • ",
+      "Central America • ",
+      "Central America-4",
+      "Developing • ",
+      "9M people",
+      "Lempira, 100 INR = 29.81 HNL",
+      "• Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/honduras/honduras-b2d8665b.moz.jpg",
+    "latitude": "14.0722751",
+    "longitude": "-87.192136"
+  },
+  {
+    "countryName": "Argentina",
+    "visaType": "Visa Required",
+    "details": [
+      "Buenos Aires • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "44M people",
+      "Argentine Peso, 100 INR = 1021.60 ARS",
+      "• Spanish, Guaraní",
+      "8 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/argentina/argentina-bb90458a.moz.jpg",
+    "latitude": "-34.6036844",
+    "longitude": "-58.3815591"
+  },
+  {
+    "countryName": "Nepal",
+    "visaType": "Visa Free",
+    "details": [
+      "Kathmandu • ",
+      "Southern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "28M people",
+      "Nepalese Rupee, 100 INR = 159.69 NPR",
+      "• Nepali",
+      "15 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/nepal/nepal-edc7d863.moz.jpg",
+    "latitude": "27.7172453",
+    "longitude": "85.3239605"
+  },
+  {
+    "countryName": "Pakistan",
+    "visaType": "Visa Required",
+    "details": [
+      "Islamabad • ",
+      "Southern Asia • ",
+      "Asia",
+      "Developing • ",
+      "194M people",
+      "Pakistan Rupee, 100 INR = 337.33 PKR",
+      "• English, Urdu",
+      "30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/pakistan/pakistan-42950379.moz.jpg",
+    "latitude": "24.8607343",
+    "longitude": "67.0011364"
+  },
+  {
+    "countryName": "Bangladesh",
+    "visaType": "Visa Required",
+    "details": [
+      "Dhaka • ",
+      "Southern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "161M people",
+      "Taka, 100 INR = 132.50 BDT",
+      "• Bengali",
+      "30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/bangladesh/bangladesh-8b4e90b7.moz.jpg",
+    "latitude": "23.810332",
+    "longitude": "90.4125181"
+  },
+  {
+    "countryName": "Bhutan",
+    "visaType": "Visa Required",
+    "details": [
+      "Thimphu • ",
+      "Southern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "776K people",
+      "Ngultrum, 100 INR = 99.81 BTN",
+      "• Dzongkha",
+      "30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/bhutan/bhutan-d4857c4f.moz.jpg",
+    "latitude": "27.4727924",
+    "longitude": "89.6392863"
+  },
+  {
+    "countryName": "Afghanistan",
+    "visaType": "Visa Required",
+    "details": [
+      "Kabul • ",
+      "Southern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "28M people",
+      "Afghani, 100 INR = 85.91 AFN",
+      "• Pashto, Uzbek, Turkmen",
+      "1 hr behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/afghanistan/afghanistan-135702f.moz.jpg",
+    "latitude": "34.5553494",
+    "longitude": "69.207486"
+  },
+  {
+    "countryName": "Thailand",
+    "visaType": "Visa Free",
+    "details": [
+      "Bangkok • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "65M people",
+      "Baht, 100 INR = 42.89 THB",
+      "• Thai",
+      "1 hr 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/thailand/thailand-6e965fbf.moz.jpg",
+    "latitude": "13.7563309",
+    "longitude": "100.5017651"
+  },
+  {
+    "countryName": "Qatar",
+    "visaType": "Visa Free",
+    "details": [
+      "Doha • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "3M people",
+      "Qatari Rial, 100 INR = 4.40 QAR",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/qatar/qatar-f325a03f.moz.jpg",
+    "latitude": "25.2854473",
+    "longitude": "51.5310398"
+  },
+  {
+    "countryName": "Turkmenistan",
+    "visaType": "Visa Required",
+    "details": [
+      "Ashgabat • ",
+      "Central Asia • ",
+      "Asia",
+      "Developing • ",
+      "5M people",
+      "Turkmenistan New Manat, 100 INR = 4.24 TMT",
+      "• Turkmen, Russian",
+      "30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/turkmenistan/turkmenistan-dc2618f0.moz.jpg",
+    "latitude": "37.9600766",
+    "longitude": "58.3260629"
+  },
+  {
+    "countryName": "British Indian Ocean Territory",
+    "visaType": "Visa Required",
+    "details": [
+      "Diego Garcia • ",
+      "Eastern Africa • ",
+      "Territory of UK",
+      "Developing • ",
+      "3K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "30 min ahead"
+    ],
+    "weather": "🌤️ 28.60 °C",
+    "imageUrl": "https://visalist.io/images/countries/british-indian-ocean-territory/british-indian-ocean-territory-1f6711e9.moz.jpg",
+    "latitude": "-7.3195005",
+    "longitude": "72.4228556"
+  },
+  {
+    "countryName": "Yemen",
+    "visaType": "Visa Required",
+    "details": [
+      "Sanaa • ",
+      "Middle East • ",
+      "Asia",
+      "Least Developed • ",
+      "27M people",
+      "Yemeni Rial, 100 INR = 302.53 YER",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/yemen/yemen-16306287.moz.jpg",
+    "latitude": "15.3694451",
+    "longitude": "44.1910066"
+  },
+  {
+    "countryName": "Kuwait",
+    "visaType": "Visa Required",
+    "details": [
+      "Kuwait City • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "4M people",
+      "Kuwaiti Dinar, 100 INR = 0.37 KWD",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/kuwait/kuwait-d63848ce.moz.jpg",
+    "latitude": "29.375859",
+    "longitude": "47.9774052"
+  },
+  {
+    "countryName": "Saudi Arabia",
+    "visaType": "Visa Required",
+    "details": [
+      "Riyadh • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "32M people",
+      "Saudi Riyal, 100 INR = 4.53 SAR",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/saudi-arabia/saudi-arabia-7dc083a1.moz.jpg",
+    "latitude": "24.7135517",
+    "longitude": "46.6752957"
+  },
+  {
+    "countryName": "Iraq",
+    "visaType": "E-visa",
+    "details": [
+      "Baghdad • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "38M people",
+      "Iraqi Dinar, 100 INR = 1581.42 IQD",
+      "• Arabic, Kurdish",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/iraq/iraq-d36d3387.moz.jpg",
+    "latitude": "33.315241",
+    "longitude": "44.3660671"
+  },
+  {
+    "countryName": "Singapore",
+    "visaType": "E-visa",
+    "details": [
+      "Singapore • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developed • ",
+      "6M people",
+      "Singapore Dollar, 100 INR = 1.61 SGD",
+      "• English, Malay, Tamil, Chinese",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/singapore/singapore-290dbb2e.moz.jpg",
+    "latitude": "1.2892988",
+    "longitude": "103.8631368"
+  },
+  {
+    "countryName": "Armenia",
+    "visaType": "E-visa",
+    "details": [
+      "Yerevan • ",
+      "Western Asia • ",
+      "Asia",
+      "Developing • ",
+      "3M people",
+      "Armenian Dram, 100 INR = 487.10 AMD",
+      "• Armenian, Russian",
+      "1 hr 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/armenia/armenia-8ac352b2.moz.jpg",
+    "latitude": "40.1791857",
+    "longitude": "44.4991029"
+  },
+  {
+    "countryName": "Macau",
+    "visaType": "Visa Free",
+    "details": [
+      "Macau • ",
+      "Eastern Asia • ",
+      "Part of China",
+      "Developed • ",
+      "649K people",
+      "Pataca, 100 INR = 9.72 MOP",
+      "• Chinese, Portuguese",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/macao/macao-8ec5e0e3.moz.jpg",
+    "latitude": "49.611621",
+    "longitude": "6.1319346"
+  },
+  {
+    "countryName": "Eritrea",
+    "visaType": "Visa Required",
+    "details": [
+      "Asmara • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "5M people",
+      "Nakfa, ",
+      "• Tigrinya, Arabic, English",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/eritrea/eritrea-a60a47cd.moz.jpg",
+    "latitude": "15.3228767",
+    "longitude": "38.9250517"
+  },
+  {
+    "countryName": "Syria",
+    "visaType": "Visa Required",
+    "details": [
+      "Damascus • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "19M people",
+      "Syrian Pound, ",
+      "• Arabic",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/syria/syria-7e2a7589.moz.jpg",
+    "latitude": "33.5138073",
+    "longitude": "36.2765279"
+  },
+  {
+    "countryName": "Jordan",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Amman • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "10M people",
+      "Jordanian Dinar, 100 INR = 0.86 JOD",
+      "• Arabic",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/jordan/jordan-c2b932ca.moz.jpg",
+    "latitude": "31.9453666",
+    "longitude": "35.9283716"
+  },
+  {
+    "countryName": "Lebanon",
+    "visaType": "Visa Required",
+    "details": [
+      "Beirut • ",
+      "Middle East • ",
+      "Asia",
+      "Developing • ",
+      "6M people",
+      "Lebanese Pound, 100 INR = 108105.65 LBP",
+      "• Arabic, French",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/lebanon/lebanon-656b6ac2.moz.jpg",
+    "latitude": "33.8937913",
+    "longitude": "35.5017767"
+  },
+  {
+    "countryName": "Palestine",
+    "visaType": "Visa Free",
+    "details": [
+      "Ramallah • ",
+      "Middle East • ",
+      "In contention",
+      "Developing • ",
+      "5M people",
+      "Israeli New Shekel, 100 INR = 4.32 ILS",
+      "• Arabic",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 17.91 °C",
+    "imageUrl": "https://visalist.io/images/countries/palestine/palestine-587247fa.moz.jpg",
+    "latitude": "31.9037641",
+    "longitude": "35.2034184"
+  },
+  {
+    "countryName": "Israel",
+    "visaType": "Visa Required",
+    "details": [
+      "Jerusalem • ",
+      "Middle East • ",
+      "Asia",
+      "Developed • ",
+      "9M people",
+      "New Israeli Sheqel, 100 INR = 4.32 ILS",
+      "• Hebrew, Arabic",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/israel/israel-a079f2f2.moz.jpg",
+    "latitude": "31.768319",
+    "longitude": "35.21371"
+  },
+  {
+    "countryName": "Brunei",
+    "visaType": "Visa Required",
+    "details": [
+      "Bandar Seri Begawan • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "412K people",
+      "Brunei Dollar, 100 INR = 1.61 BND",
+      "• Malay",
+      "2 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/brunei/brunei-ed921b70.moz.jpg",
+    "latitude": "4.9030522",
+    "longitude": "114.939821"
+  },
+  {
+    "countryName": "Cyprus",
+    "visaType": "Visa Required",
+    "details": [
+      "Nicosia • ",
+      "Middle East • ",
+      "Europe",
+      "Developed • ",
+      "847K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Greek, Turkish, Armenian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/cyprus/cyprus-16d5ec7e.moz.jpg",
+    "latitude": "35.1855659",
+    "longitude": "33.3822764"
+  },
+  {
+    "countryName": "Sudan",
+    "visaType": "Visa Required",
+    "details": [
+      "Khartoum • ",
+      "Northern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "40M people",
+      "Sudanese Pound, 100 INR = 727.47 SDG",
+      "• Arabic, English",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/sudan/sudan-33e22801.moz.jpg",
+    "latitude": "15.5006544",
+    "longitude": "32.5598994"
+  },
+  {
+    "countryName": "Comoros",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Moroni • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "806K people",
+      "Comorian Franc, 100 INR = 543.25 KMF",
+      "• Arabic, French",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 26.42 °C",
+    "imageUrl": "https://visalist.io/images/countries/comoros/comoros-c97e0ef.moz.jpg",
+    "latitude": "-11.7172157",
+    "longitude": "43.2473146"
+  },
+  {
+    "countryName": "Ukraine",
+    "visaType": "Visa Required",
+    "details": [
+      "Kyiv • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "43M people",
+      "Hryvnia, 100 INR = 46.14 UAH",
+      "• Ukrainian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/ukraine/ukraine-bbfa76db.moz.jpg",
+    "latitude": "50.4501",
+    "longitude": "30.5234"
+  },
+  {
+    "countryName": "South Korea",
+    "visaType": "Visa Required",
+    "details": [
+      "Seoul • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developed • ",
+      "51M people",
+      "Won, 100 INR = 1591.77 KRW",
+      "• Korean",
+      "3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/south-korea/south-korea-e38200e2.moz.jpg",
+    "latitude": "37.566535",
+    "longitude": "126.9779692"
+  },
+  {
+    "countryName": "North Korea",
+    "visaType": "Visa Required",
+    "details": [
+      "Pyongyang • ",
+      "Eastern Asia • ",
+      "Asia",
+      "Developing • ",
+      "25M people",
+      "North Korean Won, ",
+      "• Korean",
+      "3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/north-korea/north-korea-bf94ba43.moz.jpg",
+    "latitude": "39.0392193",
+    "longitude": "125.7625241"
+  },
+  {
+    "countryName": "Bulgaria",
+    "visaType": "Visa Required",
+    "details": [
+      "Sofia • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "7M people",
+      "Bulgarian Lev, 100 INR = 2.16 BGN",
+      "• Bulgarian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/bulgaria/bulgaria-149bb48f.moz.jpg",
+    "latitude": "42.6977082",
+    "longitude": "23.3218675"
+  },
+  {
+    "countryName": "Romania",
+    "visaType": "Visa Required",
+    "details": [
+      "Bucharest • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "20M people",
+      "Romanian Leu, 100 INR = 5.49 RON",
+      "• Romanian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/romania/romania-544ecd44.moz.jpg",
+    "latitude": "44.4267674",
+    "longitude": "26.1025384"
+  },
+  {
+    "countryName": "Belarus",
+    "visaType": "Visa Required",
+    "details": [
+      "Minsk • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Developed • ",
+      "9M people",
+      "Belarusian Ruble, 100 INR = 3.95 BYN",
+      "• Belarusian, Russian",
+      "2 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/belarus/belarus-880c78a.moz.jpg",
+    "latitude": "53.9045398",
+    "longitude": "27.5615244"
+  },
+  {
+    "countryName": "Greece",
+    "visaType": "Visa Required",
+    "details": [
+      "Athens • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "11M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Greek",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/greece/greece-6270c0cd.moz.jpg",
+    "latitude": "37.9838096",
+    "longitude": "23.7275388"
+  },
+  {
+    "countryName": "North Macedonia",
+    "visaType": "Visa Required",
+    "details": [
+      "Skopje • ",
+      "Southern Europe • ",
+      "Europe",
+      "Least Developed • ",
+      "2M people",
+      "Denar, 100 INR = 68.03 MKD",
+      "• Macedonian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/macedonia/macedonia-9ff2deb6.moz.jpg",
+    "latitude": "41.9960421",
+    "longitude": "21.431647"
+  },
+  {
+    "countryName": "Rwanda",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Kigali • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "12M people",
+      "Rwanda Franc, 100 INR = 1557.69 RWF",
+      "• Kinyarwanda, English, French",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/rwanda/rwanda-c44e8bb0.moz.jpg",
+    "latitude": "-1.9705786",
+    "longitude": "30.1044288"
+  },
+  {
+    "countryName": "Kosovo",
+    "visaType": "Visa Required",
+    "details": [
+      "Pristina • ",
+      "Eastern Europe • ",
+      "Europe",
+      "Least Developed • ",
+      "2M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Albanian, Serbian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/kosovo/kosovo-ff4e744b.moz.jpg",
+    "latitude": "42.6629138",
+    "longitude": "21.1655028"
+  },
+  {
+    "countryName": "Burundi",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Bujumbura • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "10M people",
+      "Burundi Franc, 100 INR = 3451.33 BIF",
+      "• French, Kirundi",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/burundi/burundi-56a6204e.moz.jpg",
+    "latitude": "-3.361378",
+    "longitude": "29.3598782"
+  },
+  {
+    "countryName": "Serbia",
+    "visaType": "Visa Required",
+    "details": [
+      "Belgrade • ",
+      "Southern Europe • ",
+      "Europe",
+      "Developed • ",
+      "7M people",
+      "Serbian Dinar, 100 INR = 129.39 RSD",
+      "• Serbian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/serbia/serbia-d999a569.moz.jpg",
+    "latitude": "44.786568",
+    "longitude": "20.4489216"
+  },
+  {
+    "countryName": "Albania",
+    "visaType": "E-visa",
+    "details": [
+      "Tirana • ",
+      "Southern Europe • ",
+      "Europe",
+      "Developed • ",
+      "3M people",
+      "Lek, 100 INR = 114.69 ALL",
+      "• Albanian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/albania/albania-43175ec5.moz.jpg",
+    "latitude": "41.3275459",
+    "longitude": "19.8186982"
+  },
+  {
+    "countryName": "Latvia",
+    "visaType": "Visa Required",
+    "details": [
+      "Riga • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "2M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Latvian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/latvia/latvia-31540914.moz.jpg",
+    "latitude": "56.9496487",
+    "longitude": "24.1051865"
+  },
+  {
+    "countryName": "Montenegro",
+    "visaType": "Visa Required",
+    "details": [
+      "Podgorica • ",
+      "Southern Europe • ",
+      "Europe",
+      "Developed • ",
+      "622K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Serbian, Bosnian, Albanian, Croatian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/montenegro/montenegro-8e782946.moz.jpg",
+    "latitude": "42.4304196",
+    "longitude": "19.2593642"
+  },
+  {
+    "countryName": "Lithuania",
+    "visaType": "Visa Required",
+    "details": [
+      "Vilnius • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "3M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Lithuanian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/lithuania/lithuania-60efa96.moz.jpg",
+    "latitude": "54.6871555",
+    "longitude": "25.2796514"
+  },
+  {
+    "countryName": "Hungary",
+    "visaType": "Visa Required",
+    "details": [
+      "Budapest • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "10M people",
+      "Forint, 100 INR = 435.79 HUF",
+      "• Hungarian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/hungary/hungary-59d64670.moz.jpg",
+    "latitude": "47.497912",
+    "longitude": "19.040235"
+  },
+  {
+    "countryName": "Estonia",
+    "visaType": "Visa Required",
+    "details": [
+      "Tallinn • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "1M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Estonian",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/estonia/estonia-1bfbc11b.moz.jpg",
+    "latitude": "59.4369608",
+    "longitude": "24.7535747"
+  },
+  {
+    "countryName": "Slovakia",
+    "visaType": "Visa Required",
+    "details": [
+      "Bratislava • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "5M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Slovak",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNo Info",
+    "imageUrl": "https://visalist.io/images/countries/slovakia/slovakia-966d88b.moz.jpg",
+    "latitude": "48.1485965",
+    "longitude": "17.1077478"
+  },
+  {
+    "countryName": "Bosnia and Herzegovina",
+    "visaType": "Visa Required",
+    "details": [
+      "Sarajevo • ",
+      "Southern Europe • ",
+      "Europe",
+      "Developed • ",
+      "4M people",
+      "Convertible Mark, 100 INR = 2.16 BAM",
+      "• Bosnian, Croatian, Serbian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/bosnia-and-herzegovina/bosnia-and-herzegovina-1fdfa133.moz.jpg",
+    "latitude": "43.8562586",
+    "longitude": "18.4130763"
+  },
+  {
+    "countryName": "Poland",
+    "visaType": "Visa Required",
+    "details": [
+      "Warsaw • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "38M people",
+      "Zloty, 100 INR = 4.75 PLN",
+      "• Polish",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/poland/poland-b43f3f36.moz.jpg",
+    "latitude": "52.2296756",
+    "longitude": "21.0122287"
+  },
+  {
+    "countryName": "Democratic Republic of Congo",
+    "visaType": "Visa Required",
+    "details": [
+      "Kinshasa • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "85M people",
+      "Congolese Franc, 100 INR = 3347.34 CDF",
+      "• French, Lingala, Kongo, Swahili, Luba-Katanga",
+      "3 hrs 30 min to 4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/democratic-republic-of-congo/democratic-republic-of-congo-d6925550.moz.jpg",
+    "latitude": "-4.4419311",
+    "longitude": "15.2662931"
+  },
+  {
+    "countryName": "Libya",
+    "visaType": "E-visa",
+    "details": [
+      "Tripoli • ",
+      "Northern Africa • ",
+      "Africa",
+      "Developing • ",
+      "6M people",
+      "Libyan Dinar, 100 INR = 5.81 LYD",
+      "• Arabic",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/libya/libya-bbf41e2f.moz.jpg",
+    "latitude": "32.8872094",
+    "longitude": "13.1913383"
+  },
+  {
+    "countryName": "Chad",
+    "visaType": "Visa Required",
+    "details": [
+      "NDjamena • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "14M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• French, Arabic",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/chad/chad-90eb4d5c.moz.jpg",
+    "latitude": "12.1348457",
+    "longitude": "15.0557415"
+  },
+  {
+    "countryName": "Finland",
+    "visaType": "Visa Required",
+    "details": [
+      "Helsinki • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "5M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Finnish, Swedish",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/finland/finland-e666bf9c.moz.jpg",
+    "latitude": "60.1698557",
+    "longitude": "24.9383791"
+  },
+  {
+    "countryName": "Central African Republic",
+    "visaType": "Visa Required",
+    "details": [
+      "Bangui • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "5M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• French, Sango",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/central-african-republic/central-african-republic-45067302.moz.jpg",
+    "latitude": "4.3946735",
+    "longitude": "18.5581899"
+  },
+  {
+    "countryName": "Croatia",
+    "visaType": "Visa Required",
+    "details": [
+      "Zagreb • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "4M people",
+      "Kuna, 100 INR = 8.63 HRK",
+      "• Croatian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/croatia/croatia-fe7d4518.moz.jpg",
+    "latitude": "45.8150108",
+    "longitude": "15.9819189"
+  },
+  {
+    "countryName": "East Timor",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Dili • ",
+      "South-Eastern Asia • ",
+      "Asia",
+      "Least Developed • ",
+      "1M people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• Portuguese",
+      "3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/timor-leste/timor-leste-330c5756.moz.jpg",
+    "latitude": "-8.5568557",
+    "longitude": "125.5603143"
+  },
+  {
+    "countryName": "Mozambique",
+    "visaType": "E-visa",
+    "details": [
+      "Maputo • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "26M people",
+      "Mozambique Metical, 100 INR = 76.73 MZN",
+      "• Portuguese",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/mozambique/mozambique-3639e1b4.png",
+    "latitude": "-25.969248",
+    "longitude": "32.5731746"
+  },
+  {
+    "countryName": "Malta",
+    "visaType": "Visa Required",
+    "details": [
+      "Valletta • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "425K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Maltese, English",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/malta/malta-fdd7788d.moz.jpg",
+    "latitude": "35.8954706",
+    "longitude": "14.4665072"
+  },
+  {
+    "countryName": "Aland Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Mariehamn • ",
+      "Northern Europe • ",
+      "Part of Finland",
+      "Developed • ",
+      "29K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Swedish",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹39,012.00",
+    "imageUrl": "https://visalist.io/images/countries/aland-islands/aland-islands-b33b7d03.moz.jpg",
+    "latitude": "60.0970945",
+    "longitude": "19.9348339"
+  },
+  {
+    "countryName": "Czechia",
+    "visaType": "Visa Required",
+    "details": [
+      "Prague • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "11M people",
+      "Czech Koruna, 100 INR = 27.99 CZK",
+      "• Czech, Slovak",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/czech-republic/czech-republic-970d533a.moz.jpg",
+    "latitude": "50.0755381",
+    "longitude": "14.4378005"
+  },
+  {
+    "countryName": "Slovenia",
+    "visaType": "Visa Required",
+    "details": [
+      "Ljubljana • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "2M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Slovene",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/slovenia/slovenia-41706c75.moz.jpg",
+    "latitude": "46.0569465",
+    "longitude": "14.5057515"
+  },
+  {
+    "countryName": "Palau",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Ngerulmud • ",
+      "Micronesia • ",
+      "Oceania",
+      "Developing • ",
+      "18K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "3 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/palau/palau-6c53bb12.moz.jpg",
+    "latitude": "7.3410628",
+    "longitude": "134.4771596"
+  },
+  {
+    "countryName": "Austria",
+    "visaType": "Visa Required",
+    "details": [
+      "Vienna • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "9M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• German",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/austria/austria-ac4adc5b.moz.jpg",
+    "latitude": "48.2081743",
+    "longitude": "16.3738189"
+  },
+  {
+    "countryName": "Italy",
+    "visaType": "Visa Required",
+    "details": [
+      "Rome • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "61M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Italian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/italy/italy-8f811954.moz.jpg",
+    "latitude": "41.9027835",
+    "longitude": "12.4963655"
+  },
+  {
+    "countryName": "Vatican City",
+    "visaType": "Visa Required",
+    "details": [
+      "Vatican City • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "451 people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Latin, Italian, French, German",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹44,499.00",
+    "imageUrl": "https://visalist.io/images/countries/vatican-city/vatican-city-ccdf686b.moz.jpg",
+    "latitude": "41.902916",
+    "longitude": "12.453389"
+  },
+  {
+    "countryName": "San Marino",
+    "visaType": "Visa Required",
+    "details": [
+      "City of San Marino • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "33K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Italian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 9.01 °C",
+    "imageUrl": "https://visalist.io/images/countries/san-marino/san-marino-efa72a04.moz.jpg",
+    "latitude": "43.9693717",
+    "longitude": "12.4798708"
+  },
+  {
+    "countryName": "Sweden",
+    "visaType": "Visa Required",
+    "details": [
+      "Stockholm • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "10M people",
+      "Swedish Krona, 100 INR = 12.48 SEK",
+      "• Swedish",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/sweden/sweden-fbdddd0.moz.jpg",
+    "latitude": "59.3293235",
+    "longitude": "18.0685808"
+  },
+  {
+    "countryName": "Liechtenstein",
+    "visaType": "Visa Required",
+    "details": [
+      "Vaduz • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "38K people",
+      "Swiss Franc, 100 INR = 1.06 CHF",
+      "• German",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 5.78 °C",
+    "imageUrl": "https://visalist.io/images/countries/liechtenstein/liechtenstein-2d2099a9.moz.jpg",
+    "latitude": "47.1675291",
+    "longitude": "9.5105636"
+  },
+  {
+    "countryName": "Denmark",
+    "visaType": "Visa Required",
+    "details": [
+      "Copenhagen • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "6M people",
+      "Danish Krone, 100 INR = 8.23 DKK",
+      "• Danish",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/denmark/denmark-84f63a63.moz.jpg",
+    "latitude": "55.6760968",
+    "longitude": "12.5683372"
+  },
+  {
+    "countryName": "Germany",
+    "visaType": "Visa Required",
+    "details": [
+      "Berlin • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "82M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• German",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/germany/germany-b95c3f80.moz.jpg",
+    "latitude": "52.5200066",
+    "longitude": "13.404954"
+  },
+  {
+    "countryName": "Zimbabwe",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Harare • ",
+      "Eastern Africa • ",
+      "Africa",
+      "Developing • ",
+      "14M people",
+      "Zimbabwe Dollar, ",
+      "• Shona, Northern Ndebele, English",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/zimbabwe/zimbabwe-c146afbc.moz.jpg",
+    "latitude": "-17.8251657",
+    "longitude": "31.03351"
+  },
+  {
+    "countryName": "Tunisia",
+    "visaType": "Visa Required",
+    "details": [
+      "Tunis • ",
+      "Northern Africa • ",
+      "Africa",
+      "Developing • ",
+      "11M people",
+      "Tunisian Dinar, 100 INR = 3.74 TND",
+      "• Arabic",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/tunisia/tunisia-44602108.moz.jpg",
+    "latitude": "36.8064948",
+    "longitude": "10.1815316"
+  },
+  {
+    "countryName": "Switzerland",
+    "visaType": "Visa Required",
+    "details": [
+      "Bern • ",
+      "Central Europe • ",
+      "Schengen",
+      "Developed • ",
+      "8M people",
+      "Swiss Franc, 100 INR = 1.06 CHF",
+      "• German, French, Italian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/switzerland/switzerland-85ee46ef.moz.jpg",
+    "latitude": "47.3768866",
+    "longitude": "8.541694"
+  },
+  {
+    "countryName": "Norway",
+    "visaType": "Visa Required",
+    "details": [
+      "Oslo • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "5M people",
+      "Norwegian Krone, 100 INR = 12.57 NOK",
+      "• Norwegian Bokmål, Norwegian Nynorsk, Norwegian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/norway/norway-32d3ab34.moz.jpg",
+    "latitude": "59.9138688",
+    "longitude": "10.7522454"
+  },
+  {
+    "countryName": "Monaco",
+    "visaType": "Visa Required",
+    "details": [
+      "Monaco • ",
+      "Western Europe • ",
+      "Schengen",
+      "Developed • ",
+      "38K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 10.88 °C",
+    "imageUrl": "https://visalist.io/images/countries/monaco/monaco-9273e499.moz.jpg",
+    "latitude": "43.7384176",
+    "longitude": "7.4246158"
+  },
+  {
+    "countryName": "Luxembourg",
+    "visaType": "Visa Required",
+    "details": [
+      "Luxembourg • ",
+      "Western Europe • ",
+      "Schengen",
+      "Developed • ",
+      "576K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French, German, Luxembourgish",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 8.65 °C",
+    "imageUrl": "https://visalist.io/images/countries/luxembourg/luxembourg-7a33c4e9.moz.jpg",
+    "latitude": "49.611621",
+    "longitude": "6.1319346"
+  },
+  {
+    "countryName": "Netherlands",
+    "visaType": "Visa Required",
+    "details": [
+      "Amsterdam • ",
+      "Western Europe • ",
+      "Schengen",
+      "Developed • ",
+      "17M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Dutch",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/netherlands/netherlands-439d5d5d.moz.jpg",
+    "latitude": "52.3679843",
+    "longitude": "4.9035614"
+  },
+  {
+    "countryName": "Svalbard",
+    "visaType": "Visa Required",
+    "details": [
+      "Longyearbyen • ",
+      "Northern Europe • ",
+      "Territory of Norway",
+      "Developed • ",
+      "3K people",
+      "Norwegian Krone, 100 INR = 12.57 NOK",
+      "• Norwegian, Russian",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ -13.45 °C",
+    "imageUrl": "https://visalist.io/images/countries/svalbard/svalbard-h967ff56.jpg",
+    "latitude": "78.2231722",
+    "longitude": "15.6267229"
+  },
+  {
+    "countryName": "Belgium",
+    "visaType": "Visa Required",
+    "details": [
+      "Brussels • ",
+      "Western Europe • ",
+      "Schengen",
+      "Developed • ",
+      "11M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French, German, Dutch",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/belgium/belgium-2b8e71fe.moz.jpg",
+    "latitude": "50.8503396",
+    "longitude": "4.3517103"
+  },
+  {
+    "countryName": "Eswatini",
+    "visaType": "Visa Required",
+    "details": [
+      "Lobamba • ",
+      "Southern Africa • ",
+      "Africa",
+      "Developing • ",
+      "1M people",
+      "Lilangeni, 100 INR = 22.50 SZL",
+      "• English, Swati",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/swaziland/swaziland-a7e59cbc.moz.jpg",
+    "latitude": "-26.400429",
+    "longitude": "31.1824925"
+  },
+  {
+    "countryName": "Congo",
+    "visaType": "Visa Required",
+    "details": [
+      "Brazzaville • ",
+      "Middle Africa • ",
+      "Africa",
+      "Developing • ",
+      "5M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• French, Lingala",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 25.67 °C",
+    "imageUrl": "https://visalist.io/images/countries/congo/congo-f13e554.moz.jpg",
+    "latitude": "-4.2633597",
+    "longitude": "15.2428853"
+  },
+  {
+    "countryName": "Cameroon",
+    "visaType": "E-visa",
+    "details": [
+      "Yaoundé • ",
+      "Middle Africa • ",
+      "Africa",
+      "Developing • ",
+      "23M people",
+      "Central African CFA franc, 100 INR = 724.20 XAF",
+      "• English, French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/cameroon/cameroon-781f28b.moz.jpg",
+    "latitude": "4.0510564",
+    "longitude": "9.7678687"
+  },
+  {
+    "countryName": "Northern Mariana Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Saipan • ",
+      "Micronesia • ",
+      "Commonwealth of US",
+      "Developing • ",
+      "57K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English, Chamorro",
+      "4 hrs 30 min ahead"
+    ],
+    "weather": "🌤️ 27.13 °C",
+    "imageUrl": "https://visalist.io/images/countries/northern-mariana-islands/northern-mariana-islands-5bdb3e4e.moz.jpg",
+    "latitude": "15.2193638",
+    "longitude": "145.7550616"
+  },
+  {
+    "countryName": "Niger",
+    "visaType": "Visa Required",
+    "details": [
+      "Niamey • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "21M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/niger/niger-3521c157.moz.jpg",
+    "latitude": "13.5115963",
+    "longitude": "2.1253854"
+  },
+  {
+    "countryName": "France",
+    "visaType": "Visa Required",
+    "details": [
+      "Paris • ",
+      "Western Europe • ",
+      "Schengen",
+      "Developed • ",
+      "67M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/france/france-82157dbd.moz.jpg",
+    "latitude": "48.856614",
+    "longitude": "2.3522219"
+  },
+  {
+    "countryName": "Angola",
+    "visaType": "Visa Free",
+    "details": [
+      "Luanda • ",
+      "Middle Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "26M people",
+      "Kwanza, 100 INR = 1009.64 AOA",
+      "• Portuguese",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/angola/angola-c0b81c6.moz.jpg",
+    "latitude": "-8.8146556",
+    "longitude": "13.2301756"
+  },
+  {
+    "countryName": "Andorra",
+    "visaType": "Visa Required",
+    "details": [
+      "Andorra la Vella • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "78K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Catalan",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 6.15 °C",
+    "imageUrl": "https://visalist.io/images/countries/andorra/andorra-a8a5360.moz.jpg",
+    "latitude": "42.5063174",
+    "longitude": "1.5218355"
+  },
+  {
+    "countryName": "Nigeria",
+    "visaType": "Visa Required",
+    "details": [
+      "Abuja • ",
+      "Western Africa • ",
+      "Africa",
+      "Developing • ",
+      "187M people",
+      "Naira, 100 INR = 1926.64 NGN",
+      "• English",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/nigeria/nigeria-7e90fb53.moz.jpg",
+    "latitude": "6.5243793",
+    "longitude": "3.3792057"
+  },
+  {
+    "countryName": "Algeria",
+    "visaType": "Visa Required",
+    "details": [
+      "Algiers • ",
+      "Northern Africa • ",
+      "Africa",
+      "Developing • ",
+      "40M people",
+      "Algerian Dinar, 100 INR = 162.60 DZD",
+      "• Arabic",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/algeria/algeria-b1cadc54.moz.jpg",
+    "latitude": "36.6997294",
+    "longitude": "3.0576199"
+  },
+  {
+    "countryName": "Jersey",
+    "visaType": "Visa Required",
+    "details": [
+      "Saint Helier • ",
+      "Northern Europe • ",
+      "Crown dependency of UK",
+      "Developed • ",
+      "101K people",
+      "Pound Sterling, 100 INR = 0.94 GBP",
+      "• English, French",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 9.39 °C",
+    "imageUrl": "https://visalist.io/images/countries/jersey/jersey-cbb82306.moz.jpg",
+    "latitude": "49.1805019",
+    "longitude": "-2.103233"
+  },
+  {
+    "countryName": "Lesotho",
+    "visaType": "Visa Required",
+    "details": [
+      "Maseru • ",
+      "Southern Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "2M people",
+      "Loti, 100 INR = 22.62 LSL",
+      "• English, Southern Sotho",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/lesotho/lesotho-b82ee9db.moz.jpg",
+    "latitude": "-29.3150767",
+    "longitude": "27.4869229"
+  },
+  {
+    "countryName": "Guernsey",
+    "visaType": "Visa Required",
+    "details": [
+      "St. Peter Port • ",
+      "Northern Europe • ",
+      "Crown dependency of UK",
+      "Developed • ",
+      "63K people",
+      "Pound Sterling, 100 INR = 0.94 GBP",
+      "• English, French",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 9.23 °C",
+    "imageUrl": "https://visalist.io/images/countries/guernsey/guernsey-9aeadc1a.moz.jpg",
+    "latitude": "49.4541677",
+    "longitude": "-2.5497069"
+  },
+  {
+    "countryName": "Isle of Man",
+    "visaType": "Visa Required",
+    "details": [
+      "Douglas • ",
+      "Northern Europe • ",
+      "Crown dependency of UK",
+      "Developed • ",
+      "84K people",
+      "Pound Sterling, 100 INR = 0.94 GBP",
+      "• English, Manx",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 7.15 °C",
+    "imageUrl": "https://visalist.io/images/countries/isle-of-man/isle-of-man-87655bb7.moz.jpg",
+    "latitude": "54.1523372",
+    "longitude": "-4.4861228"
+  },
+  {
+    "countryName": "French Southern and Antarctic Lands",
+    "visaType": "Visa Free",
+    "details": [
+      "Port-aux-Francais • ",
+      "Southern Africa • ",
+      "Territory of France",
+      "Developing • ",
+      "140 people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French",
+      "30 min behind"
+    ],
+    "weather": "🌤️ 28.33 °C",
+    "imageUrl": "https://visalist.io/images/countries/french-southern-and-antarctic-lands/french-southern-and-antarctic-lands-20c56481.moz.jpg",
+    "latitude": "-49.3496422",
+    "longitude": "70.218004"
+  },
+  {
+    "countryName": "Faroe Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Torshavn • ",
+      "Northern Europe • ",
+      "Part of Denmark",
+      "Developed • ",
+      "49K people",
+      "Danish Krone, 100 INR = 8.23 DKK",
+      "• Faroese",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 4.65 °C",
+    "imageUrl": "https://visalist.io/images/countries/faroe-islands/faroe-islands-2dc6ce62.png",
+    "latitude": "62.0107248",
+    "longitude": "-6.7740852"
+  },
+  {
+    "countryName": "Spain",
+    "visaType": "Visa Required",
+    "details": [
+      "Madrid • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "46M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Spanish",
+      "4 hrs 30 min to 5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/spain/spain-2b67ea83.moz.jpg",
+    "latitude": "40.4167754",
+    "longitude": "-3.7037902"
+  },
+  {
+    "countryName": "South Africa",
+    "visaType": "E-visa",
+    "details": [
+      "Cape Town • ",
+      "Southern Africa • ",
+      "Africa",
+      "Developing • ",
+      "56M people",
+      "Rand, 100 INR = 22.57 ZAR",
+      "• Southern Sotho, Swati, Tswana, Tsonga, Venda",
+      "3 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/south-africa/south-africa-7189229f.moz.jpg",
+    "latitude": "-26.2041028",
+    "longitude": "28.0473051"
+  },
+  {
+    "countryName": "Ireland",
+    "visaType": "Visa Required",
+    "details": [
+      "Dublin • ",
+      "Northern Europe • ",
+      "Europe",
+      "Developed • ",
+      "6M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Irish, English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/ireland/ireland-def13b06.moz.jpg",
+    "latitude": "53.3498053",
+    "longitude": "-6.2603097"
+  },
+  {
+    "countryName": "Namibia",
+    "visaType": "E-visa",
+    "details": [
+      "Windhoek • ",
+      "Southern Africa • ",
+      "Africa",
+      "Developing • ",
+      "2M people",
+      "Namibia Dollar, 100 INR = 22.62 NAD",
+      "• English, Afrikaans",
+      "4 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/namibia/namibia-38602ccc.moz.jpg",
+    "latitude": "-22.5608807",
+    "longitude": "17.0657549"
+  },
+  {
+    "countryName": "Gibraltar",
+    "visaType": "Visa Required",
+    "details": [
+      "Gibraltar • ",
+      "Southern Europe • ",
+      "Territory of UK",
+      "Developed • ",
+      "32K people",
+      "Gibraltar Pound, 100 INR = 1.14 GIP",
+      "• English",
+      "3 hrs 30 min to 4 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 15.61 °C",
+    "imageUrl": "https://visalist.io/images/countries/gibraltar/gibraltar-b045f2f2.moz.jpg",
+    "latitude": "36.140751",
+    "longitude": "-5.353585"
+  },
+  {
+    "countryName": "Heard and McDonald Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Australia and New Zealand • ",
+      "Territory of Australia",
+      "Developed • ",
+      "0 people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• English",
+      "30 min behind"
+    ],
+    "weather": "📍 10 hrs time",
+    "imageUrl": "https://visalist.io/images/countries/heard-island-and-mcdonald-islands/heard-island-and-mcdonald-islands-dba04d7d.moz.jpg",
+    "latitude": "-53.08181",
+    "longitude": "73.504158"
+  },
+  {
+    "countryName": "Portugal",
+    "visaType": "Visa Required",
+    "details": [
+      "Lisbon • ",
+      "Southern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "10M people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Portuguese",
+      "5 hrs 30 min to 6 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/portugal/portugal-5763a80c.moz.jpg",
+    "latitude": "38.7222524",
+    "longitude": "-9.1393366"
+  },
+  {
+    "countryName": "Iceland",
+    "visaType": "Visa Required",
+    "details": [
+      "Reykjavík • ",
+      "Northern Europe • ",
+      "Schengen",
+      "Developed • ",
+      "334K people",
+      "Iceland Krona, 100 INR = 164.59 ISK",
+      "• Icelandic",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/iceland/iceland-46c79b4e.moz.jpg",
+    "latitude": "64.146582",
+    "longitude": "-21.9426354"
+  },
+  {
+    "countryName": "Mali",
+    "visaType": "Visa Required",
+    "details": [
+      "Bamako • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "18M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/mali/mali-4d5a5a97.moz.jpg",
+    "latitude": "12.6392316",
+    "longitude": "-8.0028892"
+  },
+  {
+    "countryName": "Ghana",
+    "visaType": "Visa Required",
+    "details": [
+      "Accra • ",
+      "Western Africa • ",
+      "Africa",
+      "Developing • ",
+      "28M people",
+      "Ghana Cedi, 100 INR = 15.45 GHS",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/ghana/ghana-9ef20c73.moz.jpg",
+    "latitude": "5.6037168",
+    "longitude": "-0.1869644"
+  },
+  {
+    "countryName": "Greenland",
+    "visaType": "Visa Required",
+    "details": [
+      "Nuuk • ",
+      "Northern America • ",
+      "Part of Denmark",
+      "Developed • ",
+      "56K people",
+      "Danish Krone, 100 INR = 8.23 DKK",
+      "• Kalaallisut",
+      "6 hrs 30 min to 9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ -21.77 °C",
+    "imageUrl": "https://visalist.io/images/countries/greenland/greenland-e262be8.moz.jpg",
+    "latitude": "64.1814099",
+    "longitude": "-51.6941381"
+  },
+  {
+    "countryName": "Micronesia",
+    "visaType": "Visa Free",
+    "details": [
+      "Palikir • ",
+      "Micronesia • ",
+      "Oceania",
+      "Developing • ",
+      "103K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "4 hrs 30 min to 5 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/micronesia/micronesia-ac376ae9.moz.jpg",
+    "latitude": "6.9147118",
+    "longitude": "158.1610274"
+  },
+  {
+    "countryName": "Western Sahara",
+    "visaType": "Visa Free",
+    "details": [
+      "El Aaiun • ",
+      "Northern Africa • ",
+      "In contention",
+      "Developing • ",
+      "511K people",
+      "Moroccan Dirham, 100 INR = 12.10 MAD",
+      "• Spanish",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 22.42 °C",
+    "imageUrl": "https://visalist.io/images/countries/western-sahara/western-sahara-4838e0a5.moz.jpg",
+    "latitude": "23.7221111",
+    "longitude": "-15.9347384"
+  },
+  {
+    "countryName": "Mauritania",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Nouakchott • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "4M people",
+      "Ouguiya, 100 INR = 48.23 MRU",
+      "• Arabic",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/mauritania/mauritania-d3c84e4b.moz.jpg",
+    "latitude": "18.0735299",
+    "longitude": "-15.9582372"
+  },
+  {
+    "countryName": "Liberia",
+    "visaType": "Visa Required",
+    "details": [
+      "Monrovia • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "5M people",
+      "Liberian Dollar, 100 INR = 232.56 LRD",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/liberia/liberia-e8d22bc7.moz.jpg",
+    "latitude": "6.3156068",
+    "longitude": "-10.8073698"
+  },
+  {
+    "countryName": "Solomon Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Honiara • ",
+      "Melanesia • ",
+      "Oceania",
+      "Least Developed • ",
+      "642K people",
+      "Solomon Islands Dollar, 100 INR = 10.22 SBD",
+      "• English",
+      "5 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/solomon-islands/solomon-islands-1e294267.moz.jpg",
+    "latitude": "-9.4456381",
+    "longitude": "159.9728999"
+  },
+  {
+    "countryName": "Sierra Leone",
+    "visaType": "E-visa",
+    "details": [
+      "Freetown • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "7M people",
+      "Leone, 100 INR = 23875.38 SLL",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/sierra-leone/sierra-leone-7c25db6c.moz.jpg",
+    "latitude": "8.4656765",
+    "longitude": "-13.2317225"
+  },
+  {
+    "countryName": "Senegal",
+    "visaType": "Visa Free",
+    "details": [
+      "Dakar • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "15M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• French",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/senegal/senegal-3e8b6bab.moz.jpg",
+    "latitude": "14.716677",
+    "longitude": "-17.4676861"
+  },
+  {
+    "countryName": "Guinea-Bissau",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Bissau • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "2M people",
+      "West African CFA franc, 100 INR = 3.27 XCD",
+      "• Portuguese",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 29.12 °C",
+    "imageUrl": "https://visalist.io/images/countries/guinea-bissau/guinea-bissau-da4d43f8.moz.jpg",
+    "latitude": "11.8632196",
+    "longitude": "-15.5843227"
+  },
+  {
+    "countryName": "Marshall Islands",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Majuro • ",
+      "Micronesia • ",
+      "Oceania",
+      "Developing • ",
+      "55K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English, Marshallese",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/marshall-islands/marshall-islands-f9365ebd.moz.jpg",
+    "latitude": "7.131474",
+    "longitude": "171.184478"
+  },
+  {
+    "countryName": "Gambia",
+    "visaType": "Visa Required",
+    "details": [
+      "Banjul • ",
+      "Western Africa • ",
+      "Africa",
+      "Least Developed • ",
+      "2M people",
+      "Dalasi, 100 INR = 82.08 GMD",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/gambia/gambia-1587bed6.moz.jpg",
+    "latitude": "13.4548761",
+    "longitude": "-16.5790323"
+  },
+  {
+    "countryName": "Saint Helena",
+    "visaType": "E-visa",
+    "details": [
+      "Jamestown • ",
+      "Western Africa • ",
+      "Territory of UK",
+      "Developing • ",
+      "4K people",
+      "Saint Helena Pound, ",
+      "• English",
+      "5 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 19.90 °C",
+    "imageUrl": "https://visalist.io/images/countries/saint-helena-ascension-and-tristan-da-cunha/saint-helena-ascension-and-tristan-da-cunha-223982c1.moz.jpg",
+    "latitude": "-15.9286343",
+    "longitude": "-5.7151749"
+  },
+  {
+    "countryName": "Nauru",
+    "visaType": "Visa Required",
+    "details": [
+      "Yaren • ",
+      "Micronesia • ",
+      "Oceania",
+      "Developing • ",
+      "10K people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• English, Nauruan",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "🌤️ 27.76 °C",
+    "imageUrl": "https://visalist.io/images/countries/nauru/nauru-a4004c6e.moz.jpg",
+    "latitude": "-0.5466857",
+    "longitude": "166.9210913"
+  },
+  {
+    "countryName": "Kiribati",
+    "visaType": "Visa Free",
+    "details": [
+      "South Tarawa • ",
+      "Micronesia • ",
+      "Oceania",
+      "Least Developed • ",
+      "113K people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• English",
+      "6 hrs 30 min to 8 hrs 30 min ahead"
+    ],
+    "weather": "🌤️ 27.78 °C",
+    "imageUrl": "https://visalist.io/images/countries/kiribati/kiribati-271bb1a8.moz.jpg",
+    "latitude": "1.3290526",
+    "longitude": "172.9790528"
+  },
+  {
+    "countryName": "Vanuatu",
+    "visaType": "Visa Free",
+    "details": [
+      "Port Vila • ",
+      "Melanesia • ",
+      "Oceania",
+      "Least Developed • ",
+      "278K people",
+      "Vatu, ",
+      "• Bislama, English, French",
+      "5 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/vanuatu/vanuatu-9f1e538a.moz.jpg",
+    "latitude": "-17.7332512",
+    "longitude": "168.3273245"
+  },
+  {
+    "countryName": "New Caledonia",
+    "visaType": "Visa Required",
+    "details": [
+      "Noumea • ",
+      "Melanesia • ",
+      "Territory of France",
+      "Developing • ",
+      "269K people",
+      "Franc, 100 INR = 132.50 XPF",
+      "• French",
+      "5 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/new-caledonia/new-caledonia-f981586e.moz.jpg",
+    "latitude": "-22.2710727",
+    "longitude": "166.4416459"
+  },
+  {
+    "countryName": "Norfolk Island",
+    "visaType": "Visa Required",
+    "details": [
+      "Kingston • ",
+      "Australia and New Zealand • ",
+      "Territory of Australia",
+      "Developed • ",
+      "2K people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• English",
+      "6 hrs ahead"
+    ],
+    "weather": "🌤️ 20.02 °C",
+    "imageUrl": "https://visalist.io/images/countries/norfolk-island/norfolk-island-dd3647f1.moz.jpg",
+    "latitude": "-29.0563937",
+    "longitude": "167.959588"
+  },
+  {
+    "countryName": "Saint Pierre and Miquelon",
+    "visaType": "Visa Required",
+    "details": [
+      "Saint-Pierre • ",
+      "Northern America • ",
+      "Part of France",
+      "Developed • ",
+      "6K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French",
+      "8 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹155,260.00",
+    "imageUrl": "https://visalist.io/images/countries/saint-pierre-and-miquelon/saint-pierre-and-miquelon-427bccff.moz.jpg",
+    "latitude": "46.7758459",
+    "longitude": "-56.1806363"
+  },
+  {
+    "countryName": "Fiji",
+    "visaType": "Visa Free",
+    "details": [
+      "Suva • ",
+      "Melanesia • ",
+      "Oceania",
+      "Developing • ",
+      "867K people",
+      "Fiji Dollar, 100 INR = 2.69 FJD",
+      "• English, Fijian, Hindi, Urdu",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/fiji/fiji-49166a7d.moz.jpg",
+    "latitude": "-18.1248086",
+    "longitude": "178.4500789"
+  },
+  {
+    "countryName": "Tuvalu",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Funafuti • ",
+      "Polynesia • ",
+      "Oceania",
+      "Least Developed • ",
+      "11K people",
+      "Australian Dollar, 100 INR = 1.82 AUD",
+      "• Tuvaluan, English",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "🌤️ 28.31 °C",
+    "imageUrl": "https://visalist.io/images/countries/tuvalu/tuvalu-dd1618f0.moz.jpg",
+    "latitude": "-8.5211471",
+    "longitude": "179.1961926"
+  },
+  {
+    "countryName": "Antarctica",
+    "visaType": "Visa Free",
+    "details": [
+      "Antarctica • ",
+      "Polar • ",
+      "International",
+      "Least Developed • ",
+      "1K people",
+      "No universal currency, ",
+      "• English, Russian",
+      "8 hrs 30 min behind to 6 hrs 30 min ahead"
+    ],
+    "weather": "📍 14 hrs time",
+    "imageUrl": "https://visalist.io/images/countries/antarctica/antarctica-31295a50.moz.jpg",
+    "latitude": "-64.6849636",
+    "longitude": "-62.6250798"
+  },
+  {
+    "countryName": "New Zealand",
+    "visaType": "Visa Required",
+    "details": [
+      "Wellington • ",
+      "Australia and New Zealand • ",
+      "Oceania",
+      "Developed • ",
+      "5M people",
+      "New Zealand Dollar, 100 INR = 1.96 NZD",
+      "• English, Māori",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/new-zealand/new-zealand-56720807.moz.jpg",
+    "latitude": "-36.8484597",
+    "longitude": "174.7633315"
+  },
+  {
+    "countryName": "Wallis and Futuna",
+    "visaType": "Visa Required",
+    "details": [
+      "Mata-Utu • ",
+      "Polynesia • ",
+      "Territory of France",
+      "Developing • ",
+      "12K people",
+      "Franc, 100 INR = 132.50 XPF",
+      "• French",
+      "6 hrs 30 min ahead"
+    ],
+    "weather": "🌤️ 27.24 °C",
+    "imageUrl": "https://visalist.io/images/countries/wallis-and-futuna/wallis-and-futuna-6b7acc1.moz.jpg",
+    "latitude": "-13.2825091",
+    "longitude": "-176.1764475"
+  },
+  {
+    "countryName": "Tonga",
+    "visaType": "Visa Required",
+    "details": [
+      "Nukualofa • ",
+      "Polynesia • ",
+      "Oceania",
+      "Developing • ",
+      "103K people",
+      "Paanga, 100 INR = 2.85 TOP",
+      "• English, Tonga",
+      "7 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/tonga/tonga-baf9d7dd.moz.jpg",
+    "latitude": "-21.1393418",
+    "longitude": "-175.204947"
+  },
+  {
+    "countryName": "Samoa",
+    "visaType": "Visa on Arrival",
+    "details": [
+      "Apia • ",
+      "Polynesia • ",
+      "Oceania",
+      "Developing • ",
+      "195K people",
+      "Tala, ",
+      "• Samoan, English",
+      "7 hrs 30 min ahead"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/samoa/samoa-5b49a065.moz.jpg",
+    "latitude": "-13.8506958",
+    "longitude": "-171.7513551"
+  },
+  {
+    "countryName": "American Samoa",
+    "visaType": "Visa Required",
+    "details": [
+      "Pago Pago • ",
+      "Polynesia • ",
+      "Territory of US",
+      "Developing • ",
+      "57K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English, Samoan",
+      "16 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 27.19 °C",
+    "imageUrl": "https://visalist.io/images/countries/american-samoa/american-samoa-800dd143.moz.jpg",
+    "latitude": "-14.2756319",
+    "longitude": "-170.7020359"
+  },
+  {
+    "countryName": "Niue",
+    "visaType": "Visa Required",
+    "details": [
+      "Alofi • ",
+      "Polynesia • ",
+      "Associated with New Zealand",
+      "Developing • ",
+      "1K people",
+      "New Zealand Dollar, 100 INR = 1.96 NZD",
+      "• English",
+      "16 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/niue/niue-4024cede.moz.jpg",
+    "latitude": "-19.0553711",
+    "longitude": "-169.9178709"
+  },
+  {
+    "countryName": "South Georgia",
+    "visaType": "Visa Free",
+    "details": [
+      "King Edward Point • ",
+      "South America • ",
+      "Territory of UK",
+      "Developing • ",
+      "30 people",
+      "Falkland Islands pound, ",
+      "• English",
+      "7 hrs 30 min behind"
+    ],
+    "weather": "📍 16 hrs time",
+    "imageUrl": "https://visalist.io/images/countries/south-georgia-and-the-south-sandwich-islands/south-georgia-and-the-south-sandwich-islands-dd17ef0a.moz.jpg",
+    "latitude": "-54.2832502",
+    "longitude": "-36.493735"
+  },
+  {
+    "countryName": "Saint Barthelemy",
+    "visaType": "Visa Required",
+    "details": [
+      "Gustavia • ",
+      "Caribbean • ",
+      "Part of France",
+      "Developing • ",
+      "9K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• French",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹89,807.00",
+    "imageUrl": "https://visalist.io/images/countries/saint-barthlemy/saint-barthlemy-a106a889.moz.jpg",
+    "latitude": "17.8964345",
+    "longitude": "-62.852201"
+  },
+  {
+    "countryName": "Sint Maarten",
+    "visaType": "Visa Required",
+    "details": [
+      "Philipsburg • ",
+      "Caribbean • ",
+      "Part of Netherlands",
+      "Developed • ",
+      "38K people",
+      "Netherlands Antillean Guilder, 100 INR = 2.18 ANG",
+      "• Dutch, English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "✈️ ₹70,302.00",
+    "imageUrl": "https://visalist.io/images/countries/sint-maarten-dutch-part/sint-maarten-dutch-part-3e8b2ac3.moz.jpg",
+    "latitude": "18.0295839",
+    "longitude": "-63.0471371"
+  },
+  {
+    "countryName": "Montserrat",
+    "visaType": "Visa Free",
+    "details": [
+      "Plymouth • ",
+      "Caribbean • ",
+      "Territory of UK",
+      "Developing • ",
+      "5K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.23 °C",
+    "imageUrl": "https://visalist.io/images/countries/montserrat/montserrat-80702b5f.moz.jpg",
+    "latitude": "42.4304196",
+    "longitude": "19.2593642"
+  },
+  {
+    "countryName": "Saint Kitts and Nevis",
+    "visaType": "Visa Free",
+    "details": [
+      "Basseterre • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "46K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 23.57 °C",
+    "imageUrl": "https://visalist.io/images/countries/saint-kitts-and-nevis/saint-kitts-and-nevis-6f26e92c.moz.jpg",
+    "latitude": "17.3026058",
+    "longitude": "-62.7176924"
+  },
+  {
+    "countryName": "Dominica",
+    "visaType": "Visa Free",
+    "details": [
+      "Roseau • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "71K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 21.56 °C",
+    "imageUrl": "https://visalist.io/images/countries/dominica/dominica-ad35bd14.moz.jpg",
+    "latitude": "15.3091676",
+    "longitude": "-61.3793554"
+  },
+  {
+    "countryName": "Saint Martin",
+    "visaType": "Visa Required",
+    "details": [
+      "Marigot • ",
+      "Caribbean • ",
+      "Part of France",
+      "Developing • ",
+      "37K people",
+      "Euro, 100 INR = 1.10 EUR",
+      "• Dutch, English, French",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "📍 17 hrs time",
+    "imageUrl": "https://visalist.io/images/countries/saint-martin-french-part/saint-martin-french-part-f769d137.moz.jpg",
+    "latitude": "18.0675189",
+    "longitude": "-63.0824656"
+  },
+  {
+    "countryName": "British Virgin Islands",
+    "visaType": "Visa Free",
+    "details": [
+      "Road Town • ",
+      "Caribbean • ",
+      "Territory of UK",
+      "Developing • ",
+      "29K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.61 °C",
+    "imageUrl": "https://visalist.io/images/countries/british-virgin-islands/british-virgin-islands-6635be4b.moz.jpg",
+    "latitude": "18.4286115",
+    "longitude": "-64.6184657"
+  },
+  {
+    "countryName": "US Virgin Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Charlotte Amalie • ",
+      "Caribbean • ",
+      "Territory of US",
+      "Developing • ",
+      "115K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.74 °C",
+    "imageUrl": "https://visalist.io/images/countries/united-states-virgin-islands/united-states-virgin-islands-8453cf5e.moz.jpg",
+    "latitude": "18.3419004",
+    "longitude": "-64.9307007"
+  },
+  {
+    "countryName": "Saint Vincent and the Grenadines",
+    "visaType": "Visa Free",
+    "details": [
+      "Kingstown • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "110K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 26.61 °C",
+    "imageUrl": "https://visalist.io/images/countries/saint-vincent-and-the-grenadines/saint-vincent-and-the-grenadines-6dd8571b.moz.jpg",
+    "latitude": "13.1600249",
+    "longitude": "-61.2248157"
+  },
+  {
+    "countryName": "Cook Islands",
+    "visaType": "Visa Free",
+    "details": [
+      "Avarua • ",
+      "Polynesia • ",
+      "Associated with New Zealand",
+      "Developing • ",
+      "18K people",
+      "New Zealand Dollar, 100 INR = 1.96 NZD",
+      "• English",
+      "15 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/cook-islands/cook-islands-deb72e89.moz.jpg",
+    "latitude": "-21.2129007",
+    "longitude": "-159.7823059"
+  },
+  {
+    "countryName": "Grenada",
+    "visaType": "Visa Free",
+    "details": [
+      "St. Georges • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "103K people",
+      "East Caribbean Dollar, 100 INR = 724.20 XOF",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 26.56 °C",
+    "imageUrl": "https://visalist.io/images/countries/grenada/grenada-8e3ba097.moz.jpg",
+    "latitude": "12.0560975",
+    "longitude": "-61.7487996"
+  },
+  {
+    "countryName": "Turks and Caicos Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Cockburn Town • ",
+      "Caribbean • ",
+      "Territory of UK",
+      "Developing • ",
+      "31K people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 24.84 °C",
+    "imageUrl": "https://visalist.io/images/countries/turks-and-caicos-islands/turks-and-caicos-islands-37284d6.moz.jpg",
+    "latitude": "21.4674584",
+    "longitude": "-71.1389101"
+  },
+  {
+    "countryName": "Trinidad and Tobago",
+    "visaType": "Visa Free",
+    "details": [
+      "Port of Spain • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "1M people",
+      "Trinidad and Tobago Dollar, 100 INR = 8.20 TTD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/trinidad-and-tobago/trinidad-and-tobago-c15888c1.moz.jpg",
+    "latitude": "10.6549013",
+    "longitude": "-61.5019256"
+  },
+  {
+    "countryName": "Guyana",
+    "visaType": "Visa Required",
+    "details": [
+      "Georgetown • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "747K people",
+      "Guyana Dollar, 100 INR = 252.57 GYD",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/guyana/guyana-2a73a6ac.moz.jpg",
+    "latitude": "6.8012793",
+    "longitude": "-58.1551255"
+  },
+  {
+    "countryName": "Haiti",
+    "visaType": "Visa Free",
+    "details": [
+      "Port-au-Prince • ",
+      "Caribbean • ",
+      "North America",
+      "Least Developed • ",
+      "11M people",
+      "Gourde, 100 INR = 160.05 HTG",
+      "• French, Haitian",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/haiti/haiti-56656262.moz.jpg",
+    "latitude": "18.594395",
+    "longitude": "-72.3074326"
+  },
+  {
+    "countryName": "Brazil",
+    "visaType": "Visa Required",
+    "details": [
+      "Brasilia • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "206M people",
+      "Brazilian Real, 100 INR = 5.96 BRL",
+      "• Portuguese",
+      "7 hrs 30 min to 10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/brazil/brazil-fa649f3f.moz.jpg",
+    "latitude": "-23.5505199",
+    "longitude": "-46.6333094"
+  },
+  {
+    "countryName": "Cuba",
+    "visaType": "Visa Required",
+    "details": [
+      "Havana • ",
+      "Caribbean • ",
+      "North America",
+      "Developing • ",
+      "11M people",
+      "Cuban Peso, 100 INR = 28.97 CUP",
+      "• Spanish",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/cuba/cuba-31c1d72c.moz.jpg",
+    "latitude": "23.1135925",
+    "longitude": "-82.3665956"
+  },
+  {
+    "countryName": "Falkland Islands",
+    "visaType": "Visa Required",
+    "details": [
+      "Stanley • ",
+      "South America • ",
+      "Territory of UK",
+      "Developing • ",
+      "3K people",
+      "Falkland Islands Pound, ",
+      "• English",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 6.54 °C",
+    "imageUrl": "https://visalist.io/images/countries/falkland-islands/falkland-islands-dde21007.moz.jpg",
+    "latitude": "-51.6977129",
+    "longitude": "-57.8516627"
+  },
+  {
+    "countryName": "Venezuela",
+    "visaType": "Visa Required",
+    "details": [
+      "Caracas • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "31M people",
+      "Bolívar, 100 INR = 43.68 VES",
+      "• Spanish",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nDon't Travel",
+    "imageUrl": "https://visalist.io/images/countries/venezuela/venezuela-a3ea021a.moz.jpg",
+    "latitude": "10.4805937",
+    "longitude": "-66.9036063"
+  },
+  {
+    "countryName": "Uruguay",
+    "visaType": "Visa Required",
+    "details": [
+      "Montevideo • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "3M people",
+      "Peso Uruguayo, 100 INR = 47.05 UYU",
+      "• Spanish",
+      "8 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/uruguay/uruguay-311a4242.moz.jpg",
+    "latitude": "-34.9011127",
+    "longitude": "-56.1645314"
+  },
+  {
+    "countryName": "Paraguay",
+    "visaType": "Visa Required",
+    "details": [
+      "Asuncion • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "7M people",
+      "Guarani, 100 INR = 8789.25 PYG",
+      "• Spanish, Guaraní",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/paraguay/paraguay-fb2c5bca.moz.jpg",
+    "latitude": "-25.2637399",
+    "longitude": "-57.575926"
+  },
+  {
+    "countryName": "Belize",
+    "visaType": "Visa Required",
+    "details": [
+      "Belmopan • ",
+      "Central America • ",
+      "North America",
+      "Developing • ",
+      "370K people",
+      "Belize Dollar, 100 INR = 2.43 BZD",
+      "• English, Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/belize/belize-b2d574db.moz.jpg",
+    "latitude": "17.495172",
+    "longitude": "-88.186663"
+  },
+  {
+    "countryName": "Guatemala",
+    "visaType": "Visa Required",
+    "details": [
+      "Guatemala City • ",
+      "Central America • ",
+      "Central America-4",
+      "Developing • ",
+      "16M people",
+      "Quetzal, 100 INR = 9.43 GTQ",
+      "• Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/guatemala/guatemala-5324881c.moz.jpg",
+    "latitude": "14.6349149",
+    "longitude": "-90.5068824"
+  },
+  {
+    "countryName": "Nicaragua",
+    "visaType": "Visa Required",
+    "details": [
+      "Managua • ",
+      "Central America • ",
+      "Central America-4",
+      "Developing • ",
+      "6M people",
+      "Cordoba Oro, 100 INR = 44.43 NIO",
+      "• Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/nicaragua/nicaragua-4e2f98d8.moz.jpg",
+    "latitude": "12.1149926",
+    "longitude": "-86.2361744"
+  },
+  {
+    "countryName": "Panama",
+    "visaType": "Visa Required",
+    "details": [
+      "Panama City • ",
+      "Central America • ",
+      "North America",
+      "Developing • ",
+      "4M people",
+      "Balboa, 100 INR = 1.21 PAB",
+      "• Spanish",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/panama/panama-9079f719.moz.jpg",
+    "latitude": "8.9823792",
+    "longitude": "-79.5198696"
+  },
+  {
+    "countryName": "El Salvador",
+    "visaType": "E-visa",
+    "details": [
+      "San Salvador • ",
+      "Central America • ",
+      "Central America-4",
+      "Developing • ",
+      "7M people",
+      "El Salvador Colon, 100 INR = 10.56 SVC",
+      "• Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nReconsider",
+    "imageUrl": "https://visalist.io/images/countries/el-salvador/el-salvador-2036376d.moz.jpg",
+    "latitude": "13.6929403",
+    "longitude": "-89.2181911"
+  },
+  {
+    "countryName": "Bolivia",
+    "visaType": "Visa Required",
+    "details": [
+      "Sucre • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "11M people",
+      "Boliviano, 100 INR = 8.34 BOB",
+      "• Spanish, Aymara, Quechua",
+      "9 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/bolivia-plurinational-state-of/bolivia-plurinational-state-of-8d152008.moz.jpg",
+    "latitude": "-17.8145819",
+    "longitude": "-63.1560853"
+  },
+  {
+    "countryName": "French Polynesia",
+    "visaType": "Visa Required",
+    "details": [
+      "Papeete • ",
+      "Polynesia • ",
+      "Territory of France",
+      "Developing • ",
+      "272K people",
+      "Franc, 100 INR = 132.50 XPF",
+      "• French",
+      "14 hrs 30 min to 15 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nNormal Safety",
+    "imageUrl": "https://visalist.io/images/countries/french-polynesia/french-polynesia-8fe7bf3e.moz.jpg",
+    "latitude": "-17.5516251",
+    "longitude": "-149.5584758"
+  },
+  {
+    "countryName": "Costa Rica",
+    "visaType": "Visa Required",
+    "details": [
+      "San Jose • ",
+      "Central America • ",
+      "North America",
+      "Developing • ",
+      "5M people",
+      "Costa Rican Colon, 100 INR = 617.05 CRC",
+      "• Spanish",
+      "11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/costa-rica/costa-rica-eafbd5d9.moz.jpg",
+    "latitude": "9.9280694",
+    "longitude": "-84.0907246"
+  },
+  {
+    "countryName": "Ecuador",
+    "visaType": "Visa Required",
+    "details": [
+      "Quito • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "17M people",
+      "US Dollar, 100 INR = 1.21 USD",
+      "• Spanish",
+      "10 hrs 30 min to 11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/ecuador/ecuador-d9bd43bd.moz.jpg",
+    "latitude": "-2.1709979",
+    "longitude": "-79.9223592"
+  },
+  {
+    "countryName": "Chile",
+    "visaType": "Visa Required",
+    "details": [
+      "Santiago • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "18M people",
+      "Chilean Peso, 100 INR = 1167.83 CLP",
+      "• Spanish",
+      "9 hrs 30 min to 11 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/chile/chile-c8b1fe0e.moz.jpg",
+    "latitude": "-33.4378305",
+    "longitude": "-70.6504492"
+  },
+  {
+    "countryName": "Peru",
+    "visaType": "Visa Required",
+    "details": [
+      "Lima • ",
+      "South America • ",
+      "South America",
+      "Developing • ",
+      "31M people",
+      "Sol, 100 INR = 4.48 PEN",
+      "• Spanish",
+      "10 hrs 30 min behind"
+    ],
+    "weather": "fiber_manual_record\nStay Alert",
+    "imageUrl": "https://visalist.io/images/countries/peru/peru-cf7a43dc.moz.jpg",
+    "latitude": "-12.0463731",
+    "longitude": "-77.042754"
+  },
+  {
+    "countryName": "Pitcairn",
+    "visaType": "Visa Free",
+    "details": [
+      "Adamstown • ",
+      "Polynesia • ",
+      "Territory of UK",
+      "Developing • ",
+      "56 people",
+      "New Zealand Dollar, 100 INR = 1.96 NZD",
+      "• English",
+      "13 hrs 30 min behind"
+    ],
+    "weather": "🌤️ 21.55 °C",
+    "imageUrl": "https://visalist.io/images/countries/pitcairn/pitcairn-ca9d776e.moz.jpg",
+    "latitude": "-25.0662897",
+    "longitude": "-130.1004636"
+  },
+  {
+    "countryName": "Nepal travel freedom",
+    "details": [],
+    "imageUrl": "https://visalist.io/img/country.jpg"
+  },
+  {
+    "countryName": "Pakistan travel freedom",
+    "details": [],
+    "imageUrl": "https://visalist.io/img/country.jpg"
+  },
+  {
+    "countryName": "Sri Lanka travel freedom",
+    "details": [],
+    "imageUrl": "https://visalist.io/img/country.jpg"
+  },
+  {
+    "countryName": "Bangladesh travel freedom",
+    "details": [],
+    "imageUrl": "https://visalist.io/img/country.jpg"
+  },
+  {
+    "countryName": "Bhutan travel freedom",
+    "details": [],
+    "imageUrl": "https://visalist.io/img/country.jpg"
+  }
+]

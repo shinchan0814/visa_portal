@@ -1,0 +1,67 @@
+.documents-timeline {
+    position: relative;
+    padding-left: 20px;
+    margin-left: 20px;
+  }
+  
+  .timeline-item {
+    position: relative;
+    margin-bottom: 20px;
+  }
+  
+  .timeline-content {
+    padding: 5px;
+    background: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .timeline-connector {
+    position: absolute;
+    left: -15px; /* Adjust this value to control the distance from the left side */
+    top: 0;
+    bottom: -20px;
+    width: 2px;
+    background-color: #ccc; /* Adjust the color of the connector line */
+    z-index: 0;
+  }
+
+  .timeline-connector-circle {
+    position: absolute;
+    left: -23.5px; /* Adjust this value to align the circle with the end of the vertical connector */
+    bottom: -25px; /* Adjust this value to position the circle relative to the vertical connector */
+    width: 20px; /* Adjust the size of the circle */
+    height: 20px; /* Adjust the size of the circle */
+    background-color:grey; /* Adjust the color of the circle */
+    border-radius: 50%; /* Shape the circle */
+    z-index: 1; /* Ensure the circle is above other elements */
+  }
+  
+  .timeline-connector:last-child {
+    display: none; /* Hide the connector after the last item */
+  }
+
+  .timeline-connector-vertical {
+    position: relative;
+    width: 2px;
+    background-color: #ccc; /* Adjust the color of the connector line */
+    z-index: 0;
+    margin-right: 10px; /* Adjust the space between items and connector */
+  }
+  
+  .timeline-connector-horizontal {
+    position: absolute;
+    top: 50%;
+    left: -15px; /* Adjust this value to control the distance from the left side */
+    width: 25px; /* Adjust the length of the horizontal connector */
+    height: 2px; /* Adjust the thickness of the horizontal connector */
+    background-color: #ccc; /* Adjust the color of the connector line */
+    z-index: 0;
+  }
+  
+  .timeline-content h3,
+  .timeline-content p {
+    margin-left: 30px; /* Adjust the space between the connector and content */
+  }
+  
