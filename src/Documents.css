@@ -1,7 +1,6 @@
 .documents-timeline {
     position: relative;
     padding-left: 20px;
-    margin-left: 20px;
   }
   
   .timeline-item {
@@ -10,9 +9,12 @@
   }
   
   .timeline-content {
-    padding: 5px;
+    padding-right: 9px;
+    padding-top: 6px;
     background: white;
+    padding-bottom: 6px;
     border-radius: 5px;
+    align-items: center;
     margin-left: 10px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
   }

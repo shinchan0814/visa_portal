@@ -122,7 +122,7 @@ const CountryDetailPage = () => {
 
             <Box
                 sx={{
-                    
+
                     marginTop: '120px', // Adjusted margin top to make space for the header
                     marginLeft: '25px',// Add any other styling you need
                 }}
@@ -142,7 +142,7 @@ const CountryDetailPage = () => {
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
-                                alignItems: 'center',      
+                                alignItems: 'center',
                                 position: 'relative',
                                 border: '2px solid rgba(96, 92, 212, 255)',
                                 borderRadius: 4,
@@ -177,7 +177,9 @@ const CountryDetailPage = () => {
 
                             <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                             {activeTab === 'About' && <About data={aboutData} />}
-                            {activeTab === 'Process' && <Documents data={documents} />}
+                            {activeTab === 'Process' && <div style={{  display: 'flex',justifyContent: 'center', marginLeft: '-560px'}}>
+                                <Documents data={documents} />
+                            </div>}
                             {activeTab === 'Documents' && <Process data={processInfo} />}
                         </>
                     ) : (

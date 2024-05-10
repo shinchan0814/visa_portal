@@ -3,8 +3,8 @@ import './Documents.css';
 
 const Documents = ({ data }) => {
   return (
-    <div style={{ width: '55%', marginTop: '15px' }} className="documents-timeline">
-      <h2 style={{marginLeft: '-15px'}}>Visa Application Process</h2>
+    <div style={{ width: '20%', marginTop: '15px'}} className="documents-timeline">
+      <h2 style={{marginLeft: '-12px'}}>Visa Application Process</h2>
       {data.map((item, index) => (
         <div key={index} className="timeline-item">
           {index >= 0 && (
@@ -18,7 +18,7 @@ const Documents = ({ data }) => {
               <div className="timeline-connector-circle"></div>
             )}
             <div className="timeline-connector-horizontal"></div>
-            <h3>{item.document}</h3>
+            <h3 style={{marginBottom: '-5px'}}>{item.document}</h3>
             <p>{item.description}</p>
           </div>
         </div>
