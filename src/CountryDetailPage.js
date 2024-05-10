@@ -124,7 +124,7 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: '120px', // Adjusted margin top to make space for the header
-                    marginLeft: '25px',// Add any other styling you need
+                    marginLeft: '30px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>

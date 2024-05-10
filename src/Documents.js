@@ -18,7 +18,7 @@ const Documents = ({ data }) => {
               <div className="timeline-connector-circle"></div>
             )}
             <div className="timeline-connector-horizontal"></div>
-            <h3 style={{marginBottom: '-5px'}}>{item.document}</h3>
+            <h3 style={{marginBottom: '-2px'}}>{item.document}</h3>
             <p>{item.description}</p>
           </div>
         </div>
