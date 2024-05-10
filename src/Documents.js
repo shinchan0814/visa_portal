@@ -3,7 +3,7 @@ import './Documents.css';
 
 const Documents = ({ data }) => {
   return (
-    <div style={{ width: '20%', marginTop: '15px'}} className="documents-timeline">
+    <div style={{ width: '30%', marginTop: '15px'}} className="documents-timeline">
       <h2 style={{marginLeft: '-12px'}}>Visa Application Process</h2>
       {data.map((item, index) => (
         <div key={index} className="timeline-item">

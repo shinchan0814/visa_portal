@@ -1,8 +1,25 @@
 const CountryTabs = ({ activeTab, setActiveTab }) => (
-    <div style={{ marginTop: '30px', width: '60%', display: 'flex', justifyContent: 'space-between', position: 'relative', marginBottom: '10px' }}>
-        <button style={{ marginLeft: '100px', border: 'none', fontSize: '18px', color: activeTab === 'About' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('About')}>About</button>
+    <div
+        style={{
+            marginTop: '30px',
+            width: '60%',
+            display: 'flex',
+            justifyContent: 'space-between',
+            position: 'relative',
+            marginBottom: '10px'
+        }}>
+        <button
+            style={{
+                marginLeft: '100px',
+                border: 'none', fontSize: '18px',
+                color: activeTab === 'About' ? 'blue' : 'grey',
+                background: 'transparent'
+            }}
+            onClick={() => setActiveTab('About')}>
+            About
+        </button>
         <button style={{ border: 'none', fontSize: '18px', color: activeTab === 'Process' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Process')}>Process</button>
-        <button style={{ marginRight: '80px', border: 'none', fontSize: '18px', color: activeTab === 'Documents' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Documents')}>Documents Required</button>
+        <button style={{ marginRight: '80px', border: 'none', fontSize: '18px', color: activeTab === 'Documents' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Documents')}>Documents</button>
         <div
             style={{
                 position: 'absolute',
