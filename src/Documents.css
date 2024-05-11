@@ -26,7 +26,7 @@
     left: -60px; /* Adjust this value to control the distance from the left side */
     top: -66px;
     bottom: 0;
-    width: 50px; /* Total width including both parts */
+    width: 46px; /* Total width including both parts */
     background-color: rgba(217,217,217,255); /* Adjust the color of the connector */
     border-radius: 20px;
   }
