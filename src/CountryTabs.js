@@ -1,3 +1,5 @@
+import './styles.css'; // or import './styles.scss';
+
 const CountryTabs = ({ activeTab, setActiveTab }) => (
     <div
         style={{
@@ -10,16 +12,20 @@ const CountryTabs = ({ activeTab, setActiveTab }) => (
         }}>
         <button
             style={{
-                marginLeft: '100px',
+                marginLeft: '90px',
                 border: 'none', fontSize: '18px',
                 color: activeTab === 'About' ? 'blue' : 'grey',
                 background: 'transparent'
             }}
             onClick={() => setActiveTab('About')}>
-            About
+            <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: 20, fontWeight: 'bold'}}>About</span>
         </button>
-        <button style={{ border: 'none', fontSize: '18px', color: activeTab === 'Process' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Process')}>Process</button>
-        <button style={{ marginRight: '80px', border: 'none', fontSize: '18px', color: activeTab === 'Documents' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Documents')}>Documents</button>
+        <button style={{ border: 'none', fontSize: '18px', color: activeTab === 'Process' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Process')}>
+            <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: 20 , fontWeight: 'bold'}}>Process</span>
+        </button>
+        <button style={{ marginRight: '80px', border: 'none', fontSize: '18px', color: activeTab === 'Documents' ? 'blue' : 'grey', background: 'transparent' }} onClick={() => setActiveTab('Documents')}>
+            <span style={{ fontFamily: 'Nunito Sans, sans-serif' , fontSize: 20, fontWeight: 'bold'}}>Documents</span>
+        </button>
         <div
             style={{
                 position: 'absolute',

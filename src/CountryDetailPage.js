@@ -9,6 +9,7 @@ import Documents from './Documents';
 import Box from '@mui/material/Box';
 import FaqSection from './FaqSection';
 import './CountryDetailPage.css';
+import './styles.css'; // or import './styles.scss';
 
 const CountryDetailPage = () => {
     const { slug } = useParams();
@@ -98,25 +99,25 @@ const CountryDetailPage = () => {
                 }}
             >
                 {/* Logo */}
-                <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 72px', alignItems: 'end' }}>
+                <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 72px', alignItems: 'center' }}>
                     <img src="/images/website/Saathi_img.png" alt="Twitter Cover" style={{ width: '28.24px', height: '46px' }} />
                     <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
-                        <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px' }}>Saathi</div>
-                        <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Visa</div>
+                        <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
+                        <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
                     </div>
                 </div>
 
                 <div style={{ display: 'flex', gap: '35px', padding: '5px 60px 0px 0px' }}>
                     {/* Text section 1 */}
-                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Get Visa</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Get Visa</div>
                     {/* Text section 2 */}
-                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Saathi App</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi App</div>
                     {/* Text section 3 */}
-                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Partners</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Partners</div>
                     {/* Text section 4 */}
-                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Creators</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Creators</div>
                     {/* Text section 5 */}
-                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Blog</div>
+                    <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Blog</div>
                 </div>
             </Box>
 
@@ -124,7 +125,7 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: '120px', // Adjusted margin top to make space for the header
-                    marginLeft: '30px',// Add any other styling you need
+                    marginLeft: '40px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -152,32 +153,32 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: '20px' }}>
-                                    <img src="/images/website/Apply.png" alt="Image 1" style={{ width: '55px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' }}>Applicant</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' }}>Required</p>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: '20px'}}>
+                                    <img src="/images/website/Require.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Required</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-                                    <img src="/images/website/Max.png" alt="Image 1" style={{ width: '55px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' }}>Max Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' }}>60 days/ 30 days</p>
+                                    <img src="/images/website/Stand.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Max Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>60 days/ 30 days</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-                                    <img src="/images/website/Process.png" alt="Image 1" style={{ width: '50px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' }}>Processing Time</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' }}>~2 hrs</p>
+                                    <img src="/images/website/Hours.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>~2 hrs</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
-                                    <img src="/images/website/Stay.png" alt="Image 1" style={{ width: '55px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' }}>Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' }}>Short term</p>
+                                    <img src="/images/website/Term.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Short term</p>
                                 </div>
                             </div>
 
 
                             <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                             {activeTab === 'About' && <About data={aboutData} />}
-                            {activeTab === 'Process' && <div style={{  display: 'flex',justifyContent: 'center', marginLeft: '-560px'}}>
+                            {activeTab === 'Process' && <div style={{ display: 'flex', justifyContent: 'center', marginLeft: '-530px' }}>
                                 <Documents data={documents} />
                             </div>}
                             {activeTab === 'Documents' && <Process data={processInfo} />}

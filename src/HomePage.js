@@ -6,6 +6,7 @@ import Autocomplete from '@mui/material/Autocomplete';
 import Chip from '@mui/material/Chip';
 import Box from '@mui/material/Box';
 import './App.css';
+import './styles.css'; // or import './styles.scss';
 
 const App = () => {
   const [countriesData, setCountriesData] = useState([]);
@@ -82,26 +83,26 @@ const App = () => {
           }}
         >
           {/* Logo */}
-          <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 61px', alignItems: 'end' }}>
-            <img src="images/website/Logo.jpg" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
+          <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 61px', alignItems: 'center' }}>
+            <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
             <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
-              <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px' }}>Saathi</div>
-              <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Visa</div>
+              <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
+              <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
             </div>
           </div>
 
           {/* Text sections */}
           <div style={{ display: 'flex', gap: '35px', padding: '5px 25px 0px 0px' }}>
             {/* Text section 1 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Get Visa</div>
+            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Get Visa</div>
             {/* Text section 2 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Saathi App</div>
+            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi App</div>
             {/* Text section 3 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Partners</div>
+            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Partners</div>
             {/* Text section 4 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Creators</div>
+            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Creators</div>
             {/* Text section 5 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)' }}>Blog</div>
+            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Blog</div>
           </div>
         </Box>
 
@@ -142,7 +143,7 @@ const App = () => {
                   disableUnderline: true
                 }}
                 InputLabelProps={{
-                  style: { textAlign: 'center', color: 'black' } // Center-align the label text
+                  style: { textAlign: 'center', color: 'black', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
                 }}
                 sx={{
                   width: 130,
@@ -161,7 +162,10 @@ const App = () => {
                     {...params}
                     label="✈️     Where to..."
                     variant="standard"
-                    InputProps={{ disableUnderline: true }}
+                    InputProps={{ disableUnderline: true, fontFamily: 'Nunito Sans, sans-serif' }}
+                    InputLabelProps={{
+                      style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
+                    }}
                   />
                 }
                 onInputChange={(event, newInputValue) => {
@@ -215,6 +219,7 @@ const App = () => {
               color: visaFilters.includes(type) ? 'white' : 'black',
               boxShadow: stickySearchBar ? 'transparent' : '5px 7px 4px rgba(0, 0, 0, 0.2)',
               fontSize: 17,
+              fontFamily: 'Nunito Sans, sans-serif',
               fontWeight: 500,
               '&:hover': {
                 backgroundColor: visaFilters.includes(type) ? '#5044b8' : '#f0f0f0',
@@ -236,6 +241,7 @@ const App = () => {
               height: 45,
               borderRadius: 4,
               backgroundColor: 'white',
+              fontFamily: 'Nunito Sans, sans-serif',
               color: 'black',
               boxShadow: stickySearchBar ? '0 2px 5px rgba(0,0,0,0.4)' : '5px 7px 4px rgba(0, 0, 0, 0.1)',
               fontSize: 17,
@@ -306,6 +312,9 @@ const App = () => {
                     label="✈️     Where to..."
                     variant="standard"
                     InputProps={{ disableUnderline: true }}
+                    InputLabelProps={{
+                      style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
+                    }}
                   />
                 }
                 onInputChange={(event, newInputValue) => {

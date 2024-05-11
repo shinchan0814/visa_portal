@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './FaqSection.css'; // Import the CSS file
+import './styles.css'; // or import './styles.scss';
 
 const FaqSection = ({ data = [] }) => {
   const [expandedFaq, setExpandedFaq] = useState(0); // Initialize to open the first item
@@ -12,7 +13,7 @@ const FaqSection = ({ data = [] }) => {
 
   return (
     <div className="faq-section" style={{ marginTop: '-10px' }}>
-      <h2 style={{ marginBottom: '5px'}}>Frequently Asked Questions</h2>
+      <h2 style={{ marginBottom: '5px', fontFamily: 'Nunito Sans, sans-serif'}}>Frequently Asked Questions</h2>
       {data.map((faq, index) => (
         <div key={index} className="faq-item">
           <button
@@ -20,6 +21,7 @@ const FaqSection = ({ data = [] }) => {
             className="faq-question"
             style={{
               boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.125)',
+              fontFamily: 'Nunito Sans, sans-serif',
               border: expandedFaq === index ? '2px solid rgba(74, 58, 255, 255)' : 'none', // Dynamic border style
             }}
           >
@@ -32,14 +34,14 @@ const FaqSection = ({ data = [] }) => {
               justifyContent: 'space-between', // Space between children
               paddingLeft: '10px',
             }}>
-              <span className="question-text" style={{ fontSize: 15, fontWeight: 'bold' }}>{faq.question}</span>
+              <span className="question-text" style={{ fontSize: 16, fontWeight: 'bold' }}>{faq.question}</span>
               {expandedFaq === index ? <img src="/images/website/Upword.png" alt="Image" style={{ maxWidth: '25.6px', maxHeight: '26.6px', paddingRight: '15px' }} />
                 : <img src="/images/website/Right.png" alt="Image" style={{ maxWidth: '25.6px', maxHeight: '26.6px', paddingRight: '15px'}} />}
             </div>
           </button>
 
           {expandedFaq === index && (
-            <div className="faq-answer" style={{ display: 'block' }}> {/* Modify style to show answer */}
+            <div className="faq-answer" style={{ display: 'block', boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.125)', fontFamily: 'Nunito Sans, sans-serif'}}> {/* Modify style to show answer */}
               {faq.answer}
             </div>
           )}

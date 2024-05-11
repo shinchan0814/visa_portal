@@ -2,6 +2,7 @@ import React from 'react';
 import { Card, CardContent, Typography, Button, Box, Grid } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
 import { Language } from '@mui/icons-material';
+import './styles.css'; // or import './styles.scss';
 
 
 const visaTypeColors = {
@@ -58,6 +59,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
             textShadow: '1px 1px black', // Black stroke via shadow for visibility
             fontWeight: 'bold',
             padding: '4px 2px',
+            fontFamily: 'Nunito Sans, sans-serif' ,
             fontSize: '28px',
           }}>
             {countryName}
@@ -75,6 +77,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
             fontWeight: 'bold',
             color: 'white',
             fontSize: '12px',
+            fontFamily: 'Nunito Sans, sans-serif' 
           }}>
             {visaType}
           </Typography>
@@ -90,7 +93,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
                 <img src="images/website/Thunder.png" alt="Safety Icon" style={{ width: 20, height: 21 }} />
               </Grid>
               <Grid item>
-                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12, fontWeight: 'bold'}}>
+                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12, fontWeight: 'bold' ,fontFamily: 'Nunito Sans, sans-serif' }}>
                   {country.Currency}
                 </Typography>
               </Grid>
@@ -102,7 +105,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
                 <img src="images/website/Mod.png" alt="Currency Icon" style={{ width: 18.81, height: 19.86 }} />
               </Grid>
               <Grid item>
-                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black' , fontSize: 12}}>
+                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black' , fontSize: 12, fontFamily: 'Nunito Sans, sans-serif' }}>
                   {country.Safety}
                 </Typography>
               </Grid>
@@ -114,7 +117,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
                 <img src="images/website/Plane.png" alt="Language Icon" style={{ width: 23.88, height: 23.83 }} />
               </Grid>
               <Grid item>
-                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12 }}>
+                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12 , fontFamily: 'Nunito Sans, sans-serif' }}>
                   {country.flightPrice}
                 </Typography>
               </Grid>
@@ -126,7 +129,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
                 <img src="images/website/Lang.png" alt="Flight Price Icon" style={{ width: 22.74, height: 20.17 }} />
               </Grid>
               <Grid item>
-                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' , fontSize: 12}}>
+                <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', overflow: 'hidden', whiteSpace: 'nowrap', textOverflow: 'ellipsis' , fontSize: 12, fontFamily: 'Nunito Sans, sans-serif' }}>
                   {country.languages.split(' ').slice(0, 1).join(' ')}{country.languages.split(' ').length > 1? '...' : ''}
                 </Typography>
               </Grid>
@@ -136,7 +139,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
 
         <Button onClick={handleNavigate} variant="contained"
           sx={{ borderRadius: 4, width: 145, height: 35, marginTop: '16px', textTransform: 'none', fontSize: 18, color: 'rgba(96,92,212,212)' }}>
-          <span style={{ color: 'white' }}>Let's go</span>
+          <span style={{ color: 'white', fontFamily: 'Nunito Sans, sans-serif'  }}>Let's go</span>
         </Button>
       </CardContent>
 

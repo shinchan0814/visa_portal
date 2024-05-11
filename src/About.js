@@ -12,8 +12,8 @@ const About = ({ data = [] }) => {  // Set a default value for data
             
             {data.map((section, index) => (
                 <div key={index} className="section-block" >
-                    <h2>{section.heading}</h2>
-                    <p>{section.content}</p>
+                    <h2 style={{fontFamily: 'Nunito Sans, sans-serif'}}>{section.heading}</h2>
+                    <p style={{fontFamily: 'Nunito Sans, sans-serif'}}>{section.content}</p>
                 </div>
             ))}
         </div>
