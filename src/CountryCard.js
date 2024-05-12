@@ -77,6 +77,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
             fontWeight: 'bold',
             color: 'white',
             fontSize: '12px',
+            whiteSpace: 'nowrap',
             fontFamily: 'Nunito Sans, sans-serif' 
           }}>
             {visaType}

@@ -17,8 +17,9 @@ const CountryDetailPage = () => {
     const [faqs, setFaqs] = useState([]);
     const [documents, setDocuments] = useState([]);
     const [aboutData, setAboutData] = useState([]);
-    const [processInfo, setProcessInfo] = useState({});
+    const [processInfo, setProcessInfo] = useState([]);
     const [activeTab, setActiveTab] = useState('About');
+    const [docrequired, setDocRequired] = useState([]);
 
     useEffect(() => {
         // Fetching for CountryBanner: demographic + visa info combined
@@ -41,6 +42,11 @@ const CountryDetailPage = () => {
             .then(response => response.json())
             .then(data => setFaqs(data[slug] || []))
             .catch(error => console.error('Failed to load FAQs', error));
+
+        fetch(`/data/All_Documents_Required.json`)
+            .then(response => response.json())
+            .then(data => setProcessInfo(data[slug] || []))
+            .catch(error => console.error('Failed to required docs', error))
 
         // Fetching documents data
         fetch(`/data/combined_documents.json`)
@@ -153,14 +159,14 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: '20px'}}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: '20px' }}>
                                     <img src="/images/website/Require.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Required</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Required</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
                                     <img src="/images/website/Stand.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Max Stay</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Max Stay</p>
                                     <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>60 days/ 30 days</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
@@ -170,8 +176,8 @@ const CountryDetailPage = () => {
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
                                     <img src="/images/website/Term.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px' , fontFamily: 'Nunito Sans, sans-serif'}}>Short term</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Short term</p>
                                 </div>
                             </div>
 

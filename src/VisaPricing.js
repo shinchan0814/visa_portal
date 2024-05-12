@@ -96,7 +96,7 @@ const VisaPricing = ({ data }) => {
                 </div>
             </div>
 
-            <div style={{ marginTop: '20px' }}> {/* Adjust the margin as needed */}
+            <div style={{ marginTop: '20px'}}> {/* Adjust the margin as needed */}
                 <FaqSection data={faqs} />
             </div>
         </div>

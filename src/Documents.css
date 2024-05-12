@@ -27,7 +27,7 @@
     top: -66px;
     bottom: 0;
     width: 46px; /* Total width including both parts */
-    background-color: rgba(217,217,217,255); /* Adjust the color of the connector */
+    background-color: rgba(223,223,223,255); /* Adjust the color of the connector */
     border-radius: 20px;
   }
 
@@ -35,7 +35,7 @@
     position: absolute;
     left: 50%;
     top: 67%;
-    color: white;
+    color: #FEFEFE;
     transform: translate(-50%, -50%);
   }
   

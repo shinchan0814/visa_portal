@@ -1,0 +1,3703 @@
+{
+  "united-arab-emirates": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Size Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "singapore": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "2 Photographs",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Hotel Booking Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Last 6 Months Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Proof of Current Residence",
+        "description": "",
+        "icon": "<i class=\"fas fa-home\"></i>"
+      }
+    ]
+  },
+  "japan": {
+    "tourist": [
+      {
+        "document": "Flight ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "6 Month Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Residence proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-home\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Accompanying adult appointment confirmation/visa copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      }
+    ]
+  },
+  "vietnam": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Size Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "france": {
+    "tourist": [
+      {
+        "document": "3 Months Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Copy of Income Tax Department Return + ITR V acknowledgment",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Copy of passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Copy of Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight Tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel Tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Visa Stamps",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      }
+    ]
+  },
+  "united-kingdom": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Income tax returns/Form 16 for the last 3 years",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Proof of Fixed Deposits, Property Investments, Other Investments etc.",
+        "description": "",
+        "icon": "<i class=\"fas fa-sack-dollar\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Appointment Confirmation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Checklist of Documents Uploaded on UK portal",
+        "description": "",
+        "icon": "<i class=\"fas fa-list\"></i>"
+      },
+      {
+        "document": "Copy of entry and exit stamp and previous visas held",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      },
+      {
+        "document": "Last 6 months bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      }
+    ]
+  },
+  "united-states-of-america": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "DS 160 Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Invitation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "australia": {
+    "tourist": [
+      {
+        "document": "Aadhaar card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Passport bio page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "IT return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Travel Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Visa Stamps",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      }
+    ]
+  },
+  "switzerland": {
+    "tourist": [
+      {
+        "document": "Valid National Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "3 Passport Size Pictures",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Previous Passport/s",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Personal Covering Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Employer NOC",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Flight Reservation",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "3 Months Personal Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "ITR of last 2 Assessment Years",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Visa of the next country",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Copies of valid UK, USA, or CAN visas",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Copy of Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Refusal Notice",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      }
+    ]
+  },
+  "egypt": {
+    "tourist": [
+      {
+        "document": "Passport Front and Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "spain": {
+    "tourist": [
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Pages with Stamp or Visa",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      },
+      {
+        "document": "Proof of Residence",
+        "description": "",
+        "icon": "<i class=\"fas fa-home\"></i>"
+      },
+      {
+        "document": "Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Flight Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Proof of Internal Travel",
+        "description": "",
+        "icon": "<i class=\"fas fa-route\"></i>"
+      },
+      {
+        "document": "Last 6 months bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Returns (ITR-V) for last 2 years",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Pan Card Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card-alt\"></i>"
+      },
+      {
+        "document": "Authorization Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Sworn Declaration Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Courier Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope\"></i>"
+      },
+      {
+        "document": "Appointment Confirmation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Invitation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Title of property in Spain, pension slips or proof of deposits",
+        "description": "",
+        "icon": "<i class=\"fas fa-building\"></i>"
+      },
+      {
+        "document": "One Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Old Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "turkey": {
+    "tourist": [
+      {
+        "document": "US/UK/Schengen Visa or Residence Permit",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Bio and Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "indonesia": {
+    "tourist": [
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Sized Photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "philippines": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Philippine Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "2 Passport Sized Photographs",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Covering Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Bank Statement of last 6 months",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "PAN CARD",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card-alt\"></i>"
+      },
+      {
+        "document": "Marriage Certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-certificate\"></i>"
+      },
+      {
+        "document": "Credit Card Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-credit-card\"></i>"
+      },
+      {
+        "document": "Educational Certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-certificate\"></i>"
+      }
+    ]
+  },
+  "hong-kong": {
+    "tourist": [
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "oman": {
+    "tourist": [
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Size Photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "netherlands": {
+    "tourist": [
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Appointment letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-alt\"></i>"
+      },
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Invitation letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Sponsor bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Day To Day Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "finland": {
+    "tourist": [
+      {
+        "document": "Appointment Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Two Passport Photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Schengen Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Flight Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "3 Months Bank Statement Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Copy of Income Tax Return + ITR V acknowledgment",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      }
+    ]
+  },
+  "austria": {
+    "tourist": [
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Passport first page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Old Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Invitation letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Aadhaar card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Sponsor Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Sponsor ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Previous visas",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "new-zealand": {
+    "tourist": [
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Aadhaar card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Passport back page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport bio page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "IT Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Proof of investments",
+        "description": "",
+        "icon": "<i class=\"fas fa-chart-line\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "czech-republic": {
+    "tourist": [
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Copy of Income Tax Department Return + ITR V acknowledgment",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "3 Months Bank Statement Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Document showing personal links to the country of residence",
+        "description": "",
+        "icon": "<i class=\"fas fa-user-friends\"></i>"
+      },
+      {
+        "document": "Hotel Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Appointment Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Schengen Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Two Passport Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Old Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Original passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport back page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      }
+    ]
+  },
+  "germany": {
+    "tourist": [
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      }
+    ]
+  },
+  "greece": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Covering Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Flight Reservation",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Appointment Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Visa stamps",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      },
+      {
+        "document": "Old passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "azerbaijan": {
+    "tourist": [
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "brazil": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "03 Month Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Covering Letter From Applicant",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      }
+    ]
+  },
+  "cambodia": {
+    "tourist": [
+      {
+        "document": "Hotel bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "canada": {
+    "tourist": [
+      {
+        "document": "Passport First and Last Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Aadhaar Card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Hotel Voucher",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Day To Day Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Bank Statement of Last 6 months",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Invitation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Copy of entry and exit stamp and previous visas held",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      }
+    ]
+  },
+  "norway": {
+    "tourist": [
+      {
+        "document": "Original current passport (and old passports)",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Questionnaire and Checklist",
+        "description": "",
+        "icon": "<i class=\"fas fa-tasks\"></i>"
+      },
+      {
+        "document": "Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Confirmed Round Trip Flight Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Detailed Day-to-day Travel Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Payment confirmation from travel agent",
+        "description": "",
+        "icon": "<i class=\"fas fa-receipt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Last 6 months bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Passport Bio Page Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "All used passport pages",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Appointment Confirmation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Online Application Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-laptop-code\"></i>"
+      },
+      {
+        "document": "Passport photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "sweden": {
+    "tourist": [
+      {
+        "document": "Visa application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Hotel Bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Travel Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Employer NOC",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Pan Card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card-alt\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Bio Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "kenya": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Onward and Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-departure\"></i>"
+      }
+    ]
+  },
+  "denmark": {
+    "tourist": [
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Visa Appointment letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-check\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return Of Last 2 Years",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      }
+    ]
+  },
+  "malaysia": {
+    "tourist": [
+      {
+        "document": "Passport Front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Hotel Booking Confirmation",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      }
+    ]
+  },
+  "russia": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "morocco": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "south-korea": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Personal Covering Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Day To Day Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Personal Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Income Tax Return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Health Declaration Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-medical\"></i>"
+      }
+    ]
+  },
+  "italy": {
+    "tourist": [
+      {
+        "document": "Flight bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel bookings",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport size photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Previous visas",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "IT return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Appointment letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-calendar-alt\"></i>"
+      }
+    ]
+  },
+  "uzbekistan": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "bahrain": {
+    "tourist": [
+      {
+        "document": "Passport Front Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Bank Statement Of Last 03 Month",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "saudi-arabia": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "2 Photographs",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Aadhaar Card Copy",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Covid Vaccination Certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      },
+      {
+        "document": "Hotel Voucher",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Flight Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Last 3 Months Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      }
+    ]
+  },
+  "georgia": {
+    "tourist": [
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Bank Statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      },
+      {
+        "document": "Valid/expired visa pages",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Aadhaar Card",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      },
+      {
+        "document": "Passport Back Page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Income tax return",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "china": {
+    "tourist": [
+      {
+        "document": "Original Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Visa Application Form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "COVID vaccine certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      },
+      {
+        "document": "Covering Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Onward & Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-departure\"></i>"
+      },
+      {
+        "document": "Hotel Reservation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Day To Day Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Bank Certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-certificate\"></i>"
+      },
+      {
+        "document": "Old Chinese Visa",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "sri-lanka": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "slovenia": {
+    "tourist": [
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      }
+    ]
+  },
+  "slovakia": {
+    "tourist": [
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      }
+    ]
+  },
+  "poland": {
+    "tourist": [
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      }
+    ]
+  },
+  "hungary": {
+    "tourist": [
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "estonia": {
+    "tourist": [
+      {
+        "document": "Invitation Letter from Host",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Passport front page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport last page",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photograph",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Personal Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Hotel tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Travel Medical Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Company ITR",
+        "description": "",
+        "icon": "<i class=\"fas fa-balance-scale\"></i>"
+      },
+      {
+        "document": "Sponsor cover letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Declaration on Travel and Health Insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Declaration of true and complete information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-contract\"></i>"
+      },
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "haiti": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "barbados": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "montserrat": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "saint-kitts-and-nevis": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "british-virgin-islands": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "jamaica": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "dominica": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "nepal": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      }
+    ]
+  },
+  "el-salvador": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "maldives": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Hotel Booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      }
+    ]
+  },
+  "north-korea": {
+    "tourist": [
+      {
+        "document": "Visa Approval from North Korea",
+        "description": "",
+        "icon": "<i class=\"fas fa-stamp\"></i>"
+      }
+    ]
+  },
+  "saint-vincent-and-the-grenadines": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "mauritius": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "trinidad-and-tobago": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "niue": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "fiji": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "cape-verde": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Pre-registration via EASE",
+        "description": "",
+        "icon": "<i class=\"fas fa-clipboard-list\"></i>"
+      }
+    ]
+  },
+  "comoros": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "djibouti": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-image\"></i>"
+      }
+    ]
+  },
+  "guinea-bissau": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "liberia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Health information",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-medical\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "marshall-islands": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Outward Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-departure\"></i>"
+      }
+    ]
+  },
+  "mauritania": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Document of Financial Means",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-invoice-dollar\"></i>"
+      }
+    ]
+  },
+  "palau": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "saint-lucia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "samoa": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Completed Arrival Card",
+        "description": "",
+        "icon": "<i class=\"fas fa-clipboard-check\"></i>"
+      }
+    ]
+  },
+  "seychelles": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Sufficient Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-bill-wave\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "sierra-leone": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Proof of Vaccination",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      }
+    ]
+  },
+  "solomon-islands": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "somalia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation from Sponsor",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "togo": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Yellow Fever Vaccination Certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-shield-virus\"></i>"
+      }
+    ]
+  },
+  "thailand": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      },
+      {
+        "document": "Return Ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "turks-and-caicos-islands": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "cook-islands": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "micronesia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "gambia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Proof of Accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "tajikistan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-image\"></i>"
+      },
+      {
+        "document": "Email address",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope\"></i>"
+      }
+    ]
+  },
+  "tanzania": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Proof of funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      }
+    ]
+  },
+  "uruguay": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "south-africa": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Yellow fever vaccination certificate (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      }
+    ]
+  },
+  "afghanistan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Visa application",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Supporting letter (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-scroll\"></i>"
+      }
+    ]
+  },
+  "botswana": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Completed visa application",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "moldova": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "myanmar": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Digital passport photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-badge\"></i>"
+      }
+    ]
+  },
+  "mozambique": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "nigeria": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation letter (if visiting)",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope\"></i>"
+      },
+      {
+        "document": "Proof of funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      }
+    ]
+  },
+  "uganda": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Yellow fever vaccination certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-shield-virus\"></i>"
+      },
+      {
+        "document": "Passport photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "zimbabwe": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "albania": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "algeria": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Accommodation details",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "kuwait": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "GCC residency card (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-card\"></i>"
+      }
+    ]
+  },
+  "malawi": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Proof of sufficient funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-bill-wave\"></i>"
+      }
+    ]
+  },
+  "belarus": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Health insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      },
+      {
+        "document": "Invitation letter (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      }
+    ]
+  },
+  "burundi": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      },
+      {
+        "document": "Yellow fever vaccination",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      }
+    ]
+  },
+  "qatar": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return/onward ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      }
+    ]
+  },
+  "rwanda": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Recent photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-badge\"></i>"
+      },
+      {
+        "document": "Email for e-visa approval",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope\"></i>"
+      }
+    ]
+  },
+  "taiwan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "argentina": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "bangladesh": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "belgium": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "chile": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "colombia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "costa-rica": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "cuba": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Tourist card",
+        "description": "",
+        "icon": "<i class=\"fas fa-address-card\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "ghana": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "guyana": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "israel": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "kyrgyzstan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  },
+  "lebanon": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      },
+      {
+        "document": "Hotel booking (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      }
+    ]
+  },
+  "liechtenstein": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "malta": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Travel insurance",
+        "description": "",
+        "icon": "<i class=\"fas fa-briefcase-medical\"></i>"
+      },
+      {
+        "document": "Itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      },
+      {
+        "document": "Financial proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "papua-new-guinea": {
+    "tourist": [
+      {
+        "document": "Cover Letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-signature\"></i>"
+      },
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Proof of Funds",
+        "description": "",
+        "icon": "<i class=\"fas fa-wallet\"></i>"
+      }
+    ]
+  },
+  "jordan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Passport photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      },
+      {
+        "document": "Accommodation proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-home\"></i>"
+      },
+      {
+        "document": "Round-trip flight reservation",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Bank statement",
+        "description": "",
+        "icon": "<i class=\"fas fa-university\"></i>"
+      }
+    ]
+  },
+  "laos": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Two passport-size photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-badge\"></i>"
+      },
+      {
+        "document": "Accommodation proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-home\"></i>"
+      },
+      {
+        "document": "Travel itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Return flight tickets",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-departure\"></i>"
+      }
+    ]
+  },
+  "madagascar": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Return or onward ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-departure\"></i>"
+      }
+    ]
+  },
+  "mongolia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Recent photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-badge\"></i>"
+      },
+      {
+        "document": "Hotel reservation and itinerary",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      },
+      {
+        "document": "Invitation letter (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      }
+    ]
+  },
+  "antigua-and-barbuda": {
+    "tourist": [
+      {
+        "document": "Passport with 6 months validity",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Round-trip flight reservations",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      },
+      {
+        "document": "Hotel reservation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "armenia": {
+    "tourist": [
+      {
+        "document": "Passport with 6 months validity",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Completed online application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-keyboard\"></i>"
+      },
+      {
+        "document": "Scanned copy of passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-copy\"></i>"
+      }
+    ]
+  },
+  "angola": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "International vaccination certificate",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-medical-alt\"></i>"
+      },
+      {
+        "document": "Proof of accommodation",
+        "description": "",
+        "icon": "<i class=\"fas fa-bed\"></i>"
+      }
+    ]
+  },
+  "burkina-faso": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Visa application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Photos",
+        "description": "",
+        "icon": "<i class=\"fas fa-camera\"></i>"
+      }
+    ]
+  },
+  "benin": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Hotel booking",
+        "description": "",
+        "icon": "<i class=\"fas fa-hotel\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "bhutan": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Application form completed by a licensed Bhutanese",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Itinerary prepared by the same tour operator",
+        "description": "",
+        "icon": "<i class=\"fas fa-map-marked-alt\"></i>"
+      }
+    ]
+  },
+  "cyprus": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Completed visa application form",
+        "description": "",
+        "icon": "<i class=\"fas fa-file-alt\"></i>"
+      },
+      {
+        "document": "Financial Proof",
+        "description": "",
+        "icon": "<i class=\"fas fa-money-check-alt\"></i>"
+      }
+    ]
+  },
+  "ethiopia": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Recent passport-sized photo",
+        "description": "",
+        "icon": "<i class=\"fas fa-id-badge\"></i>"
+      },
+      {
+        "document": "Return ticket",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane-return\"></i>"
+      }
+    ]
+  },
+  "guinea": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation letter (if applicable)",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Proof of vaccination",
+        "description": "",
+        "icon": "<i class=\"fas fa-syringe\"></i>"
+      }
+    ]
+  },
+  "equatorial-guinea": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      },
+      {
+        "document": "Invitation letter",
+        "description": "",
+        "icon": "<i class=\"fas fa-envelope-open-text\"></i>"
+      },
+      {
+        "document": "Proof of accommodation and return flight",
+        "description": "",
+        "icon": "<i class=\"fas fa-plane\"></i>"
+      }
+    ]
+  },
+  "senegal": {
+    "tourist": [
+      {
+        "document": "Passport",
+        "description": "",
+        "icon": "<i class=\"fas fa-passport\"></i>"
+      }
+    ]
+  }
+}
