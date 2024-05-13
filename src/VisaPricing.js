@@ -64,17 +64,18 @@ const VisaPricing = ({ data }) => {
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 18, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>Price</span>
-                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}> ₹1</span>
+                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}> ₹{data.Price}</span>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 18, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>Discount</span>
-                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}>1</span>
+                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif' , color : '#D45E95'}}>-10%</span>
                     </div>
                     <div style={{ width: '100%', height: '1.5px', backgroundColor: 'black', marginTop: '15px', marginBottom: '10px' }}></div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 20, fontWeight: '800' , fontFamily: 'Nunito Sans, sans-serif'}}>Total</span>
-                        <span style={{ fontSize: 15, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>₹1</span>
+                        <span style={{ fontSize: 15, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>₹ {Math.round(Number(data.Price*0.9))}</span>
                     </div>
+                    <a href="https://calendly.com/anaytripathi/visa-consultation-call" style={{ textDecoration: 'none' }}>
                     <button style={{
                         width: '213px',
                         height: '35px',
@@ -91,8 +92,8 @@ const VisaPricing = ({ data }) => {
                         fontWeight: 'bold',
                         fontFamily: 'Nunito Sans, sans-serif'
                     }}>
-                        Book slot
-                    </button>
+                        Book slot for FREE! 
+                    </button></a>
                 </div>
             </div>
 

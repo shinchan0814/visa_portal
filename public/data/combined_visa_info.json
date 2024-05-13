@@ -1,1334 +1,1334 @@
 {
     "sri-lanka": {
-        "Applicant": ":  required",
-        "Max stay": ": 60 days / 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "60 days / 30 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "maldives": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "oman": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "myanmar": {
-        "Applicant": ":  required",
-        "Max stay": ": 28 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "28 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "tajikistan": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 60 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "60 days",
         "Visa validity": ": 3 months",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "kyrgyzstan": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 60 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "60 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "united-arab-emirates": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Processing time": ": 5 working days",
+        "Processing time": "5 working days",
         "Visa fees": ": د.إ.‏ 250.00",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "uzbekistan": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "iran": {
-        "Applicant": ":  required",
-        "Max stay": ": 15 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "15 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bahrain": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 14 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "14 days",
         "Visa validity": ": 30 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "laos": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "cambodia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "somalia": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "china": {
-        "Max stay": ": 30 days",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "kazakhstan": {
-        "Applicant": ":  required",
-        "Max stay": ": 14 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "14 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "vietnam": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "seychelles": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 3 months"
+        "Applicant": ":  not  Required",
+        "Max stay": "3 months"
     },
     "azerbaijan": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "djibouti": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa fees": ": $23",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "hong-kong": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 14 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "14 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "mongolia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "georgia": {
-        "Applicant": ":  required",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Stay": ":short term"
     },
     "malaysia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "ethiopia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": $70",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "turkey": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "taiwan": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "kenya": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "russia": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 16 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "16 days",
         "Visa validity": ": 30 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "egypt": {
-        "Max stay": ": 30 days",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "philippines": {
-        "Max stay": ": 59 days",
+        "Max stay": "59 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "mauritius": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "moldova": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "south-sudan": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "uganda": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 3 months",
+        "Applicant": ":  not  Required",
+        "Max stay": "3 months",
         "Visa validity": ": 90 days",
         "Visa fees": ": $50",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "tanzania": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "indonesia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
         "Visa fees": ": Rp500.000",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "madagascar": {
-        "Applicant": ":  required",
-        "Max stay": ": 60 days",
+        "Applicant": "Required",
+        "Max stay": "60 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "malawi": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 30 days",
         "Visa fees": ": $52",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "japan": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": ¥3,000",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "zambia": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "guam": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "botswana": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 3 months"
+        "Applicant": ":  not  Required",
+        "Max stay": "3 months"
     },
     "gabon": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 30 days",
         "Visa fees": ": $85",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "united-kingdom": {
-        "Applicant": ":  required",
-        "Max stay": ": 180 days",
+        "Applicant": "Required",
+        "Max stay": "180 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "equatorial-guinea": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days"
     },
     "sao-tome-and-principe": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "australia": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 365 days",
-        "Processing time": ": 20 working days",
+        "Processing time": "20 working days",
         "Visa fees": ": $140",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "benin": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
         "Visa fees": ": $60",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "morocco": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "papua-new-guinea": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 60 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "togo": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 15 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "15 days"
     },
     "burkina-faso": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 33 000,00Fr",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "guinea": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "cape-verde": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "canada": {
-        "Applicant": ":  required",
-        "Max stay": ": 180 days",
+        "Applicant": "Required",
+        "Max stay": "180 days",
         "Visa validity": ": 180 days",
         "Visa fees": ": $100",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bermuda": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "united-states-of-america": {
-        "Applicant": ":  required",
-        "Max stay": ": 180 days",
+        "Applicant": "Required",
+        "Max stay": "180 days",
         "Visa validity": ": upto 10 years",
-        "Stay": ": long term"
+        "Stay": ":long term"
     },
     "antigua-and-barbuda": {
-        "Applicant": ":  not  required",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Stay": ":short term"
     },
     "anguilla": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": 10 working days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
+        "Processing time": "10 working days",
         "Visa fees": ": $120",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "barbados": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "saint-lucia": {
-        "Applicant": ":  required",
-        "Max stay": ": 6 weeks",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "6 weeks",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "puerto-rico": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "suriname": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
         "Visa validity": ": 3 years",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bahamas": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 3 months",
+        "Applicant": ":  not  Required",
+        "Max stay": "3 months",
         "Visa validity": ": 90 days",
-        "Processing time": ": 10 working days",
+        "Processing time": "10 working days",
         "Visa fees": ": $100",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "dominican-republic": {
-        "Applicant": ":  required",
-        "Max stay": ": 60 days",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "60 days",
+        "Stay": ":short term"
     },
     "curacao": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": 15 working days",
+        "Processing time": "15 working days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "aruba": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": 15 working days",
+        "Processing time": "15 working days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "jamaica": {
-        "Applicant": ":  required",
-        "Max stay": ": 6 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "6 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "cayman-islands": {
-        "Max stay": ": 6 days",
-        "Stay": ": short term"
+        "Max stay": "6 days",
+        "Stay": ":short term"
     },
     "mexico": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": $51",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "colombia": {
-        "Applicant": ":  required",
-        "Max stay": ": 180 days",
+        "Applicant": "Required",
+        "Max stay": "180 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "honduras": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa fees": ": $30",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "argentina": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "nepal": {
-        "Applicant": ":  required",
-        "Max stay": ": Unlimited",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "Unlimited",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": long term"
+        "Stay": ":long term"
     },
     "pakistan": {
-        "Max stay": ": 14 days",
+        "Max stay": "14 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bangladesh": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bhutan": {
-        "Max stay": ": Unlimited (only for border areas)"
+        "Max stay": "Unlimited (only for border areas)"
     },
     "afghanistan": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "thailand": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "qatar": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 180 days",
-        "Processing time": ": ~2 hours",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "turkmenistan": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "british-indian-ocean-territory": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "yemen": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "kuwait": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "saudi-arabia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": upto 2 years",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "iraq": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days"
     },
     "singapore": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "armenia": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "eritrea": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "syria": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "jordan": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "lebanon": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": 10 working days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "10 working days",
         "Visa fees": ": ل.ل.‏ 500,000.00",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "palestine": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "israel": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "brunei": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "cyprus": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "sudan": {
-        "Max stay": ": 60 days",
-        "Stay": ": short term"
+        "Max stay": "60 days",
+        "Stay": ":short term"
     },
     "comoros": {
-        "Applicant": ":  required",
-        "Max stay": ": 45 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "45 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": 50,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "ukraine": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "south-korea": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "north-korea": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bulgaria": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "romania": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "belarus": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "greece": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "macedonia": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "rwanda": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "kosovo": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa validity": ": 180 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "burundi": {
-        "Applicant": ":  required",
-        "Max stay": ": 1 month",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "1 month",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "serbia": {
-        "Applicant": ":  required",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Stay": ":short term"
     },
     "albania": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "latvia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "montenegro": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "lithuania": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "hungary": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "estonia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "slovakia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "bosnia-and-herzegovina": {
-        "Max stay": ": 6 Months",
-        "Stay": ": short term"
+        "Max stay": "6 Months",
+        "Stay": ":short term"
     },
     "poland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "democratic-republic-of-congo": {
-        "Max stay": ": 7 days",
-        "Stay": ": short term"
+        "Max stay": "7 days",
+        "Stay": ":short term"
     },
     "libya": {
-        "Applicant": ":  not  required"
+        "Applicant": ":  not  Required"
     },
     "chad": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "finland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "central-african-republic": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "croatia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "timor-leste": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "mozambique": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days"
     },
     "malta": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "aland-islands": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "czech-republic": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "slovenia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "palau": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "austria": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "italy": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "vatican-city": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "san-marino": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "sweden": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "liechtenstein": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "denmark": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "germany": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "zimbabwe": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "tunisia": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "switzerland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "norway": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "monaco": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "luxembourg": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "netherlands": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "svalbard": {
-        "Max stay": ": 90 days"
+        "Max stay": "90 days"
     },
     "belgium": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "swaziland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 3 years",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "congo": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "cameroon": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 60 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "60 days"
     },
     "northern-mariana-islands": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "niger": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "france": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "angola": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "andorra": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": $60",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "nigeria": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "algeria": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "jersey": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "lesotho": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "guernsey": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "isle-of-man": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "french-southern-and-antarctic-lands": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "faroe-islands": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "spain": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "south-africa": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "ireland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "namibia": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 90 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "90 days"
     },
     "gibraltar": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "heard-island-and-mcdonald-islands": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "portugal": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "iceland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
         "Visa fees": ": 60,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "mali": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "ghana": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "greenland": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "micronesia": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "western-sahara": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "mauritania": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "liberia": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "solomon-islands": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "sierra-leone": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 30 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "30 days"
     },
     "senegal": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "guinea-bissau": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "marshall-islands": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": $100",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "gambia": {
-        "Max stay": ": 21 days",
-        "Stay": ": short term"
+        "Max stay": "21 days",
+        "Stay": ":short term"
     },
     "nauru": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "kiribati": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "vanuatu": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "new-caledonia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "norfolk-island": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "saint-pierre-and-miquelon": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "fiji": {
-        "Applicant": ":  required",
-        "Max stay": ": 4 months",
+        "Applicant": "Required",
+        "Max stay": "4 months",
         "Visa validity": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "tuvalu": {
-        "Applicant": ":  required",
-        "Max stay": ": 1 month",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "1 month",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "antarctica": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "new-zealand": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa fees": ": $200",
-        "Stay": ": long term"
+        "Stay": ":long term"
     },
     "wallis-and-futuna": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "tonga": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "samoa": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
+        "Stay": ":short term"
     },
     "american-samoa": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "niue": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "south-georgia-and-the-south-sandwich-islands": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "saint-barthlemy": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "sint-maarten-dutch-part": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
+        "Applicant": "Required",
+        "Max stay": "30 days",
         "Visa validity": ": 90 days",
-        "Processing time": ": 15 working days",
+        "Processing time": "15 working days",
         "Visa fees": ": 80,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "montserrat": {
-        "Applicant": ":  required",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": long term"
+        "Stay": ":long term"
     },
     "saint-kitts-and-nevis": {
-        "Applicant": ":  required",
-        "Max stay": ": 3 months",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "3 months",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "dominica": {
-        "Applicant": ":  required",
-        "Max stay": ": 6 months",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "6 months",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "saint-martin-french-part": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "british-virgin-islands": {
-        "Applicant": ":  required",
-        "Max stay": ": 6 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "6 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "united-states-virgin-islands": {
-        "Max stay": ": 180 days",
-        "Stay": ": short term"
+        "Max stay": "180 days",
+        "Stay": ":short term"
     },
     "saint-vincent-and-the-grenadines": {
-        "Applicant": ":  required",
-        "Max stay": ": 3 month",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "3 month",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "cook-islands": {
-        "Applicant": ":  required",
-        "Max stay": ": 31 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "31 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "grenada": {
-        "Applicant": ":  required",
-        "Max stay": ": 3 months",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "3 months",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "turks-and-caicos-islands": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "trinidad-and-tobago": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "90 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "guyana": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa fees": ": $5,125",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "haiti": {
-        "Applicant": ":  required",
-        "Max stay": ": 3 months",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "3 months",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "brazil": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "cuba": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "falkland-islands": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "venezuela": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa validity": ": 1 year",
         "Visa fees": ": 50,00 €",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "uruguay": {
-        "Max stay": ": 60 days",
-        "Stay": ": short term"
+        "Max stay": "60 days",
+        "Stay": ":short term"
     },
     "paraguay": {
-        "Max stay": ": 90 days",
-        "Stay": ": short term"
+        "Max stay": "90 days",
+        "Stay": ":short term"
     },
     "belize": {
-        "Applicant": ":  required",
+        "Applicant": "Required",
         "Visa fees": ": BZ$200.00",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "guatemala": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa fees": ": $25",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "nicaragua": {
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "panama": {
-        "Applicant": ":  required",
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Applicant": "Required",
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "el-salvador": {
-        "Applicant": ":  not  required",
-        "Max stay": ": 180 days"
+        "Applicant": ":  not  Required",
+        "Max stay": "180 days"
     },
     "french-polynesia": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "costa-rica": {
-        "Max stay": ": 30 days",
-        "Stay": ": short term"
+        "Max stay": "30 days",
+        "Stay": ":short term"
     },
     "ecuador": {
-        "Applicant": ":  required",
-        "Max stay": ": 90 days",
+        "Applicant": "Required",
+        "Max stay": "90 days",
         "Visa validity": ": 90 days",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "chile": {
-        "Max stay": ": 90 days",
+        "Max stay": "90 days",
         "Visa validity": ": 10 years",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "peru": {
-        "Applicant": ":  required",
-        "Processing time": ": 10 working days",
+        "Applicant": "Required",
+        "Processing time": "10 working days",
         "Visa fees": ": $30",
-        "Stay": ": short term"
+        "Stay": ":short term"
     },
     "pitcairn": {
-        "Applicant": ":  required",
-        "Max stay": ": 14 days",
-        "Processing time": ": ~2 hours",
+        "Applicant": "Required",
+        "Max stay": "14 days",
+        "Processing time": "~2 hours",
         "Visa fees": ": Free",
-        "Stay": ": short term"
+        "Stay": ":short term"
     }
 }
