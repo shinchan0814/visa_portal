@@ -71,7 +71,7 @@ const VisaPricing = ({ data }) => {
                         <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif' , color : '#D45E95'}}>-10%</span>
                     </div>
                     <div style={{ width: '100%', height: '1.5px', backgroundColor: 'black', marginTop: '15px', marginBottom: '10px' }}></div>
-                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 's pace-between', marginTop: '10px' }}>
+                    <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 20, fontWeight: '800' , fontFamily: 'Nunito Sans, sans-serif'}}>Total</span>
                         <span style={{ fontSize: 15, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>₹ {Math.round(Number(data.Price* count*0.9))}</span>
                     </div>
