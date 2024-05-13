@@ -95,7 +95,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
               </Grid>
               <Grid item>
                 <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12, fontWeight: 'bold' ,fontFamily: 'Nunito Sans, sans-serif' }}>
-                  {country.Currency}
+                  Get visa in {country.visaTimeline} days
                 </Typography>
               </Grid>
             </Grid>
@@ -119,7 +119,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
               </Grid>
               <Grid item>
                 <Typography variant="body2" color="text.secondary" sx={{ marginBottom: 'auto', color: 'black', fontSize: 12 , fontFamily: 'Nunito Sans, sans-serif' }}>
-                  {country.flightPrice}
+                  Flights from ₹{Math.round(Number(country.flightPrice.replace(/[^0-9.-]+/g,""))).toLocaleString()}
                 </Typography>
               </Grid>
             </Grid>
@@ -139,7 +139,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
         </Grid>
 
         <Button onClick={handleNavigate} variant="contained"
-          sx={{ borderRadius: 4, width: 145, height: 35, marginTop: '16px', textTransform: 'none', fontSize: 18, color: 'rgba(96,92,212,212)' }}>
+          sx={{ borderRadius: 4, width: 145, height: 35, marginTop: '16px', textTransform: 'none', fontSize: 18, backgroundColor:'rgb(92,92,212, 0.70)' }}>
           <span style={{ color: 'white', fontFamily: 'Nunito Sans, sans-serif'  }}>Let's go</span>
         </Button>
       </CardContent>
