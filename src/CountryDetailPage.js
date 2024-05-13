@@ -139,7 +139,7 @@ const CountryDetailPage = () => {
                         <>
                             <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'start', justifyContent: 'flex-start' }}>
                                 <CountryBanner data={countryData} />
-                                <div style={{ marginLeft: '65px' }}> {/* Adjust margin as needed */}
+                                <div style={{ marginLeft: '65px'}}> {/* Adjust margin as needed */}
                                     <VisaPricing data={countryData} />
                                 </div>
                             </div>

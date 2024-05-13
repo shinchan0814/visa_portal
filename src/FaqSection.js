@@ -13,7 +13,7 @@ const FaqSection = ({ data = [] }) => {
 
   return (
     <div className="faq-section" style={{ marginTop: '-10px'}}>
-      <h2 style={{ marginBottom: '5px', fontFamily: 'Nunito Sans, sans-serif'}}>Frequently Asked Questions</h2>
+      <h2 style={{ marginBottom: '25px', fontFamily: 'Nunito Sans, sans-serif'}}>Frequently Asked Questions</h2>
       {data.map((faq, index) => (
         <div key={index} className="faq-item">
           <button
