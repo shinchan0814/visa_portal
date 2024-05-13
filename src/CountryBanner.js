@@ -68,7 +68,7 @@ const CountryBanner = ({ data }) => {
 
             </div>
             <div className="visa-timeline" style={{
-                backgroundColor: 'rgba(35, 160, 107, 255)',
+                backgroundColor: 'rgba(40, 160, 107, 255)',
                 color: 'white',
                 padding: '10px',
                 width: 253,

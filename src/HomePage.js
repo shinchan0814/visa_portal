@@ -94,15 +94,71 @@ const App = () => {
           {/* Text sections */}
           <div style={{ display: 'flex', gap: '35px', padding: '5px 25px 0px 0px' }}>
             {/* Text section 1 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Get Visa</div>
+            <div>
+              <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '18px',
+                  color: 'rgba(96, 92, 212, 212)',
+                  fontFamily: 'Nunito Sans, sans-serif',
+                  textDecoration: 'none'
+                }}>
+                Get Visa
+              </a>
+            </div>
+
             {/* Text section 2 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi App</div>
+            <div>
+              <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '18px',
+                  color: 'rgba(96, 92, 212, 212)',
+                  fontFamily: 'Nunito Sans, sans-serif',
+                  textDecoration: 'none'
+                }}>
+                Saathi App
+              </a>
+            </div>
             {/* Text section 3 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Partners</div>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '18px',
+                  color: 'rgba(96, 92, 212, 212)',
+                  fontFamily: 'Nunito Sans, sans-serif',
+                  textDecoration: 'none'
+                }}>
+                Partners
+              </a>
+            </div>
             {/* Text section 4 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Creators</div>
+            <div>
+              <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '18px',
+                  color: 'rgba(96, 92, 212, 212)',
+                  fontFamily: 'Nunito Sans, sans-serif',
+                  textDecoration: 'none'
+                }}>
+                Creators
+              </a>
+            </div>
             {/* Text section 5 */}
-            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Blog</div>
+            <div>
+              <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer"
+                style={{
+                  fontWeight: 'bold',
+                  fontSize: '18px',
+                  color: 'rgba(96, 92, 212, 212)',
+                  fontFamily: 'Nunito Sans, sans-serif',
+                  textDecoration: 'none'
+                }}>
+                Blog
+              </a>
+            </div>
           </div>
         </Box>
 

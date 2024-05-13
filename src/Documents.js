@@ -43,16 +43,16 @@ const Documents = ({ data }) => {
           )}
           {icons[item.document] && (
             <div className="timeline-connector" style={{ left: '-60px' }}>
-              <div className="timeline-icon" style={{ color: index === data.length - 1 ? 'rgba(0, 248, 114, 255)' : '' }}>
+              <div className="timeline-icon" style={{ color: index === data.length - 1 ? 'rgba(35, 160, 107, 255)' : '' }}>
                 <FontAwesomeIcon icon={['fas', icons[item.document]]} style={{ width: '25px', height: '25px' }} />
               </div>
             </div>
           )}
           <div className="timeline-content">
             <div className="timeline-title">
-              <h3 style={{ marginBottom: '-2px', fontSize: 22, fontWeight: 900 , fontFamily: 'Nunito Sans, sans-serif',  color: index === data.length - 1 ? 'rgba(0, 248, 114, 255)' : '' }}>{item.document}</h3>
+              <h3 style={{ marginBottom: '-2px', fontSize: 22, fontWeight: 900 , fontFamily: 'Nunito Sans, sans-serif',  color: index === data.length - 1 ? 'rgba(35, 160, 107, 255)' : '' }}>{item.document}</h3>
             </div>
-            <p style={{ fontSize: 14, fontWeight: 'lighter' , fontFamily: 'Nunito Sans, sans-serif',  color: index === data.length - 1 ? 'rgba(0, 248, 114, 255)' : '' }}>{item.description}</p>
+            <p style={{ fontSize: 14, fontWeight: 'lighter' , fontFamily: 'Nunito Sans, sans-serif',  color: index === data.length - 1 ? 'rgba(35, 160, 107, 255)' : '' }}>{item.description}</p>
           </div>
         </div>
       ))}

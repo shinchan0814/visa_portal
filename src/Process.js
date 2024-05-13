@@ -23,7 +23,6 @@ const Process = ({ data }) => {
             <div style={{marginTop: '10px' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight:'-24px', border: '1px solid #ccc', padding: '18px', borderTopLeftRadius:'10px', borderTopRightRadius: '10px'}}>
                     <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '20px', fontWeight: 'bold' }}>Documents for {data.countryName} visa</span>
-                    <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '18px', fontWeight: 'bold', color: 'rgba(96,92, 212, 255)' }}>Downloads</span>
                 </div>
 
                 <div style={{ width: '100%', border: '1px solid #ccc', padding: '11px',display: 'flex'}}>
