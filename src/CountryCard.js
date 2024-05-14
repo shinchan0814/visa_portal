@@ -127,7 +127,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
                   overflow: 'hidden', // Hide overflowing text
                   textOverflow: 'ellipsis', // Display ellipsis (...) for truncated text
                   '@media (max-width: 600px)': { // Adjust the width based on your mobile breakpoint
-                    maxWidth: '5em', // Set max width to 4 characters on mobile
+                    maxWidth: '4em', // Set max width to 4 characters on mobile
                   },
                 }}>
                   {country.Safety}
