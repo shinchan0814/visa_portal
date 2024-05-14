@@ -195,7 +195,7 @@ const App = () => {
               left: '50%',
               transform: 'translate(-50%, -50%)',
               zIndex: 1100,
-              width: ['60%', 520], // Set width to 90% for mobile, and 520px for desktop
+              width: ['70%', 520], // Set width to 90% for mobile, and 520px for desktop
               height: ['15%',47], // Adjusted height to 45px
               padding: ['1px 12px 5px', '1px 7px 11px'], // Adjusted padding
               backgroundColor: 'white',
