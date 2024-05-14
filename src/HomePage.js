@@ -86,8 +86,8 @@ const App = () => {
             }}
           >
             {/* Logo */}
-            <div style={{ display: 'flex', gap: '9px', alignItems: 'center', paddingLeft: '10px'  }}>
-              <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center'}} />
+            <div style={{ display: 'flex', gap: '9px', alignItems: 'center', paddingLeft: '10px' }}>
+              <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
               <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                 <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
                 <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
@@ -95,7 +95,7 @@ const App = () => {
             </div>
 
             {/* Hamburger Icon and Menu for Mobile */}
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right'}}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
               {/* Hamburger Icon */}
               <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
                 &#9776;
@@ -103,20 +103,20 @@ const App = () => {
 
               {/* Mobile Menu */}
               {showMenu && (
-                <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: '#fff', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100}}>
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: '#fff', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
                   {/* Text section 1 */}
                   <div>
-                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px'}}>Get Visa</a>
+                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px' }}>Get Visa</a>
                   </div>
 
                   {/* Text section 2 */}
                   <div>
-                    <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '40px'}}>Saathi App</a>
+                    <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px' }}>Saathi App</a>
                   </div>
 
                   {/* Text section 3 */}
                   <div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '40px'}}>Partners</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px' }}>Partners</a>
                   </div>
 
                   {/* Text section 4 */}
@@ -195,9 +195,9 @@ const App = () => {
               left: '50%',
               transform: 'translate(-50%, -50%)',
               zIndex: 1100,
-              width: 520,
-              height: 47, // Adjusted height to 45px
-              padding: '1px 7px 11px', // Adjusted padding
+              width: ['60%', 520], // Set width to 90% for mobile, and 520px for desktop
+              height: ['15%',47], // Adjusted height to 45px
+              padding: ['1px 12px 5px', '1px 7px 11px'], // Adjusted padding
               backgroundColor: 'white',
               borderRadius: 30,
               boxShadow: stickySearchBar ? '0 2px 5px rgba(0,0,0,0.1)' : 'none',
@@ -224,7 +224,7 @@ const App = () => {
                   style: { textAlign: 'center', color: 'black', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
                 }}
                 sx={{
-                  width: 130,
+                  width: ['50%',130],
                   backgroundColor: 'white',
                   borderRadius: 1,
                   '& .MuiInputLabel-root': { // Selecting the label element
@@ -250,7 +250,7 @@ const App = () => {
                   setSearchTerm(newInputValue);
                 }}
                 sx={{
-                  width: 300,
+                  width: ['90%',300],
                   backgroundColor: 'white',
                   borderRadius: 1,
                   '& .MuiInputLabel-root': { // Selecting the label element
