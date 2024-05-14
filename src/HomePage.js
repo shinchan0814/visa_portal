@@ -86,7 +86,7 @@ const App = () => {
             }}
           >
             {/* Logo */}
-            <div style={{ display: 'flex', gap: '9px', alignItems: 'center', paddingLeft: '10px' }}>
+            <div style={{ display: 'flex', gap: '9px', alignItems: 'center', paddingLeft: '5px' }}>
               <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
               <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                 <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
@@ -97,7 +97,7 @@ const App = () => {
             {/* Hamburger Icon and Menu for Mobile */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
               {/* Hamburger Icon */}
-              <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
+              <div style={{ cursor: 'pointer', paddingRight: '10px' }} onClick={() => setShowMenu(!showMenu)}>
                 &#9776;
               </div>
 
@@ -271,7 +271,7 @@ const App = () => {
           justifyContent: 'space-between',
           alignItems: 'center',
           alignContent: 'center',
-          padding: '60px 40px 20px 50px', // Adjusted padding
+          padding: ['60px 40px 20px 10px' ,'60px 40px 20px 50px'], // Adjusted padding
           position: 'sticky',
           top: 5,
           left: 0,
