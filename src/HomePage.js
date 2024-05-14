@@ -86,8 +86,8 @@ const App = () => {
             }}
           >
             {/* Logo */}
-            <div style={{ display: 'flex', gap: '9px', alignItems: 'center' }}>
-              <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center', paddingLeft: '10px' }} />
+            <div style={{ display: 'flex', gap: '9px', alignItems: 'center', paddingLeft: '10px'  }}>
+              <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center'}} />
               <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                 <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
                 <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
