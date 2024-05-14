@@ -21,9 +21,9 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
   };
   return (
     <Card sx={{
-      width: '88%',
+      width: ['100%','88%'],
       height: 310,
-      mx: 1, // Increased horizontal margin for better distribution
+      mx: [0,1], // Increased horizontal margin for better distribution
       my: -0.25,
       display: 'flex',
       flexDirection: 'column',
