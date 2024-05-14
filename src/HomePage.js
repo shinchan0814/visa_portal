@@ -54,14 +54,6 @@ const App = () => {
     country.countryName.toLowerCase().includes(searchTerm.toLowerCase())
   );
 
-  useEffect(() => {
-    const isMobileDevice = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-
-    if (isMobileDevice) {
-      window.location.href = "https://your-desktop-site-url.com";
-    }
-  }, []);
-
   return (
     <Box sx={{ flexGrow: 1 }}>
       <Box sx={{
