@@ -73,7 +73,7 @@ const App = () => {
           {/* Mobile Header with Hamburger Menu */}
           <Box
             sx={{
-              width: '45%',
+              width: '50%',
               height: 50,
               display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
               alignItems: 'center',
@@ -97,7 +97,7 @@ const App = () => {
             {/* Hamburger Icon and Menu for Mobile */}
             <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right'}}>
               {/* Hamburger Icon */}
-              <div style={{ cursor: 'pointer' }} onClick={() => setShowMenu(!showMenu)}>
+              <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
                 &#9776;
               </div>
 
@@ -106,27 +106,27 @@ const App = () => {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: '#fff', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100}}>
                   {/* Text section 1 */}
                   <div>
-                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '25px'}}>Get Visa</a>
+                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px'}}>Get Visa</a>
                   </div>
 
                   {/* Text section 2 */}
                   <div>
-                    <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '25px'}}>Saathi App</a>
+                    <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '40px'}}>Saathi App</a>
                   </div>
 
                   {/* Text section 3 */}
                   <div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '25px'}}>Partners</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' , paddingLeft: '40px'}}>Partners</a>
                   </div>
 
                   {/* Text section 4 */}
                   <div>
-                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '25px' }}>Creators</a>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px' }}>Creators</a>
                   </div>
 
                   {/* Text section 5 */}
                   <div>
-                    <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '25px' }}>Blog</a>
+                    <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '40px' }}>Blog</a>
                   </div>
                 </div>
               )}
