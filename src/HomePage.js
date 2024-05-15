@@ -196,7 +196,7 @@ const App = () => {
               transform: 'translate(-50%, -50%)',
               zIndex: 1100,
               width: ['70%', 520], // Set width to 90% for mobile, and 520px for desktop
-              height: ['15%',47], // Adjusted height to 45px
+              height: ['15%', 47], // Adjusted height to 45px
               padding: ['1px 12px 5px', '1px 7px 11px'], // Adjusted padding
               backgroundColor: 'white',
               borderRadius: 30,
@@ -224,7 +224,7 @@ const App = () => {
                   style: { textAlign: 'center', color: 'black', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
                 }}
                 sx={{
-                  width: ['50%',130],
+                  width: ['50%', 130],
                   backgroundColor: 'white',
                   borderRadius: 1,
                   '& .MuiInputLabel-root': { // Selecting the label element
@@ -250,7 +250,7 @@ const App = () => {
                   setSearchTerm(newInputValue);
                 }}
                 sx={{
-                  width: ['90%',300],
+                  width: ['90%', 300],
                   backgroundColor: 'white',
                   borderRadius: 1,
                   '& .MuiInputLabel-root': { // Selecting the label element
@@ -271,7 +271,7 @@ const App = () => {
           justifyContent: 'space-between',
           alignItems: 'center',
           alignContent: 'center',
-          padding: ['60px 40px 20px 10px' ,'60px 40px 20px 50px'], // Adjusted padding
+          padding: ['60px 40px 20px 10px', '60px 40px 20px 50px'], // Adjusted padding
           position: 'sticky',
           top: 5,
           left: 0,
@@ -281,9 +281,13 @@ const App = () => {
           marginLeft: '-30px', // Adjusted marginLeft
           backgroundColor: stickySearchBar ? '#fff' : 'transparent',
           zIndex: 1050,
+          overflowX: 'auto', // Enable horizontal scrolling
+          '@media (min-width: 600px)': {
+            overflowX: 'unset', // Remove horizontal scrolling on larger screens
+          },
         }}
       >
-        {visaTypes.map(type => (
+        {visaTypes.map((type) => (
           <Chip
             key={type}
             label={type}
@@ -301,7 +305,7 @@ const App = () => {
               fontWeight: 500,
               '&:hover': {
                 backgroundColor: visaFilters.includes(type) ? '#5044b8' : '#f0f0f0',
-              }
+              },
             }}
           />
         ))}
@@ -327,7 +331,7 @@ const App = () => {
               marginRight: 5,
               '&:hover': {
                 backgroundColor: '#f0f0f0',
-              }
+              },
             }}
           />
         )}
@@ -351,7 +355,7 @@ const App = () => {
               alignItems: 'start',
               justifyContent: 'start',
               justifyItems: 'center',
-              alignContent: 'center'
+              alignContent: 'center',
             }}
           >
             <Box
@@ -366,10 +370,10 @@ const App = () => {
                 label="📍 India"
                 disabled
                 InputProps={{
-                  disableUnderline: true
+                  disableUnderline: true,
                 }}
                 InputLabelProps={{
-                  style: { textAlign: 'center', color: 'black' }
+                  style: { textAlign: 'center', color: 'black' },
                 }}
                 sx={{
                   width: 90,
@@ -378,23 +382,23 @@ const App = () => {
                   borderRadius: 1,
                   '& .MuiInputLabel-root': {
                     textAlign: 'left',
-                  }
+                  },
                 }}
               />
               <Autocomplete
                 disablePortal
-                options={countriesData.map(country => country.countryName)}
-                renderInput={(params) =>
+                options={countriesData.map((country) => country.countryName)}
+                renderInput={(params) => (
                   <TextField
                     {...params}
                     label="✈️     Where to..."
                     variant="standard"
                     InputProps={{ disableUnderline: true }}
                     InputLabelProps={{
-                      style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
+                      style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' }, // Center-align the label text
                     }}
                   />
-                }
+                )}
                 onInputChange={(event, newInputValue) => {
                   setSearchTerm(newInputValue);
                 }}
@@ -405,15 +409,13 @@ const App = () => {
                   borderRadius: 1,
                   '& .MuiInputLabel-root': {
                     textAlign: 'center',
-                  }
+                  },
                 }}
               />
             </Box>
           </Box>
         )}
       </Box>
-
-
 
       <Grid container spacing={5} sx={{ p: 2 }}>
         {filteredCountries.map((country, index) => (
