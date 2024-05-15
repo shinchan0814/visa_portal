@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['60%', '50%'],
+                        width: ['55%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
