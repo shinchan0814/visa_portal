@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import './styles.css'; // or import './styles.scss';
 
 const Process = ({ data }) => {
+
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+        };
+
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
     console.log(data); // Log the data to see its structure
 
     const parseIcon = (iconData) => {
@@ -19,7 +33,7 @@ const Process = ({ data }) => {
     };
 
     return (
-        <div style={{ width: '55%', marginLeft: '30px', marginTop: '20px' }}>
+        <div style={{ width: isMobile? '60%' :'55%', marginLeft: isMobile ? '5px' :'30px', marginTop: '20px'}}>
             <div style={{marginTop: '10px' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight:'-24px', border: '1px solid #ccc', padding: '18px', borderTopLeftRadius:'10px', borderTopRightRadius: '10px'}}>
                     <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '20px', fontWeight: 'bold' }}>Documents for {data.countryName} visa</span>

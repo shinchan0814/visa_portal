@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
@@ -31,9 +31,23 @@ const Documents = ({ data }) => {
   const currentDate = new Date();
   const formattedDate = currentDate.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
 
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+      const handleResize = () => {
+          setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+      };
+
+      handleResize(); // Initial check
+      window.addEventListener('resize', handleResize);
+      return () => {
+          window.removeEventListener('resize', handleResize);
+      };
+  }, []);
+
   return (
-    <div style={{ width: '30%', marginTop: '40px', position: 'relative' }} className="documents-timeline">
-      <h2 style={{ marginLeft: '15px', color: 'rgba(96, 92, 212, 255)', marginBottom: '6px', fontWeight: 'bolder', fontFamily: 'Nunito Sans, sans-serif'}}>Today, {formattedDate}</h2>
+    <div style={{ width: isMobile ? '50%' :'30%', marginTop: '40px', position: 'relative' , marginLeft: isMobile ? '-30px' : ''}} className="documents-timeline">
+      <h2 style={{ marginLeft: '15px', color: 'rgba(96, 92, 212, 255)', marginBottom: isMobile ? '-15px' :'6px', fontWeight: 'bolder', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile ? '20px' : '', fontWeight: isMobile ?  'bold' : ''}}>Today, {formattedDate}</h2>
       {data.map((item, index) => (
         <div key={index} className="timeline-item">
           {index === 0 && (

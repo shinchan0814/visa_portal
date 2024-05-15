@@ -88,13 +88,27 @@ const CountryDetailPage = () => {
         };
     }, []);
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+        };
+
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
     return (
         <>
             <>
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['45%', '50%'],
+                        width: ['50%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -109,7 +123,7 @@ const CountryDetailPage = () => {
                     }}
                 >
                     {/* Logo */}
-                    <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft:"-15px"}}>
+                    <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft: "-15px" }}>
                         <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
                         <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                             <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
@@ -256,7 +270,7 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: '120px', // Adjusted margin top to make space for the header
-                    marginLeft: ['0','40px'],// Add any other styling you need
+                    marginLeft: ['0', '40px'],// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -309,9 +323,17 @@ const CountryDetailPage = () => {
 
                             <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
                             {activeTab === 'About' && <About data={aboutData} />}
-                            {activeTab === 'Process' && <div style={{ display: 'flex', justifyContent: 'center', marginLeft: '-530px' }}>
-                                <Documents data={documents} />
-                            </div>}
+                            {activeTab === 'Process' && (
+                                <div style={{
+                                    display: 'flex',
+                                    justifyContent: 'center',
+                                    marginLeft: isMobile ? '-30px' : '-530px', // Adjust the value as needed
+                                    transition: 'margin-left 0.3s ease' // Optional: add transition for smooth animation
+                                }}>
+                                    <Documents data={documents} />
+                                </div>
+                            )}
+
                             {activeTab === 'Documents' && <Process data={processInfo} />}
                         </>
                     ) : (

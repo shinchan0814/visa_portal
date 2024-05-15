@@ -23,34 +23,65 @@ const VisaPricing = ({ data }) => {
             .catch(error => console.error('Failed to load FAQs', error));
     }, [slug])
 
+    const [isMobile, setIsMobile] = useState(false);
+
+    useEffect(() => {
+        const handleResize = () => {
+            setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
+        };
+
+        handleResize(); // Initial check
+        window.addEventListener('resize', handleResize);
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        };
+    }, []);
+
+    const divStyle = {
+        width: isMobile ? '230px' : '340px',
+        height: isMobile ? '270px' : '280px',
+        borderRadius: '10px',
+        boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
+        padding: '20px',
+        position: 'relative',
+    };
+
+    const containerStyle = {
+        position: 'absolute',
+        top: '8px',
+        left: isMobile ? '-5px' : '-10px',
+        width: isMobile ? 'calc(100% + 10px)' : 'calc(100% + 20px)',
+        height: '70px',
+        backgroundColor: 'rgba(96, 92, 212, 255)',
+        borderRadius: '10px',
+        display: 'flex',
+        flexDirection: 'column',
+        alignItems: 'center',
+        justifyContent: 'center',
+        color: 'white',
+        textAlign: 'center',
+        fontSize: isMobile ? '20px' : '28px',
+    };
+
+    const refundTextStyle = {
+        fontSize: isMobile ? '16px' : '20px',
+        fontWeight: '500',
+        fontFamily: 'Nunito Sans, sans-serif'
+    };
+
+    const refundDetailStyle = {
+        fontSize: isMobile ? '8px' : '10px',
+        marginTop: '5px',
+        fontFamily: 'Nunito Sans, sans-serif'
+    };
+
+
     return (
-        <div style={{ flexDirection: 'column', width: '100%' }}>
-            <div style={{
-                width: '340px',
-                height: '280px',
-                borderRadius: '10px',
-                boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
-                padding: '20px',
-                position: 'relative',
-            }}>
-                <div style={{
-                    position: 'absolute',
-                    top: '8px',
-                    left: '-10px',
-                    width: 'calc(100% + 20px)',
-                    height: '70px',
-                    backgroundColor: 'rgba(96, 92, 212, 255)',
-                    borderRadius: '10px',
-                    display: 'flex',
-                    flexDirection: 'column',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    color: 'white',
-                    textAlign: 'center',
-                    fontSize: '28px',
-                }}>
-                    <div style={{ fontSize: '20px', fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}>Get full refund if visa is not approved</div>
-                    <div style={{ fontSize: '10px', marginTop: '5px', fontFamily: 'Nunito Sans, sans-serif' }}>due to documents</div>
+        <div style={{ flexDirection: 'column', width: '100%' , marginRight: '10px'}}>
+            <div style={divStyle}>
+                <div style={containerStyle}>
+                    <div style={refundTextStyle}>Get full refund if visa is not approved</div>
+                    <div style={refundDetailStyle}>due to documents</div>
                 </div>
 
                 <div style={{ marginTop: '75px', marginLeft: '15px', marginRight: '15px' }}>
