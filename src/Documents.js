@@ -46,7 +46,7 @@ const Documents = ({ data }) => {
   }, []);
 
   return (
-    <div style={{ width: isMobile ? '50%' :'30%', marginTop: '40px', position: 'relative' , marginLeft: isMobile ? '-30px' : ''}} className="documents-timeline">
+    <div style={{ width: isMobile ? '50%' :'30%', marginTop: '40px', position: 'relative' , marginLeft: isMobile ? '-10px' : ''}} className="documents-timeline">
       <h2 style={{ marginLeft: '15px', color: 'rgba(96, 92, 212, 255)', marginBottom: isMobile ? '-15px' :'6px', fontWeight: 'bolder', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile ? '20px' : '', fontWeight: isMobile ?  'bold' : ''}}>Today, {formattedDate}</h2>
       {data.map((item, index) => (
         <div key={index} className="timeline-item">
