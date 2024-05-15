@@ -27,7 +27,7 @@ const FaqSection = ({ data = [] }) => {
 
   const divStyle = {
     width: isMobile ? '100%' : '360px',
-    height: isMobile ? '80vh' : '800px',
+    height: isMobile ? '100vh' : '800px',
     borderRadius: '10px',
     padding: isMobile ? '5px' : '10px',
     position: 'relative',
