@@ -109,7 +109,7 @@ const CountryDetailPage = () => {
                     }}
                 >
                     {/* Logo */}
-                    <div style={{ display: 'flex', gap: '9px', alignItems: 'center'}}>
+                    <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft:"-20px"}}>
                         <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
                         <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                             <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
@@ -120,7 +120,7 @@ const CountryDetailPage = () => {
                     {/* Hamburger Icon and Menu for Mobile */}
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
                         {/* Hamburger Icon */}
-                        <div style={{ cursor: 'pointer', paddingRight: '25px' }} onClick={() => setShowMenu(!showMenu)}>
+                        <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
                             &#9776;
                         </div>
 
