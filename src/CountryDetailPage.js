@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['55%', '50%'],
+                        width: ['42%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -283,7 +283,7 @@ const CountryDetailPage = () => {
                             </div>
                             <div style={{
                                 marginTop: '-905px',
-                                width: '57%',
+                                width: isMobile ? '69%' :'57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
@@ -297,25 +297,25 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: '20px' }}>
-                                    <img src="/images/website/Require.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Required</p>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '0px' : '20px', marginTop: isMobile ? '-7px' :'' }}>
+                                    <img src="/images/website/Require.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Required</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-                                    <img src="/images/website/Stand.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Max Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>60 days/ 30 days</p>
+                                    <img src="/images/website/Stand.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Max Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>60 days/ 30 days</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
-                                    <img src="/images/website/Hours.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>~2 hrs</p>
+                                    <img src="/images/website/Hours.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>~2 hrs</p>
                                 </div>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: '20px' }}>
-                                    <img src="/images/website/Term.png" alt="Image 1" style={{ width: '42px', height: '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Short term</p>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: isMobile ? '0px' :'20px' }}>
+                                    <img src="/images/website/Term.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Short term</p>
                                 </div>
                             </div>
 
