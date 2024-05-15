@@ -320,7 +320,7 @@ const CountryDetailPage = () => {
                             </div>
 
 
-                            <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} />
+                            <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} style={{marginRight: isMobile ? '-10px' :''}} />
                             {activeTab === 'About' && <About data={aboutData} />}
                             {activeTab === 'Process' && (
                                 <div style={{
