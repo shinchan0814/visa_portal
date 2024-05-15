@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['45%', '50%'],
+                        width: ['80%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -269,21 +269,21 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: isMobile ? '80px' :'120px', // Adjusted margin top to make space for the header
-                    marginLeft: isMobile ? '-5px' : '40px',// Add any other styling you need
+                    marginLeft: isMobile ? '-15px' : '40px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
                     {countryData ? (
                         <>
-                            <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'start', justifyContent: 'flex-start' }}>
+                            <div style={{ display: 'flex', flexDirection: isMobile ? 'column' :'row', alignItems: 'start', justifyContent: 'flex-start' }}>
                                 <CountryBanner data={countryData} />
-                                <div style={{ marginLeft: '65px' }}> {/* Adjust margin as needed */}
+                                <div style={{ marginLeft:isMobile ? '' :'65px' }}> {/* Adjust margin as needed */}
                                     <VisaPricing data={countryData} />
                                 </div>
                             </div>
                             <div style={{
-                                marginTop: '-905px',
-                                width: isMobile ? '76%' :'57%',
+                                marginTop: isMobile ? '300px' :'-905px',
+                                width: isMobile ? '78%' :'57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',

@@ -26,7 +26,7 @@ const FaqSection = ({ data = [] }) => {
   }, []);
 
   const divStyle = {
-    width: isMobile ? '255px' : '360px',
+    width: isMobile ? '90%' : '360px',
     height: isMobile ? '800px' : '800px',
     borderRadius: '10px',
     padding: isMobile ? '5px' : '10px',
@@ -36,7 +36,7 @@ const FaqSection = ({ data = [] }) => {
 
   return (
     <div className="faq-section" style={divStyle}>
-      <h2 style={{ marginBottom: '5px', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile? '17.5px' : ''}}>Frequently Asked Questions</h2>
+      <h2 style={{ marginBottom: '5px', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile? '19px' : ''}}>Frequently Asked Questions</h2>
       {data.map((faq, index) => (
         <div key={index} className="faq-item">
           <button
