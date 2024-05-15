@@ -22,6 +22,7 @@ const CountryTabs = ({ activeTab, setActiveTab }) => {
                 width: isMobile ?'100%': '60%',
                 display: 'flex',
                 justifyContent: 'space-between',
+                marginRight: isMobile ? '-10px' : '',
                 position: 'relative',
                 marginBottom: '10px'
             }}>
