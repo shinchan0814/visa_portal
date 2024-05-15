@@ -73,7 +73,7 @@ const App = () => {
           {/* Mobile Header with Hamburger Menu */}
           <Box
             sx={{
-              width: ['100%','50%'],
+              width: ['100%', '50%'],
               height: 50,
               display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
               alignItems: 'center',
@@ -81,6 +81,7 @@ const App = () => {
               padding: '3px 35px', // Adjusted padding for spacing
               backgroundColor: '#fff', // Adjusted background color
               position: 'fixed', // Changed to fixed positioning
+              paddingTop: stickySearchBar ? '25px' : '0', 
               top: 0,
               zIndex: 1200,
             }}
@@ -273,7 +274,7 @@ const App = () => {
           alignContent: 'center',
           padding: ['60px 40px 20px 10px', '60px 40px 20px 50px'], // Adjusted padding
           position: 'sticky',
-          top: 5,
+          top: [stickySearchBar ? 25 : 5,5],
           left: 0,
           right: 0,
           gap: 2,
@@ -356,6 +357,12 @@ const App = () => {
               justifyContent: 'start',
               justifyItems: 'center',
               alignContent: 'center',
+              '@media (max-width: 599px)': {
+                display: 'none', // Hide on mobile screens
+              },
+              '@media (min-width: 600px)': {
+                display: 'flex', // Show on desktop screens
+              },
             }}
           >
             <Box
