@@ -282,7 +282,7 @@ const CountryDetailPage = () => {
                                 </div>
                             </div>
                             <div style={{
-                                marginTop: isMobile ? '50vh' :'-905px',
+                                marginTop: isMobile ? '70vh' :'-905px',
                                 width: isMobile ? '85%' :'57%',
                                 height: '95px',
                                 display: 'flex',
