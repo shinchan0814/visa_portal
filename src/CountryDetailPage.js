@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['42%', '50%'],
+                        width: ['45%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -268,8 +268,8 @@ const CountryDetailPage = () => {
             <Box
                 sx={{
 
-                    marginTop: '120px', // Adjusted margin top to make space for the header
-                    marginLeft: isMobile ? '0px' : '40px',// Add any other styling you need
+                    marginTop: isMobile ? '80px' :'120px', // Adjusted margin top to make space for the header
+                    marginLeft: isMobile ? '-10px' : '40px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -283,7 +283,7 @@ const CountryDetailPage = () => {
                             </div>
                             <div style={{
                                 marginTop: '-905px',
-                                width: isMobile ? '69%' :'57%',
+                                width: isMobile ? '80%' :'57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
@@ -297,7 +297,7 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '0px' : '20px', marginTop: isMobile ? '-7px' :'' }}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '0px' : '20px'}}>
                                     <img src="/images/website/Require.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
                                     <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
                                     <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Required</p>
