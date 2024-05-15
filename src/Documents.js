@@ -51,8 +51,8 @@ const Documents = ({ data }) => {
       {data.map((item, index) => (
         <div key={index} className="timeline-item">
           {index === 0 && (
-            <div className="timeline-connector" style={{ left: '-60px', position: 'relative' }}>
-              <div className="blue-sphere"></div>
+            <div className="timeline-connector" style={{ left: isMobile ? '-30px' :'-60px', position: 'relative' }}>
+              <div className="blue-sphere" style={{left: isMobile ? '-7px' : ''}}></div>
             </div>
           )}
           {icons[item.document] && (

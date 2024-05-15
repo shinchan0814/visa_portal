@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['50%', '50%'],
+                        width: ['60%', '50%'],
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -116,7 +116,6 @@ const CountryDetailPage = () => {
                         padding: '3px 35px', // Adjusted padding for spacing
                         backgroundColor: '#fff', // Adjusted background color
                         position: 'fixed', // Changed to fixed positioning
-                        paddingTop: isScrolled ? '25px' : '0',
                         marginLeft: '-30px',
                         top: 0,
                         zIndex: 1200,
@@ -270,7 +269,7 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: '120px', // Adjusted margin top to make space for the header
-                    marginLeft: ['0', '40px'],// Add any other styling you need
+                    marginLeft: isMobile ? '0px' : '40px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
