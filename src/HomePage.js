@@ -333,6 +333,12 @@ const App = () => {
               '&:hover': {
                 backgroundColor: '#f0f0f0',
               },
+              '@media (max-width: 599px)': {
+                display: 'none', // Hide on mobile screens
+              },
+              '@media (min-width: 600px)': {
+                display: 'flex', // Show on desktop screens
+              },
             }}
           />
         )}
