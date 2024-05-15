@@ -269,7 +269,7 @@ const CountryDetailPage = () => {
                 sx={{
 
                     marginTop: isMobile ? '80px' :'120px', // Adjusted margin top to make space for the header
-                    marginLeft: isMobile ? '-10px' : '40px',// Add any other styling you need
+                    marginLeft: isMobile ? '-5px' : '40px',// Add any other styling you need
                 }}
             >
                 <div style={{ display: 'flex', flexDirection: 'column' }}>
@@ -283,7 +283,7 @@ const CountryDetailPage = () => {
                             </div>
                             <div style={{
                                 marginTop: '-905px',
-                                width: isMobile ? '80%' :'57%',
+                                width: isMobile ? '75%' :'57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
