@@ -22,7 +22,7 @@ const About = ({ data = [] }) => {  // Set a default value for data
     }
 
     return (
-        <div style={{width: isMobile? '85%' : '55%', marginLeft: isMobile ? '5px' : ''}} className="about-section">
+        <div style={{width: isMobile? '77%' : '55%', marginLeft: isMobile ? '5px' : ''}} className="about-section">
             
             {data.map((section, index) => (
                 <div key={index} className="section-block" >

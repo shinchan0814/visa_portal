@@ -33,7 +33,7 @@ const Process = ({ data }) => {
     };
 
     return (
-        <div style={{ width: isMobile? '90%' :'55%', marginLeft: isMobile ? '5px' :'30px', marginTop: '20px'}}>
+        <div style={{ width: isMobile? '80%' :'55%', marginLeft: isMobile ? '5px' :'30px', marginTop: '20px'}}>
             <div style={{marginTop: '10px' }}>
                 <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight:'-24px', border: '1px solid #ccc', padding: '18px', borderTopLeftRadius:'10px', borderTopRightRadius: '10px'}}>
                     <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '20px', fontWeight: 'bold' }}>Documents for {data.countryName} visa</span>
