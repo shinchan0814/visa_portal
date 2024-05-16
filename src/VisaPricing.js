@@ -77,7 +77,7 @@ const VisaPricing = ({ data }) => {
 
 
     return (
-        <div style={{ flexDirection: 'column', width: '100%' , marginRight: '10px', marginTop: isMobile ? '15px' : ''}}>
+        <div style={{ flexDirection: 'column', width: '100%' , marginRight: '10px', marginTop: isMobile ? '5px' : ''}}>
             <div style={divStyle}>
                 <div style={containerStyle}>
                     <div style={refundTextStyle}>Get full refund if visa is not approved</div>
