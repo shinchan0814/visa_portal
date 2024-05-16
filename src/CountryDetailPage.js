@@ -68,6 +68,7 @@ const CountryDetailPage = () => {
                 }
             })
             .catch(error => console.error('Failed to load about sections', error));
+        window.scrollTo(0, 0);
     }, [slug]);
 
     const [isScrolled, setIsScrolled] = useState(false);
@@ -267,22 +268,22 @@ const CountryDetailPage = () => {
 
             <Box
                 sx={{
-                    marginTop: isMobile ? '80px' :'120px', // Adjusted margin top to make space for the header
+                    marginTop: isMobile ? '80px' : '120px', // Adjusted margin top to make space for the header
                     marginLeft: isMobile ? '-15px' : '40px',// Add any other styling you need
                 }}
             >
-                <div style={{ display: 'flex', flexDirection: 'column'}}>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
                     {countryData ? (
                         <>
-                            <div style={{ display: 'flex', flexDirection: isMobile ? 'column' :'row', alignItems: 'start', justifyContent: 'flex-start' }}>
+                            <div style={{ display: 'flex', flexDirection: isMobile ? 'column' : 'row', alignItems: 'start', justifyContent: 'flex-start' }}>
                                 <CountryBanner data={countryData} />
-                                <div style={{ marginLeft:isMobile ? '' :'65px' }}> {/* Adjust margin as needed */}
+                                <div style={{ marginLeft: isMobile ? '' : '65px' }}> {/* Adjust margin as needed */}
                                     <VisaPricing data={countryData} />
                                 </div>
                             </div>
                             <div style={{
-                                marginTop: isMobile ? '15px' :'-905px',
-                                width: isMobile ? '85%' :'57%',
+                                marginTop: isMobile ? '15px' : '-905px',
+                                width: isMobile ? '85%' : '57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
@@ -296,30 +297,30 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '-10px' : '20px'}}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '-10px' : '20px' }}>
                                     <img src="/images/website/Require.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
-                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData.Applicant}</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData.Applicant}</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
                                     <img src="/images/website/Stand.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Max Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Max stay']}</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Max Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Max stay']}</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
                                     <img src="/images/website/Hours.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
-                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Processing time']}</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Processing time']}</p>
                                 </div>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: isMobile ? '-10px' :'20px' }}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: isMobile ? '-10px' : '20px' }}>
                                     <img src="/images/website/Term.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
-                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
-                                    <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Stay']}</p>
+                                    <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData['Stay']}</p>
                                 </div>
                             </div>
 
 
-                            <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} style={{marginRight: isMobile ? '-10px' :''}} />
+                            <CountryTabs activeTab={activeTab} setActiveTab={setActiveTab} style={{ marginRight: isMobile ? '-10px' : '' }} />
                             {activeTab === 'About' && <About data={aboutData} />}
                             {activeTab === 'Process' && (
                                 <div style={{
