@@ -297,7 +297,7 @@ const CountryDetailPage = () => {
                                 paddingBottom: '5px',
                                 boxShadow: '0px 4px 8px rgba(0, 0, 0, 0.35)', // Box shadow
                             }}>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '0px' : '20px'}}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '-10px' : '20px'}}>
                                     <img src="/images/website/Require.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
                                     <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
                                     <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Required</p>
@@ -312,7 +312,7 @@ const CountryDetailPage = () => {
                                     <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Processing Time</p>
                                     <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>~2 hrs</p>
                                 </div>
-                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: isMobile ? '0px' :'20px' }}>
+                                <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginRight: isMobile ? '-10px' :'20px' }}>
                                     <img src="/images/website/Term.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
                                     <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Stay</p>
                                     <p style={{ margin: '0.5px', fontSize: isMobile? '10px': '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Short term</p>

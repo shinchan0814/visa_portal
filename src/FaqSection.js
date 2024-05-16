@@ -31,7 +31,7 @@ const FaqSection = ({ data = [] }) => {
     borderRadius: '10px',
     padding: isMobile ? '5px' : '10px',
     position: 'relative',
-    marginTop: '-10px'
+    marginTop: isMobile ? '10px' :'-10px'
   };
 
   return (
