@@ -45,7 +45,7 @@ const CountryBanner = ({ data }) => {
 
     return (
         <div className="country-banner" style={{
-            width: isMobile ? '87%' : '',
+            width: isMobile ? '99%' : '',
             backgroundImage: `url(${data.imageUrl})`,
             position: 'relative',
             minHeight: '200px',

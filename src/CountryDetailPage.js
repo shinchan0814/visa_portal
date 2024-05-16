@@ -108,7 +108,7 @@ const CountryDetailPage = () => {
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
                     sx={{
-                        width: ['80%', '50%'],
+                        width: '90%',
                         height: 50,
                         display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
                         alignItems: 'center',
@@ -267,12 +267,11 @@ const CountryDetailPage = () => {
 
             <Box
                 sx={{
-
                     marginTop: isMobile ? '80px' :'120px', // Adjusted margin top to make space for the header
                     marginLeft: isMobile ? '-15px' : '40px',// Add any other styling you need
                 }}
             >
-                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                <div style={{ display: 'flex', flexDirection: 'column'}}>
                     {countryData ? (
                         <>
                             <div style={{ display: 'flex', flexDirection: isMobile ? 'column' :'row', alignItems: 'start', justifyContent: 'flex-start' }}>
@@ -283,7 +282,7 @@ const CountryDetailPage = () => {
                             </div>
                             <div style={{
                                 marginTop: isMobile ? '15px' :'-905px',
-                                width: isMobile ? '75%' :'57%',
+                                width: isMobile ? '85%' :'57%',
                                 height: '95px',
                                 display: 'flex',
                                 justifyContent: 'space-between',
