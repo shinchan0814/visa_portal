@@ -19,7 +19,7 @@ const CountryTabs = ({ activeTab, setActiveTab }) => {
         <div
             style={{
                 marginTop: '30px',
-                width: isMobile ?'100%': '60%',
+                width: isMobile ?'110%': '60%',
                 display: 'flex',
                 justifyContent: 'space-between',
                 marginRight: isMobile ? '-10px' : '',
