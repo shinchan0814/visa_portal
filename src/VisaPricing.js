@@ -44,6 +44,7 @@ const VisaPricing = ({ data }) => {
         boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
         padding: '20px',
         position: 'relative',
+        justifyContent: 'center'
     };
 
     const containerStyle = {
