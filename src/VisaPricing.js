@@ -38,7 +38,7 @@ const VisaPricing = ({ data }) => {
     }, []);
 
     const divStyle = {
-        width: isMobile ? '115%' : '340px',
+        width: isMobile ? '100%' : '340px',
         height: isMobile ? '270px' : '280px',
         borderRadius: '10px',
         boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
