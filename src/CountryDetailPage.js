@@ -282,7 +282,7 @@ const CountryDetailPage = () => {
                                 </div>
                             </div>
                             <div style={{
-                                marginTop: isMobile ? '70vh' :'-905px',
+                                marginTop: isMobile ? '15px' :'-905px',
                                 width: isMobile ? '85%' :'57%',
                                 height: '95px',
                                 display: 'flex',
@@ -334,6 +334,10 @@ const CountryDetailPage = () => {
                             )}
 
                             {activeTab === 'Documents' && <Process data={processInfo} />}
+
+                            {isMobile && (
+                                <FaqSection data={faqs} />
+                            )}
                         </>
                     ) : (
                         <p>Loading...</p>

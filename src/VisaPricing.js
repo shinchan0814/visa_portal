@@ -38,7 +38,7 @@ const VisaPricing = ({ data }) => {
     }, []);
 
     const divStyle = {
-        width: isMobile ? '92%' : '340px',
+        width: isMobile ? '115%' : '340px',
         height: isMobile ? '270px' : '280px',
         borderRadius: '10px',
         boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
@@ -64,20 +64,20 @@ const VisaPricing = ({ data }) => {
     };
 
     const refundTextStyle = {
-        fontSize: isMobile ? '16px' : '20px',
+        fontSize: isMobile ? '17px' : '20px',
         fontWeight: '500',
         fontFamily: 'Nunito Sans, sans-serif'
     };
 
     const refundDetailStyle = {
-        fontSize: isMobile ? '8px' : '10px',
+        fontSize: isMobile ? '9px' : '10px',
         marginTop: '5px',
         fontFamily: 'Nunito Sans, sans-serif'
     };
 
 
     return (
-        <div style={{ flexDirection: 'column', width: '100%' , marginRight: '10px', marginTop: isMobile ? '5px' : ''}}>
+        <div style={{ flexDirection: 'column', width: '100%', marginRight: '10px', marginTop: isMobile ? '0px' : '' }}>
             <div style={divStyle}>
                 <div style={containerStyle}>
                     <div style={refundTextStyle}>Get full refund if visa is not approved</div>
@@ -86,51 +86,53 @@ const VisaPricing = ({ data }) => {
 
                 <div style={{ marginTop: '75px', marginLeft: '15px', marginRight: '15px' }}>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px', marginRight: '-2px' }}>
-                        <span style={{ fontSize: 18, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}>Travellers</span>
-                        <div style={{alignItems: 'center', justifyContent: 'center'}}>        
-                            <button style={{background: 'transparent' , border: 'none', color: 'black', fontSize: 15}} onClick={decrement}>-</button>
-                            <span style={{ fontSize: 14.5, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif'}}>{count}</span>
-                            <button style={{background: 'transparent' , border: 'none', color: 'black', fontSize: 15}} onClick={increment}>+</button>
+                        <span style={{ fontSize: 18, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>Travellers</span>
+                        <div style={{ alignItems: 'center', justifyContent: 'center' }}>
+                            <button style={{ background: 'transparent', border: 'none', color: 'black', fontSize: 15 }} onClick={decrement}>-</button>
+                            <span style={{ fontSize: 14.5, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>{count}</span>
+                            <button style={{ background: 'transparent', border: 'none', color: 'black', fontSize: 15 }} onClick={increment}>+</button>
                         </div>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 18, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>Price</span>
-                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif'}}> ₹{data.Price}</span>
+                        <span style={{ fontSize: 15, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}> ₹{data.Price}</span>
                     </div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
                         <span style={{ fontSize: 18, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif' }}>Discount</span>
-                        <span style={{ fontSize: 15, fontWeight: '500' , fontFamily: 'Nunito Sans, sans-serif' , color : '#D45E95'}}>-10%</span>
+                        <span style={{ fontSize: 15, fontWeight: '500', fontFamily: 'Nunito Sans, sans-serif', color: '#D45E95' }}>-10%</span>
                     </div>
                     <div style={{ width: '100%', height: '1.5px', backgroundColor: 'black', marginTop: '15px', marginBottom: '10px' }}></div>
                     <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginTop: '10px' }}>
-                        <span style={{ fontSize: 20, fontWeight: '800' , fontFamily: 'Nunito Sans, sans-serif'}}>Total</span>
-                        <span style={{ fontSize: 15, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>₹ {Math.round(Number(data.Price* count*0.9))}</span>
+                        <span style={{ fontSize: 20, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>Total</span>
+                        <span style={{ fontSize: 15, fontWeight: '800', fontFamily: 'Nunito Sans, sans-serif' }}>₹ {Math.round(Number(data.Price * count * 0.9))}</span>
                     </div>
                     <a href="https://calendly.com/anaytripathi/visa-consultation-call" style={{ textDecoration: 'none' }}>
-                    <button style={{
-                        width: '213px',
-                        height: '35px',
-                        marginTop: '20px',
-                        display: 'block',
-                        marginLeft: 'auto',
-                        border: 'none',
-                        borderRadius: '15px',
-                        background: 'rgba(102, 197, 190, 255)',
-                        marginRight: 'auto',
-                        boxShadow: '0px 0px 5px 0px rgba(0, 0, 0, 0.5)',
-                        color: 'white',
-                        fontSize: '18px',
-                        fontWeight: 'bold',
-                        fontFamily: 'Nunito Sans, sans-serif'
-                    }}>
-                        Book slot for FREE! 
-                    </button></a>
+                        <button style={{
+                            width: '213px',
+                            height: '35px',
+                            marginTop: '20px',
+                            display: 'block',
+                            marginLeft: 'auto',
+                            border: 'none',
+                            borderRadius: '15px',
+                            background: 'rgba(102, 197, 190, 255)',
+                            marginRight: 'auto',
+                            boxShadow: '0px 0px 5px 0px rgba(0, 0, 0, 0.5)',
+                            color: 'white',
+                            fontSize: '18px',
+                            fontWeight: 'bold',
+                            fontFamily: 'Nunito Sans, sans-serif'
+                        }}>
+                            Book slot for FREE!
+                        </button></a>
                 </div>
             </div>
 
-            <div style={{ marginTop: '20px'}}> {/* Adjust the margin as needed */}
-                <FaqSection data={faqs} />
-            </div>
+            {!isMobile && (
+                <div style={{ marginTop: '20px' }}> {/* Adjust the margin as needed */}
+                    <FaqSection data={faqs} />
+                </div>
+            )}
         </div>
     );
 };

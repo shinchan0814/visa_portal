@@ -82,7 +82,7 @@ const CountryBanner = ({ data }) => {
                         justifyContent: 'center',
                         backdropFilter: 'blur(3px)',
                         background: isMobile
-                        ? 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.04))'
+                        ? 'linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0))'
                         : 'rgba(0, 0, 0, 0.7)',
                     }}>
                     <p style={{ display: 'flex', justifyContent: 'space-between', margin: isMobile ? '5px 10px' : '5px 30px' }}>
