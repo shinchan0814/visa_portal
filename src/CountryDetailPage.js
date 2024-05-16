@@ -115,7 +115,7 @@ const CountryDetailPage = () => {
                         alignItems: 'center',
                         justifyContent: 'space-between',
                         padding: '3px 35px', // Adjusted padding for spacing
-                        backgroundColor: '#fff', // Adjusted background color
+                        backgroundColor: isScrolled ? '#fff' : 'transparent', // Adjusted background color
                         position: 'fixed', // Changed to fixed positioning
                         marginLeft: '-30px',
                         top: 0,
