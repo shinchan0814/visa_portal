@@ -37,8 +37,16 @@ const VisaPricing = ({ data }) => {
         };
     }, []);
 
+    const isIOS = () => {
+        return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+    };
+
+    const isAndroid = () => {
+        return /Android/.test(navigator.userAgent);
+    };
+
     const divStyle = {
-        width: isMobile ? '101%' : '340px',
+        width: isMobile ? (isIOS() ? '125%' : '101%') : '340px',
         height: isMobile ? '270px' : '280px',
         borderRadius: '10px',
         boxShadow: '0px 0px 10px 0px rgba(0, 0, 0, 0.5)',
@@ -78,7 +86,7 @@ const VisaPricing = ({ data }) => {
 
 
     return (
-        <div style={{ flexDirection: 'column', width: isMobile ? '' :'100%', marginRight: '10px', marginTop: isMobile ? '0px' : '' }}>
+        <div style={{ flexDirection: 'column', width: isMobile ? '' : '100%', marginRight: '10px', marginTop: isMobile ? '0px' : '' }}>
             <div style={divStyle}>
                 <div style={containerStyle}>
                     <div style={refundTextStyle}>Get full refund if visa is not approved</div>
