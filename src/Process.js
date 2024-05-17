@@ -47,7 +47,7 @@ const Process = ({ data }) => {
             {Object.entries(data).map(([country, touristDocuments], index) => (
                 <div key={index}>
                     {touristDocuments && touristDocuments.map((item, itemIndex) => (
-                        <div key={itemIndex} style={{ width: '100%', border: '1px solid #ccc', padding: '11px',  display: 'flex', alignItems:'center', height: '30px', background: 'white'}}>
+                        <div key={itemIndex} style={{ width: '100%', height: '100%' ,border: '1px solid #ccc', padding: '11px',  display: 'flex', alignItems:'center', height: '30px', background: 'white'}}>
                             {item.icon && (
                                 <FontAwesomeIcon icon={parseIcon(item.icon)} style={{ marginRight: '20px', marginLeft: '20px', width: '20px', height: '20px', color: 'black' }} />
                             )}
