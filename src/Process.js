@@ -33,13 +33,13 @@ const Process = ({ data }) => {
     };
 
     return (
-        <div style={{ width: isMobile? '91%' :'55%', marginLeft: isMobile ? '5px' :'30px', marginTop: '20px'}}>
-            <div style={{marginTop: '10px' }}>
-                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight:'-24px', border: '1px solid #ccc', padding: '18px', borderTopLeftRadius:'10px', borderTopRightRadius: '10px'}}>
+        <div style={{ width: isMobile ? '91%' : '55%', marginLeft: isMobile ? '5px' : '30px', marginTop: '20px' }}>
+            <div style={{ marginTop: '10px' }}>
+                <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-between', marginRight: '-24px', border: '1px solid #ccc', padding: '18px', borderTopLeftRadius: '10px', borderTopRightRadius: '10px' }}>
                     <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '20px', fontWeight: 'bold' }}>Documents for {data.countryName} visa</span>
                 </div>
 
-                <div style={{ width: '100%', border: '1px solid #ccc', padding: '11px',display: 'flex'}}>
+                <div style={{ width: '100%', border: '1px solid #ccc', padding: '11px', display: 'flex' }}>
                     <span style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '19px', fontWeight: '600', marginLeft: '6px' }}>Mandatory Docs</span>
                 </div>
             </div>
@@ -47,12 +47,13 @@ const Process = ({ data }) => {
             {Object.entries(data).map(([country, touristDocuments], index) => (
                 <div key={index}>
                     {touristDocuments && touristDocuments.map((item, itemIndex) => (
-                        <div key={itemIndex} style={{ width: '100%', height: '100%' ,border: '1px solid #ccc', padding: '11px',  display: 'flex', alignItems:'center', height: '30px', background: 'white'}}>
+                        <div key={itemIndex} style={{ width: '100%', border: '1px solid #ccc', padding: '11px', display: 'flex', alignItems: 'center', background: 'white' }}>
                             {item.icon && (
                                 <FontAwesomeIcon icon={parseIcon(item.icon)} style={{ marginRight: '20px', marginLeft: '20px', width: '20px', height: '20px', color: 'black' }} />
                             )}
-                            <p style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '17px' }}>{item.document}</p>
+                            <p style={{ fontFamily: 'Nunito Sans, sans-serif', fontSize: '17px', margin: 0 }}>{item.document}</p>
                         </div>
+
                     ))}
                 </div>
             ))}
