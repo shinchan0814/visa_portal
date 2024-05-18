@@ -107,7 +107,7 @@ const CountryDetailPage = () => {
     return (
         <>
             <Helmet>
-                <title>Visa by saathi.app</title>
+                <title>{`Visa by saathi.app - ${countryData.countryName}`}</title>
                 <meta name='description' content='' />
                 <meta name='keywords' content='' />
             </Helmet>
