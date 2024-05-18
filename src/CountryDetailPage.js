@@ -316,7 +316,7 @@ const CountryDetailPage = () => {
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column', marginLeft: isMobile ? '-10px' : '20px' }}>
                                     <img src="/images/website/Require.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
                                     <p style={{ fontWeight: 'bold', margin: '3px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>Applicant</p>
-                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData.Applicant ?? 'No Applicants'}</p>
+                                    <p style={{ margin: '0.5px', fontSize: isMobile ? '10px' : '14px', fontFamily: 'Nunito Sans, sans-serif' }}>{countryData.Applicant ?? 'Required'}</p>
                                 </div>
                                 <div style={{ textAlign: 'center', alignItems: 'center', display: 'flex', flexDirection: 'column' }}>
                                     <img src="/images/website/Stand.png" alt="Image 1" style={{ width: isMobile ? '32px' : '42px', height: isMobile ? '28px' : '38px' }} />
