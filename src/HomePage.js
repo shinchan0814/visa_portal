@@ -60,8 +60,9 @@ const App = () => {
     <>
       <Helmet>
         <title>Visa by saathi.app</title>
-        <meta name='description' content=''/>
-        <meta name='keywords' content=''/>
+        <meta name='description' content='Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier' />
+                <meta name='keywords' content='Get visa quickly, Guarenteed visa,Visa, travel from India, Passport, Europe, America travel' />
+
       </Helmet>
       <Box sx={{ flexGrow: 1 }}>
         <Box sx={{

@@ -105,7 +105,7 @@ const CountryBanner = ({ data }) => {
                         <span style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginRight: '0px' }}>
                             <img src="/images/website/Status.png" width="13" height="13" alt="Users Icon" />
                             <i className="fas fa-clock" style={{ marginLeft: '5px', marginRight: '5px' }}></i>
-                            <span style={{ textAlign: 'left', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile ? '12px' : '' }}>{data.developmentStatus}</span>
+                            <span style={{ textAlign: 'left', fontFamily: 'Nunito Sans, sans-serif', fontSize: isMobile ? '12px' : '' }}>{data.developmentStatus} Nation</span>
                         </span>
                     </p>
                 </div>

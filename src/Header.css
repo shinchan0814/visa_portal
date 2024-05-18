@@ -1,0 +1,13 @@
+/* Header.css */
+.MuiAppBar-root {
+    background-color: rgba(96, 92, 212, 212);
+}
+
+.MuiDrawer-paper {
+    width: 250px;
+}
+
+.MuiListItemText-primary {
+    font-family: 'Nunito Sans, sans-serif';
+    font-weight: bold;
+}
