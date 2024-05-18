@@ -10,6 +10,7 @@ import Box from '@mui/material/Box';
 import FaqSection from './FaqSection';
 import './CountryDetailPage.css';
 import './styles.css'; // or import './styles.scss';
+import { Helmet } from 'react-helmet';
 
 const CountryDetailPage = () => {
     const { slug } = useParams();
@@ -105,6 +106,11 @@ const CountryDetailPage = () => {
 
     return (
         <>
+            <Helmet>
+                <title>Visa by saathi.app</title>
+                <meta name='description' content='' />
+                <meta name='keywords' content='' />
+            </Helmet>
             <>
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
@@ -140,7 +146,7 @@ const CountryDetailPage = () => {
 
                         {/* Mobile Menu */}
                         {showMenu && (
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor:isScrolled ? '#fff' : '#f7f7f7', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
+                            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: isScrolled ? '#fff' : '#f7f7f7', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
                                 {/* Text section 1 */}
                                 <div>
                                     <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Get Visa</a>
