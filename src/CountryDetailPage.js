@@ -109,7 +109,17 @@ const CountryDetailPage = () => {
             <Helmet>
                 <title>{`Visa by saathi.app - Get visa for ${countryData.countryName}`}</title>
                 <meta name='description' content='Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier' />
-                <meta name='keywords' content='Get visa quickly, Guarenteed visa,Visa, travel from India, Passport, Europe, America travel' />
+                <meta name='keywords' content=
+                {`travel, 
+                ${countryData.countryName},
+                ${countryData.visaType},
+                ${countryData.Price},
+                ${countryData.capital},
+                ${countryData.Currency},
+                ${countryData.languages},
+                ${countryData.weather},
+                ${countryData.visaTimeline},
+                `}/>
             </Helmet>
             <>
                 {/* Mobile Header with Hamburger Menu */}
