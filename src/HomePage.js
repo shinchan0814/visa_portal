@@ -61,7 +61,7 @@ const App = () => {
       <Helmet>
         <title>Visa by saathi.app</title>
         <meta name='description' content='Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier' />
-                <meta name='keywords' content='Get visa quickly, Guarenteed visa,Visa, travel from India, Passport, Europe, America travel' />
+        <meta name='keywords' content='Get visa quickly, Guarenteed visa,Visa, travel from India, Passport, Europe, America travel' />
 
       </Helmet>
       <Box sx={{ flexGrow: 1 }}>
@@ -243,33 +243,32 @@ const App = () => {
                 />
                 <Autocomplete
                   disablePortal
-                  options={countriesData.map(country => country.countryName)}
-                  renderInput={(params) =>
+                  options={countriesData.map((country) => country.countryName)}
+                  renderInput={(params) => (
                     <TextField
                       {...params}
                       label="✈️     Where to..."
                       variant="standard"
-                      InputProps={{ disableUnderline: true, fontFamily: 'Nunito Sans, sans-serif' }}
+                      InputProps={{ disableUnderline: true }}
+                      onChange={(event) => setSearchTerm(event.target.value)}
                       InputLabelProps={{
-                        style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' } // Center-align the label text
+                        style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' }, // Center-align the label text
                       }}
                     />
-                  }
-                  onInputChange={(event, newInputValue) => {
-                    setSearchTerm(newInputValue);
-                  }}
+                  )}
+                  value={searchTerm}
+                  onChange={(event, newValue) => setSearchTerm(newValue || '')}
                   sx={{
                     width: ['90%', 300],
                     backgroundColor: 'white',
                     borderRadius: 1,
-                    '& .MuiInputLabel-root': { // Selecting the label element
-                      textAlign: 'center', // Center-align the label text
-                    }
+                    '& .MuiInputLabel-root': {
+                      textAlign: 'center',
+                    },
                   }}
                 />
               </Box>
             </Box>
-
           </Box>
         </Box>
         {/* Visa Filters */}
