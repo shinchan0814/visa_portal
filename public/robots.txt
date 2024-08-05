@@ -1,5 +1,4 @@
 
 User-agent: *
 Disallow:
-
-sitemap: https://visa.saathi.app/sitemap.xml
+Sitemap: https://visa.saathi.app/sitemap.xml
