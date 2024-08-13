@@ -159,28 +159,28 @@ const CountryDetailPage = () => {
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: isScrolled ? '#fff' : '#f7f7f7', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
                                 {/* Text section 1 */}
                                 <div>
-                                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Get Visa</a>
-                                </div>
+                  <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>About</a>
+                </div>
+                <div>
+                  <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Get Visa</a>
+                </div>
 
-                                {/* Text section 2 */}
-                                <div>
-                                    <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Saathi App</a>
-                                </div>
+                {/* Text section 2 */}
+                <div>
+                  <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Download App</a>
+                </div>
+                <div>
+                  <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Blog</a>
+                </div>
+                {/* Text section 3 */}
 
-                                {/* Text section 3 */}
-                                <div>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Partners</a>
-                                </div>
-
-                                {/* Text section 4 */}
-                                <div>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Creators</a>
-                                </div>
-
-                                {/* Text section 5 */}
-                                <div>
-                                    <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none', paddingLeft: '20px' }}>Blog</a>
-                                </div>
+                <div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Partners</a>
+                </div>
+                {/* Text section 4 */}
+                <div>
+                  <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Creators</a>
+                </div>
                             </div>
                         )}
                     </div>
@@ -214,6 +214,18 @@ const CountryDetailPage = () => {
                     <div style={{ display: 'flex', gap: '35px', padding: '5px 60px 0px 0px' }}>
                         {/* Text section 1 */}
                         <div>
+                            <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer"
+                                style={{
+                                    fontWeight: 'bold',
+                                    fontSize: '18px',
+                                    color: 'rgba(96, 92, 212, 212)',
+                                    fontFamily: 'Nunito Sans, sans-serif',
+                                    textDecoration: 'none'
+                                }}>
+                                About
+                            </a>
+                        </div>
+                        <div>
                             <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer"
                                 style={{
                                     fontWeight: 'bold',
@@ -228,7 +240,7 @@ const CountryDetailPage = () => {
 
                         {/* Text section 2 */}
                         <div>
-                            <a href="https://play.google.com/store/apps/details?id=app.saathi.android&pli=1" target="_blank" rel="noopener noreferrer"
+                            <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer"
                                 style={{
                                     fontWeight: 'bold',
                                     fontSize: '18px',
@@ -237,6 +249,18 @@ const CountryDetailPage = () => {
                                     textDecoration: 'none'
                                 }}>
                                 Saathi App
+                            </a>
+                        </div>
+                        <div>
+                            <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer"
+                                style={{
+                                    fontWeight: 'bold',
+                                    fontSize: '18px',
+                                    color: 'rgba(96, 92, 212, 212)',
+                                    fontFamily: 'Nunito Sans, sans-serif',
+                                    textDecoration: 'none'
+                                }}>
+                                Blog
                             </a>
                         </div>
                         {/* Text section 3 */}
@@ -266,18 +290,7 @@ const CountryDetailPage = () => {
                             </a>
                         </div>
                         {/* Text section 5 */}
-                        <div>
-                            <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Blog
-                            </a>
-                        </div>
+                       
                     </div>
                 </Box>
             </>
