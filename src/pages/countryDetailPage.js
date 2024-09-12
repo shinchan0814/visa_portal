@@ -9,8 +9,7 @@ import Documents from '../components/documents';
 import Box from '@mui/material/Box';
 import FaqSection from '../components/faqSection';
 import Head from 'next/head';
-//import '../styles/CountryDetailPage.module.css';
-//import '../styles/styles.module.css'; // or import './styles.scss';
+import { promises as fs } from 'fs';
 
 
 const CountryDetailPage = () => {
@@ -112,6 +111,7 @@ const CountryDetailPage = () => {
         };
     }, []);
 
+
     if (isLoading) return <p>Loading...</p>;
     if (error) return <p>Error: {error}</p>;
     if (!countryData) return <p>No data available for this country.</p>;
@@ -120,9 +120,11 @@ const CountryDetailPage = () => {
         <>
             {countryData && (
                 <Head>
-                    <title>{`Visa by saathi.app - Get visa for ${countryData.countryName}`}</title>
-                    <meta name="description" content="Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier" />
-                    <meta name="keywords" content={`travel, ${countryData.countryName}, ${countryData.visaType}, ${countryData.Price}, ${countryData.capital}, ${countryData.Currency}, ${countryData.languages}, ${countryData.weather}, ${countryData.visaTimeline}`} />
+                    <title>{`Visa by Saathi.app - Get visa for ${countryData.countryName}`}</title>
+                    <meta name="description" content={`Saathi.app provides visas for ${countryData.countryName}. With your Indian passport, traveling to ${countryData.countryName} is easier. Get your ${countryData.visaType} for ${countryData.Price}.`} />
+                    <meta name="keywords" content={`travel, visa, ${countryData.countryName}, ${countryData.visaType}, ${countryData.capital}, ${countryData.Currency}, ${countryData.languages}, ${countryData.weather}, ${countryData.visaTimeline}`} />
+                    <meta property="og:title" content={`Visa for ${countryData.countryName} - Saathi.app`} />
+                    <meta property="og:description" content={`Apply for a ${countryData.visaType} visa for ${countryData.countryName} now through Saathi.app`} />
                 </Head>
             )}
             <>
@@ -383,5 +385,30 @@ const CountryDetailPage = () => {
 
     );
 };
+
+export async function getServerSideProps(context) {
+    // Load JSON file from the public directory
+    const filePath = path.join(process.cwd(), 'public/data/FinalDataCountry.json');
+
+    // Read and parse the JSON file
+    const jsonData = await fs.readFile(filePath, 'utf8');
+    const countryData = JSON.parse(jsonData);
+
+    // You can also handle specific routes if necessary using `context.params` for dynamic slug handling
+    const slug = context.params.slug;
+    const selectedCountryData = countryData.find(country => country.slug === slug); // Match the country using slug
+
+    if (!selectedCountryData) {
+        return {
+            notFound: true, // Handle 404 if country not found
+        };
+    }
+
+    return {
+        props: {
+            countryData: selectedCountryData,
+        },
+    };
+}
 
 export default CountryDetailPage;
