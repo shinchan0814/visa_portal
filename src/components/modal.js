@@ -305,7 +305,13 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                             onChange={(e) => setDeparture(e.target.value)}
                             placeholder="DD/MM/YY" // Hint text
                             style={styles.input2}
-                            max={new Date().toISOString().split('T')[0]} // Disable today and future dates
+                            min={(() => {
+                                const today = new Date();
+                                today.setDate(today.getDate() + 1);
+                                const minDate = today.toISOString().split('T')[0];
+                                console.log("Calculated min date:", minDate); // Debugging line
+                                return minDate;
+                            })()} // Disable today and future dates
                         />
                     </div>
                 </div>
@@ -320,7 +326,7 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                         style={styles.input2}
                         min={(() => {
                             const today = new Date();
-                            today.setDate(today.getDate() + 2);
+                            today.setDate(today.getDate() + 1);
                             const minDate = today.toISOString().split('T')[0];
                             console.log("Calculated min date:", minDate); // Debugging line
                             return minDate;
