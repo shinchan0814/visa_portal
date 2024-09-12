@@ -1,7 +1,9 @@
 {
   "/_app": "pages/_app.js",
+  "/about": "pages/about.js",
   "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
+  "/country/[slug]": "pages/country/[slug].js",
+  "/countryDetailPage": "pages/countryDetailPage.js",
   "/": "pages/index.js",
-  "/country/[slug]": "pages/country/[slug].js"
+  "/_document": "pages/_document.js"
 }

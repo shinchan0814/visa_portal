@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[429],{1295:function(n,_,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/countryDetailPage",function(){return u(7824)}])}},function(n){n.O(0,[976,177,826,824,888,774,179],function(){return n(n.s=1295)}),_N_E=n.O()}]);
