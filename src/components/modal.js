@@ -358,10 +358,10 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                             value={employee}
                             onChange={(e) => setEmployee(e.target.value)}
                             style={{
-                                ...styles.input1,
+                                ...styles.input3,
                             }}
                         >
-                            <option value="" disabled>Select Employment Type</option>
+                            <option value="" disabled>Select Employment</option>
                             <option value="Salaried">Salaried</option>
                             <option value="Self Employed">Self Employed</option>
                             <option value="Student">Student</option>
@@ -378,10 +378,10 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                         value={sponser}
                         onChange={(e) => setSponser(e.target.value)}
                         style={{
-                            ...styles.input1,
+                            ...styles.input3,
                         }}
                     >
-                        <option value="" disabled>Select Sponsorship Type</option>
+                        <option value="" disabled>Select Sponsorship</option>
                         <option value="Self">Self</option>
                         <option value="Employer">Employer</option>
                         <option value="Inviter">Inviter</option>
@@ -399,7 +399,7 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                             value={reason}
                             onChange={(e) => setReason(e.target.value)}
                             style={{
-                                ...styles.input1,
+                                ...styles.input3,
                             }}
                         >
                             <option value="" disabled>Select reason</option>
@@ -418,7 +418,7 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                         value={passport}
                         onChange={(e) => setPassport(e.target.value)}
                         style={{
-                            ...styles.input1,
+                            ...styles.input3,
                         }}
                     >
                         <option value="" disabled>Select location</option>
@@ -845,6 +845,23 @@ const styles = {
         fontFamily: "'DM Sans'",
         fontSize: '14px',
         boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.17)' // Added shadow
+    },
+    input3: {
+        width: '85%',
+        padding: '10px',
+        paddingRight: '30px', // Add extra padding on the right
+        borderRadius: '46px',
+        height: '45px',
+        border: 'none',
+        boxSizing: 'border-box',
+        fontFamily: "'DM Sans'",
+        fontSize: '14px',
+        boxShadow: '0px 0px 4px rgba(0, 0, 0, 0.17)',
+        appearance: 'none', // Remove default appearance
+        backgroundImage: 'linear-gradient(45deg, transparent 50%, #333 50%), linear-gradient(135deg, #333 50%, transparent 50%)',
+        backgroundPosition: 'calc(100% - 20px) center, calc(100% - 15px) center',
+        backgroundSize: '5px 5px, 5px 5px',
+        backgroundRepeat: 'no-repeat',
     },
     input2: {
         width: '85%',
