@@ -79,6 +79,7 @@ const CountryDetailPage = () => {
 
         fetchData();
     }, [slug]);
+
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -117,11 +118,13 @@ const CountryDetailPage = () => {
 
     return (
         <>
-            <Head>
-                <title>{`Visa by saathi.app - Get visa for ${countryData.countryName}`}</title>
-                <meta name="description" content="Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier" />
-                <meta name="keywords" content={`travel, ${countryData.countryName}, ${countryData.visaType}, ${countryData.Price}, ${countryData.capital}, ${countryData.Currency}, ${countryData.languages}, ${countryData.weather}, ${countryData.visaTimeline}`} />
-            </Head>
+            {countryData && (
+                <Head>
+                    <title>{`Visa by saathi.app - Get visa for ${countryData.countryName}`}</title>
+                    <meta name="description" content="Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier" />
+                    <meta name="keywords" content={`travel, ${countryData.countryName}, ${countryData.visaType}, ${countryData.Price}, ${countryData.capital}, ${countryData.Currency}, ${countryData.languages}, ${countryData.weather}, ${countryData.visaTimeline}`} />
+                </Head>
+            )}
             <>
                 {/* Mobile Header with Hamburger Menu */}
                 <Box
