@@ -777,6 +777,7 @@ const styles = {
         position: 'sticky',
         bottom: 0,
         backgroundColor: 'white',
+        borderRadius: '56px',
     },
     navButton: {
         backgroundColor: 'rgba(74, 58, 255, 1)',
