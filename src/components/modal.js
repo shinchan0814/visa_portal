@@ -2,6 +2,22 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import ProgressIndicator from '../components/progressIndicator';
 
+function useWindowWidth() {
+    const [windowWidth, setWindowWidth] = useState(
+        typeof window !== 'undefined' ? window.innerWidth : 0
+    );
+
+    useEffect(() => {
+        if (typeof window !== 'undefined') {
+            const handleResize = () => setWindowWidth(window.innerWidth);
+            window.addEventListener('resize', handleResize);
+            return () => window.removeEventListener('resize', handleResize);
+        }
+    }, []);
+
+    return windowWidth;
+}
+
 const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     const { slug } = useParams();
     const [step, setStep] = useState(currentStep);
@@ -20,6 +36,9 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     const [accommodationHelp, setAccommodationHelp] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [showErrorPopup, setShowErrorPopup] = useState(false);
+
+    const windowWidth = useWindowWidth();
+    const isMobile = windowWidth <= 768;
 
     useEffect(() => {
         const style = document.createElement('style');
@@ -116,32 +135,41 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
                         setPhone={setPhone}
                         travellers={travellers}
                         setTravellers={setTravellers}
+                        isMobile={isMobile}
                     />
                 );
             case 2:
-                return <FormStep2
-                    departure={departure}
-                    setDeparture={setDeparture}
-                    arrival={arrival}
-                    setArrival={setArrival}
-                    employee={employee}
-                    setEmployee={setEmployee}
-                    sponser={sponser}
-                    setSponser={setSponser}
-                    reason={reason}
-                    setReason={setReason}
-                    passport={passport}
-                    setPassport={setPassport}
-                />;
+                return (
+                    <FormStep2
+                        departure={departure}
+                        setDeparture={setDeparture}
+                        arrival={arrival}
+                        setArrival={setArrival}
+                        employee={employee}
+                        setEmployee={setEmployee}
+                        sponser={sponser}
+                        setSponser={setSponser}
+                        reason={reason}
+                        setReason={setReason}
+                        passport={passport}
+                        setPassport={setPassport}
+                        isMobile={isMobile}
+                    />
+                );
             case 3:
-                return <FormStep3
-                    personalizedTravelHelp={personalizedTravelHelp}
-                    setPersonalizedTravelHelp={setPersonalizedTravelHelp}
-                    flightTicketHelp={flightTicketHelp}
-                    setFlightTicketHelp={setFlightTicketHelp}
-                    accommodationHelp={accommodationHelp}
-                    setAccommodationHelp={setAccommodationHelp}
-                />;
+                return (
+
+                    <FormStep3
+                        personalizedTravelHelp={personalizedTravelHelp}
+                        setPersonalizedTravelHelp={setPersonalizedTravelHelp}
+                        flightTicketHelp={flightTicketHelp}
+                        setFlightTicketHelp={setFlightTicketHelp}
+                        accommodationHelp={accommodationHelp}
+                        setAccommodationHelp={setAccommodationHelp}
+                        isMobile={isMobile}
+                    />
+
+                );
             case 4:
                 return <FormStep4 onSubmit={handleSubmit} />;
             default:
@@ -191,12 +219,12 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     );
 };
 
-const FormStep1 = ({ name, setName, email, setEmail, phone, setPhone, travellers, setTravellers }) => (
+const FormStep1 = ({ name, setName, email, setEmail, phone, setPhone, travellers, setTravellers, isMobile }) => (
     <div style={styles.frame1}>
         <h3 style={styles.title1}>Contact details</h3>
         <div style={styles.subTitle1}>Please let us know about yourself</div>
         <form style={styles.form1}>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.column1}>
                     <label htmlFor="name" style={styles.label1}>Name</label>
                     <div style={styles.inputWrapper}>
@@ -226,7 +254,7 @@ const FormStep1 = ({ name, setName, email, setEmail, phone, setPhone, travellers
                     />
                 </div>
             </div>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.column1}>
                     <label htmlFor="phone" style={styles.label1}>Phone Number</label>
                     <div style={styles.inputWrapper}>
@@ -261,12 +289,12 @@ const FormStep1 = ({ name, setName, email, setEmail, phone, setPhone, travellers
 );
 
 
-const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, setEmployee, sponser, setSponser, reason, setReason, passport, setPassport }) => (
+const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, setEmployee, sponser, setSponser, reason, setReason, passport, setPassport, isMobile }) => (
     <div style={styles.frame1}>
         <h3 style={styles.title2}>Travelling information</h3>
         <div style={styles.subTitle2}>Please tell us something about your upcoming travel plans</div>
         <form style={styles.form1}>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.column1}>
                     <label htmlFor="departure" style={styles.label1}>Departure Date</label>
                     <div style={styles.inputWrapper}>
@@ -300,7 +328,7 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
                     />
                 </div>
             </div>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.column1}>
                     <label htmlFor="employee" style={styles.label1}>Employment status</label>
                     <div style={styles.inputWrapper}>
@@ -341,7 +369,7 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
 
                 </div>
             </div>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.column1}>
                     <label htmlFor="reason" style={styles.label1}>Reason of travel</label>
                     <div style={styles.inputWrapper}>
@@ -418,14 +446,14 @@ const FormStep2 = ({ departure, setDeparture, arrival, setArrival, employee, set
     </div>
 );
 
-const FormStep3 = ({ personalizedTravelHelp, setPersonalizedTravelHelp, flightTicketHelp, setFlightTicketHelp, accommodationHelp, setAccommodationHelp }) => (
+const FormStep3 = ({ personalizedTravelHelp, setPersonalizedTravelHelp, flightTicketHelp, setFlightTicketHelp, accommodationHelp, setAccommodationHelp, isMobile }) => (
     <div style={styles.frame1}>
         <h3 style={styles.title1}>Additional information</h3>
         <div style={styles.subTitle1}>
             If you don't have everything sorted out, let us know
         </div>
         <form style={styles.form1}>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.questionText}>
                     Do you need any help with personalized travel planning?
                 </div>
@@ -454,7 +482,7 @@ const FormStep3 = ({ personalizedTravelHelp, setPersonalizedTravelHelp, flightTi
                     </label>
                 </div>
             </div>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.questionText}>
                     Do you need help with flight tickets for visa?
                 </div>
@@ -483,7 +511,7 @@ const FormStep3 = ({ personalizedTravelHelp, setPersonalizedTravelHelp, flightTi
                     </label>
                 </div>
             </div>
-            <div style={styles.row1}>
+            <div style={isMobile ? styles.columnMobile : styles.row1}>
                 <div style={styles.questionText}>
                     Do you need help with accommodation for visa?
                 </div>
@@ -534,6 +562,12 @@ const FormStep4 = ({ onSubmit, isSubmitting }) => (
 );
 
 const styles = {
+    columnMobile: {
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '20px',
+        marginBottom: '20px',
+    },
     popupOverlay: {
         position: 'fixed',
         top: 0,
@@ -706,16 +740,22 @@ const styles = {
         width: '100%',
         padding: '20px',
         boxSizing: 'border-box',
-    },
+        flex: 1,
+        overflowY: 'auto', // Scroll only if content exceeds
+        marginBottom: '20px', // Space for the button container
+        paddingRight: '10px',
+        maxHeight: 'calc(100vh - 40px)', // Ensure it fits within the viewport
+    },    
     buttonContainer: {
         display: 'flex',
         width: '100%',
         padding: '10px',
         boxSizing: 'border-box',
-        position: 'absolute',
-        bottom: '20px',
         alignItems: 'center',
         justifyContent: 'space-between',
+        position: 'sticky',
+        bottom: 0,
+        backgroundColor: 'white',
     },
     navButton: {
         backgroundColor: 'rgba(74, 58, 255, 1)',
