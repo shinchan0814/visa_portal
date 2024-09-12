@@ -67,34 +67,37 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
             Flight_Tickets_Needed: flightTicketHelp === 'yes',
             Hotel_Booking_Needed: accommodationHelp === 'yes',
         };
-        const body = JSON.stringify(formData)
-        console.log(body)
-    
+        const body = JSON.stringify(formData);
+        console.log(body);
+
         try {
             const response = await fetch('https://saathi-visa-backend.vercel.app/submit', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
                 },
-                body: JSON.stringify(formData),
+                body: body,
             });
-        
-            if (!response.ok) {
+
+            const responseText = await response.text(); // Get the raw text response
+            console.log('Response:', responseText);
+
+            // You can check the response text and show a success message if needed
+            if (response.ok) {
+                console.log('Form submitted successfully:', responseText);
+                closeModal(); // Close modal if the form submission was successful
+            } else {
                 throw new Error('Failed to submit form');
             }
-        
-            const data = await response.json();
-            console.log('Form submitted successfully:', data);
-            closeModal();
+
         } catch (error) {
             console.error('Error submitting form:', error);
-            setShowErrorPopup(true);
+            setShowErrorPopup(true); // Show error popup on failure
         } finally {
             setIsSubmitting(false);
         }
     };
-    
-    
+
 
     const closeErrorPopup = () => {
         setShowErrorPopup(false);
