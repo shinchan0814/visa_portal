@@ -36,6 +36,7 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     const [accommodationHelp, setAccommodationHelp] = useState('');
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [showErrorPopup, setShowErrorPopup] = useState(false);
+    const [showSuccessPopup, setShowSuccessPopup] = useState(false);
 
     const windowWidth = useWindowWidth();
     const isMobile = windowWidth <= 768;
@@ -104,7 +105,7 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
             // You can check the response text and show a success message if needed
             if (response.ok) {
                 console.log('Form submitted successfully:', responseText);
-                closeModal(); // Close modal if the form submission was successful
+                setShowSuccessPopup(true);
             } else {
                 throw new Error('Failed to submit form');
             }
@@ -177,6 +178,11 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
         }
     };
 
+    const closeSuccessPopup = () => {
+        setShowSuccessPopup(false);
+        closeModal();
+    };
+
     return (
         <div style={styles.modalOverlay}>
             <div style={styles.modalContent}>
@@ -214,6 +220,15 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
                         </div>
                     </div>
                 )}
+                {showSuccessPopup && (
+                <div style={styles.popupOverlay}>
+                    <div style={styles.popup}>
+                        <h2>Success</h2>
+                        <p>Your application has been received. We will shortly get in touch with you.</p>
+                        <button onClick={closeSuccessPopup} style={styles.popupButton}>Close</button>
+                    </div>
+                </div>
+            )}
             </div>
         </div>
     );
