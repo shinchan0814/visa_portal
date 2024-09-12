@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useParams } from 'next/navigation';
+import { useParams, useRouter } from 'next/navigation';
 import CountryBanner from '../components/countryBanner';
 import VisaPricing from '../components/visaPricing';
 import CountryTabs from '../components/countryTabs';
@@ -12,8 +12,11 @@ import Head from 'next/head';
 //import '../styles/CountryDetailPage.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
 
+
 const CountryDetailPage = () => {
-    const { slug } = useParams();
+    const router = useRouter();
+    const params = useParams();
+    const slug = params?.slug;
     const [countryData, setCountryData] = useState({});
     const [faqs, setFaqs] = useState([]);
     const [documents, setDocuments] = useState([]);
@@ -23,56 +26,59 @@ const CountryDetailPage = () => {
     const [docrequired, setDocRequired] = useState([]);
     const [showMenu, setShowMenu] = useState(false);
 
+    const [isLoading, setIsLoading] = useState(true);
+    const [error, setError] = useState(null);
+
     useEffect(() => {
-        // Fetching for CountryBanner: demographic + visa info combined
-        if (!slug) return;
-        Promise.all([
-            fetch(`/data/FinalDataCountry.json`).then(res => res.json()),
-            fetch(`/data/combined_visa_info.json`).then(res => res.json())
-        ]).then(([countriesData, visaInfoData]) => {
-            const countryInfo = countriesData.find(country => country.slug === slug);
-            const visaInfo = visaInfoData[slug];
-            if (countryInfo && visaInfo) {
-                const combinedData = { ...countryInfo, ...visaInfo };
-                setCountryData(combinedData);
-            } else {
-                console.error('Country data or visa info is missing');
-            }
-        }).catch(error => console.error('Failed to load combined country and visa data', error));
+        if (!slug) {
+            setError('No country specified');
+            setIsLoading(false);
+            return;
+        }
 
-        // Fetching FAQs data
-        fetch(`/data/combined_faqs.json`)
-            .then(response => response.json())
-            .then(data => setFaqs(data[slug] || []))
-            .catch(error => console.error('Failed to load FAQs', error));
+        const fetchData = async () => {
+            try {
+                const [countriesResponse, visaInfoResponse, faqsResponse, documentsResponse, sectionsResponse, processInfoResponse] = await Promise.all([
+                    fetch('/data/FinalDataCountry.json'),
+                    fetch('/data/combined_visa_info.json'),
+                    fetch('/data/combined_faqs.json'),
+                    fetch('/data/combined_documents.json'),
+                    fetch('/data/combined_sections.json'),
+                    fetch('/data/All_Documents_Required.json')
+                ]);
 
-        fetch(`/data/All_Documents_Required.json`)
-            .then(response => response.json())
-            .then(data => setProcessInfo(data[slug] || []))
-            .catch(error => console.error('Failed to required docs', error))
+                const [countriesData, visaInfoData, faqsData, documentsData, sectionsData, processInfoData] = await Promise.all([
+                    countriesResponse.json(),
+                    visaInfoResponse.json(),
+                    faqsResponse.json(),
+                    documentsResponse.json(),
+                    sectionsResponse.json(),
+                    processInfoResponse.json()
+                ]);
 
-        // Fetching documents data
-        fetch(`/data/combined_documents.json`)
-            .then(response => response.json())
-            .then(data => setDocuments(data[slug] || []))
-            .catch(error => console.error('Failed to load documents', error));
+                const countryInfo = countriesData.find(country => country.slug === slug);
+                const visaInfo = visaInfoData[slug];
 
-        // Fetching sections/process information
-        fetch(`/data/combined_sections.json`)
-            .then(response => response.json())
-            .then(data => {
-                // Assume the data for each country is stored under its slug as an array
-                if (Array.isArray(data[slug])) {
-                    setAboutData(data[slug]);
+                if (countryInfo && visaInfo) {
+                    setCountryData({ ...countryInfo, ...visaInfo });
                 } else {
-                    console.error('Data is not an array', data[slug]);
-                    setAboutData([]); // Set to empty array to avoid errors
+                    setError('Country data or visa info is missing');
                 }
-            })
-            .catch(error => console.error('Failed to load about sections', error));
-        window.scrollTo(0, 0);
-    }, [slug]);
 
+                setFaqs(faqsData[slug] || []);
+                setDocuments(documentsData[slug] || []);
+                setAboutData(Array.isArray(sectionsData[slug]) ? sectionsData[slug] : []);
+                setProcessInfo(processInfoData[slug] || []);
+            } catch (error) {
+                console.error('Failed to load data', error);
+                setError('Failed to load data. Please try again later.');
+            } finally {
+                setIsLoading(false);
+            }
+        };
+
+        fetchData();
+    }, [slug]);
     const [isScrolled, setIsScrolled] = useState(false);
 
     useEffect(() => {
@@ -104,6 +110,10 @@ const CountryDetailPage = () => {
             window.removeEventListener('resize', handleResize);
         };
     }, []);
+
+    if (isLoading) return <p>Loading...</p>;
+    if (error) return <p>Error: {error}</p>;
+    if (!countryData) return <p>No data available for this country.</p>;
 
     return (
         <>
