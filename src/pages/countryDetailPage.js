@@ -118,188 +118,225 @@ const CountryDetailPage = () => {
 
     return (
         <>
-            {countryData && (
-                <Head>
-                    <title>{`Visa by Saathi.app - Get visa for ${countryData.countryName}`}</title>
-                    <meta name="description" content={`Saathi.app provides visas for ${countryData.countryName}. With your Indian passport, traveling to ${countryData.countryName} is easier. Get your ${countryData.visaType} for ${countryData.Price}.`} />
-                    <meta name="keywords" content={`travel, visa, ${countryData.countryName}, ${countryData.visaType}, ${countryData.capital}, ${countryData.Currency}, ${countryData.languages}, ${countryData.weather}, ${countryData.visaTimeline}`} />
-                    <meta property="og:title" content={`Visa for ${countryData.countryName} - Saathi.app`} />
-                    <meta property="og:description" content={`Apply for a ${countryData.visaType} visa for ${countryData.countryName} now through Saathi.app`} />
-                </Head>
-            )}
-            <>
-                {/* Mobile Header with Hamburger Menu */}
-                <Box
-                    sx={{
-                        width: '90%',
-                        height: 50,
-                        display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
-                        alignItems: 'center',
-                        justifyContent: 'space-between',
-                        padding: '3px 35px', // Adjusted padding for spacing
-                        backgroundColor: isScrolled ? '#fff' : 'transparent', // Adjusted background color
-                        position: 'fixed', // Changed to fixed positioning
-                        marginLeft: '-30px',
-                        top: 0,
-                        zIndex: 1200,
-                    }}
-                >
-                    {/* Logo */}
-                    <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft: "-15px" }}>
-                        <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
-                        <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
-                            <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
-                            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
-                        </div>
+            <Head>
+                <title>{`Visa by Saathi.app - Get Visa for ${countryData.countryName}`}</title>
+                <meta name="description" content={`Apply for a ${countryData.visaType} visa to ${countryData.countryName} with Saathi.app. Easy process, ${countryData.visaTimeline} processing. Price: ${countryData.Price}.`} />
+                <meta name="keywords" content={`${countryData.countryName} visa, ${countryData.visaType}, Indian passport, travel to ${countryData.countryName}, visa application, Saathi.app`} />
+
+                {/* Open Graph / Facebook */}
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content={`https://visa.saathi.app/country/${slug}`} />
+                <meta property="og:title" content={`${countryData.countryName} Visa Application - Saathi.app`} />
+                <meta property="og:description" content={`Apply for your ${countryData.visaType} visa to ${countryData.countryName}. Processing time: ${countryData.visaTimeline}. Apply now with Saathi.app!`} />
+
+                {/* Twitter */}
+                <meta property="twitter:card" content="summary_large_image" />
+                <meta property="twitter:url" content={`https://visa.saathi.app/country/${slug}`} />
+                <meta property="twitter:title" content={`${countryData.countryName} Visa Application - Saathi.app`} />
+                <meta property="twitter:description" content={`Apply for your ${countryData.visaType} visa to ${countryData.countryName}. Processing time: ${countryData.visaTimeline}. Apply now with Saathi.app!`} />
+
+                {/* Additional metadata */}
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <meta name="robots" content="index, follow" />
+                <meta name="author" content="Saathi.app" />
+                <link rel="canonical" href={`https://visa.saathi.app/country/${slug}`} />
+
+                {/* Schema.org markup for Google */}
+                <script type="application/ld+json">
+                    {JSON.stringify({
+                        "@context": "https://schema.org",
+                        "@type": "TravelAction",
+                        "name": `${countryData.countryName} Visa Application`,
+                        "description": `Apply for a ${countryData.visaType} visa to ${countryData.countryName} with Saathi.app`,
+                        "target": {
+                            "@type": "EntryPoint",
+                            "urlTemplate": `https://visa.saathi.app/${slug}`,
+                            "actionPlatform": [
+                                "http://schema.org/DesktopWebPlatform",
+                                "http://schema.org/MobileWebPlatform"
+                            ]
+                        },
+                        "result": {
+                            "@type": "VisaApplication",
+                            "name": `${countryData.visaType} for ${countryData.countryName}`,
+                            "processingTime": countryData.visaTimeline,
+                            "price": countryData.Price
+                        }
+                    })}
+                </script>
+            </Head>
+            {/* Mobile Header with Hamburger Menu */}
+            <Box
+                sx={{
+                    width: '90%',
+                    height: 50,
+                    display: { xs: 'flex', sm: 'none' }, // Show flex display on small screens, hide on larger screens
+                    alignItems: 'center',
+                    justifyContent: 'space-between',
+                    padding: '3px 35px', // Adjusted padding for spacing
+                    backgroundColor: isScrolled ? '#fff' : 'transparent', // Adjusted background color
+                    position: 'fixed', // Changed to fixed positioning
+                    marginLeft: '-30px',
+                    top: 0,
+                    zIndex: 1200,
+                }}
+            >
+                {/* Logo */}
+                <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft: "-15px" }}>
+                    <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
+                    <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
+                        <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
+                        <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
+                    </div>
+                </div>
+
+                {/* Hamburger Icon and Menu for Mobile */}
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
+                    {/* Hamburger Icon */}
+                    <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
+                        &#9776;
                     </div>
 
-                    {/* Hamburger Icon and Menu for Mobile */}
-                    <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
-                        {/* Hamburger Icon */}
-                        <div style={{ cursor: 'pointer', paddingRight: '20px' }} onClick={() => setShowMenu(!showMenu)}>
-                            &#9776;
-                        </div>
-
-                        {/* Mobile Menu */}
-                        {showMenu && (
-                            <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: isScrolled ? '#fff' : '#f7f7f7', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
-                                {/* Text section 1 */}
-                                <div>
-                                    <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>About</a>
-                                </div>
-                                <div>
-                                    <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Get Visa</a>
-                                </div>
-
-                                {/* Text section 2 */}
-                                <div>
-                                    <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Download App</a>
-                                </div>
-                                <div>
-                                    <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Blog</a>
-                                </div>
-                                {/* Text section 3 */}
-
-                                <div>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Partners</a>
-                                </div>
-                                {/* Text section 4 */}
-                                <div>
-                                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Creators</a>
-                                </div>
+                    {/* Mobile Menu */}
+                    {showMenu && (
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', padding: '15px 0', backgroundColor: isScrolled ? '#fff' : '#f7f7f7', position: 'absolute', top: 50, left: 0, width: '100%', zIndex: 1100 }}>
+                            {/* Text section 1 */}
+                            <div>
+                                <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>About</a>
                             </div>
-                        )}
+                            <div>
+                                <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Get Visa</a>
+                            </div>
+
+                            {/* Text section 2 */}
+                            <div>
+                                <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Download App</a>
+                            </div>
+                            <div>
+                                <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Blog</a>
+                            </div>
+                            {/* Text section 3 */}
+
+                            <div>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Partners</a>
+                            </div>
+                            {/* Text section 4 */}
+                            <div>
+                                <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer" style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif', textDecoration: 'none' }}>Creators</a>
+                            </div>
+                        </div>
+                    )}
+                </div>
+            </Box>
+
+            {/* Desktop Header */}
+            <Box
+                sx={{
+                    width: '100%',
+                    height: 90,
+                    display: { xs: 'none', sm: 'flex' }, // Show flex display on larger screens, hide on small screens
+                    alignItems: 'center',
+                    padding: '0px 0px', // Adjusted padding for spacing
+                    backgroundColor: isScrolled ? '#fff' : 'transparent', // Adjusted background color
+                    position: 'fixed', // Changed to fixed positioning
+                    top: 0,
+                    justifyContent: 'space-between',
+                    marginLeft: -5,
+                    zIndex: 1200,
+                }}
+            >
+                {/* Logo */}
+                <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 72px', alignItems: 'center' }}>
+                    <img src="/images/website/Saathi_img.png" alt="Twitter Cover" style={{ width: '28.24px', height: '46px' }} />
+                    <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
+                        <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
+                        <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
                     </div>
-                </Box>
+                </div>
 
-                {/* Desktop Header */}
-                <Box
-                    sx={{
-                        width: '100%',
-                        height: 90,
-                        display: { xs: 'none', sm: 'flex' }, // Show flex display on larger screens, hide on small screens
-                        alignItems: 'center',
-                        padding: '0px 0px', // Adjusted padding for spacing
-                        backgroundColor: isScrolled ? '#fff' : 'transparent', // Adjusted background color
-                        position: 'fixed', // Changed to fixed positioning
-                        top: 0,
-                        justifyContent: 'space-between',
-                        marginLeft: -5,
-                        zIndex: 1200,
-                    }}
-                >
-                    {/* Logo */}
-                    <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 72px', alignItems: 'center' }}>
-                        <img src="/images/website/Saathi_img.png" alt="Twitter Cover" style={{ width: '28.24px', height: '46px' }} />
-                        <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
-                            <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
-                            <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
-                        </div>
+                <div style={{ display: 'flex', gap: '35px', padding: '5px 60px 0px 0px' }}>
+                    {/* Text section 1 */}
+                    <div>
+                        <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            About
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            Get Visa
+                        </a>
                     </div>
 
-                    <div style={{ display: 'flex', gap: '35px', padding: '5px 60px 0px 0px' }}>
-                        {/* Text section 1 */}
-                        <div>
-                            <a href="https://saathi.app/about-us" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                About
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://visa.saathi.app/" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Get Visa
-                            </a>
-                        </div>
-
-                        {/* Text section 2 */}
-                        <div>
-                            <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Saathi App
-                            </a>
-                        </div>
-                        <div>
-                            <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Blog
-                            </a>
-                        </div>
-                        {/* Text section 3 */}
-                        <div>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Partners
-                            </a>
-                        </div>
-                        {/* Text section 4 */}
-                        <div>
-                            <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer"
-                                style={{
-                                    fontWeight: 'bold',
-                                    fontSize: '18px',
-                                    color: 'rgba(96, 92, 212, 212)',
-                                    fontFamily: 'Nunito Sans, sans-serif',
-                                    textDecoration: 'none'
-                                }}>
-                                Creators
-                            </a>
-                        </div>
-                        {/* Text section 5 */}
-
+                    {/* Text section 2 */}
+                    <div>
+                        <a href="https://saathiapp.onelink.me/I342/t4ek7oi9" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            Saathi App
+                        </a>
                     </div>
-                </Box>
-            </>
+                    <div>
+                        <a href="https://blog.saathi.app/" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            Blog
+                        </a>
+                    </div>
+                    {/* Text section 3 */}
+                    <div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScWUyqSZidaqJiO1bt9wj4rJSxLM8U0NicYX55y3R6MslWaNQ/viewform" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            Partners
+                        </a>
+                    </div>
+                    {/* Text section 4 */}
+                    <div>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSey8QQWD7lXE44MYamKU0my7aIuElO3lpvlZnKH5Ir6NFweow/viewform" target="_blank" rel="noopener noreferrer"
+                            style={{
+                                fontWeight: 'bold',
+                                fontSize: '18px',
+                                color: 'rgba(96, 92, 212, 212)',
+                                fontFamily: 'Nunito Sans, sans-serif',
+                                textDecoration: 'none'
+                            }}>
+                            Creators
+                        </a>
+                    </div>
+                    {/* Text section 5 */}
+
+                </div>
+            </Box>
+
 
             <Box
                 sx={{
@@ -387,28 +424,41 @@ const CountryDetailPage = () => {
 };
 
 export async function getServerSideProps(context) {
-    // Load JSON file from the public directory
-    const filePath = path.join(process.cwd(), 'public/data/FinalDataCountry.json');
+    const { slug } = context.params;
 
-    // Read and parse the JSON file
-    const jsonData = await fs.readFile(filePath, 'utf8');
-    const countryData = JSON.parse(jsonData);
+    try {
+        const dataPath = path.join(process.cwd(), 'public', 'data');
 
-    // You can also handle specific routes if necessary using `context.params` for dynamic slug handling
-    const slug = context.params.slug;
-    const selectedCountryData = countryData.find(country => country.slug === slug); // Match the country using slug
+        const [countriesData, visaInfoData, faqsData, documentsData, sectionsData, processInfoData] = await Promise.all([
+            fs.readFile(path.join(dataPath, 'FinalDataCountry.json'), 'utf8').then(JSON.parse),
+            fs.readFile(path.join(dataPath, 'combined_visa_info.json'), 'utf8').then(JSON.parse),
+            fs.readFile(path.join(dataPath, 'combined_faqs.json'), 'utf8').then(JSON.parse),
+            fs.readFile(path.join(dataPath, 'combined_documents.json'), 'utf8').then(JSON.parse),
+            fs.readFile(path.join(dataPath, 'combined_sections.json'), 'utf8').then(JSON.parse),
+            fs.readFile(path.join(dataPath, 'All_Documents_Required.json'), 'utf8').then(JSON.parse),
+        ]);
 
-    if (!selectedCountryData) {
+        const countryInfo = countriesData.find(country => country.slug === slug);
+        const visaInfo = visaInfoData[slug];
+
+        if (!countryInfo || !visaInfo) {
+            return { notFound: true };
+        }
+
         return {
-            notFound: true, // Handle 404 if country not found
+            props: {
+                countryData: { ...countryInfo, ...visaInfo },
+                faqs: faqsData[slug] || [],
+                documents: documentsData[slug] || [],
+                aboutData: Array.isArray(sectionsData[slug]) ? sectionsData[slug] : [],
+                processInfo: processInfoData[slug] || [],
+            },
         };
+    } catch (error) {
+        console.error('Failed to load data', error);
+        return { notFound: true };
     }
-
-    return {
-        props: {
-            countryData: selectedCountryData,
-        },
-    };
 }
+
 
 export default CountryDetailPage;
