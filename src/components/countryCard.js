@@ -173,7 +173,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
           </Grid>
         </Grid>
         <Link href={`/country/${country.slug}`} passHref>
-          <Button component="a" variant="contained"
+          <Button component="a" variant="contained" 
             sx={{ borderRadius: 4, width: 145, height: 35, marginTop: '16px', textTransform: 'none', fontSize: 18, backgroundColor: 'rgb(92,92,212, 0.70)' }}>
             <span style={{ color: 'white', fontFamily: 'Nunito Sans, sans-serif' }}>Let's go</span>
           </Button>
@@ -184,7 +184,6 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
           <span style={{ color: 'white', fontFamily: 'Nunito Sans, sans-serif' }}>Let's go</span>
         </Button> */}
       </CardContent>
-
     </Card>
   );
 };
