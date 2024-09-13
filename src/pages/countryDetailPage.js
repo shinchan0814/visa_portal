@@ -9,7 +9,6 @@ import Documents from '../components/documents';
 import Box from '@mui/material/Box';
 import FaqSection from '../components/faqSection';
 import Head from 'next/head';
-import { promises as fs } from 'fs';
 
 
 const CountryDetailPage = () => {
@@ -150,7 +149,7 @@ const CountryDetailPage = () => {
                         "description": `Apply for a ${countryData.visaType} visa to ${countryData.countryName} with Saathi.app`,
                         "target": {
                             "@type": "EntryPoint",
-                            "urlTemplate": `https://visa.saathi.app/${slug}`,
+                            "urlTemplate": `https://visa.saathi.app/country/${slug}`,
                             "actionPlatform": [
                                 "http://schema.org/DesktopWebPlatform",
                                 "http://schema.org/MobileWebPlatform"
@@ -422,43 +421,5 @@ const CountryDetailPage = () => {
 
     );
 };
-
-export async function getServerSideProps(context) {
-    const { slug } = context.params;
-
-    try {
-        const dataPath = path.join(process.cwd(), 'public', 'data');
-
-        const [countriesData, visaInfoData, faqsData, documentsData, sectionsData, processInfoData] = await Promise.all([
-            fs.readFile(path.join(dataPath, 'FinalDataCountry.json'), 'utf8').then(JSON.parse),
-            fs.readFile(path.join(dataPath, 'combined_visa_info.json'), 'utf8').then(JSON.parse),
-            fs.readFile(path.join(dataPath, 'combined_faqs.json'), 'utf8').then(JSON.parse),
-            fs.readFile(path.join(dataPath, 'combined_documents.json'), 'utf8').then(JSON.parse),
-            fs.readFile(path.join(dataPath, 'combined_sections.json'), 'utf8').then(JSON.parse),
-            fs.readFile(path.join(dataPath, 'All_Documents_Required.json'), 'utf8').then(JSON.parse),
-        ]);
-
-        const countryInfo = countriesData.find(country => country.slug === slug);
-        const visaInfo = visaInfoData[slug];
-
-        if (!countryInfo || !visaInfo) {
-            return { notFound: true };
-        }
-
-        return {
-            props: {
-                countryData: { ...countryInfo, ...visaInfo },
-                faqs: faqsData[slug] || [],
-                documents: documentsData[slug] || [],
-                aboutData: Array.isArray(sectionsData[slug]) ? sectionsData[slug] : [],
-                processInfo: processInfoData[slug] || [],
-            },
-        };
-    } catch (error) {
-        console.error('Failed to load data', error);
-        return { notFound: true };
-    }
-}
-
 
 export default CountryDetailPage;
