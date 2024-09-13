@@ -57,6 +57,19 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
         return null;
     }
 
+    const validateStep1 = () => {
+        return name && email && phone && travellers; // Check if all fields are filled
+    };
+
+    const validateStep2 = () => {
+        return departure && arrival && employee && sponser && reason && passport; // Check if all fields are filled
+    };
+
+    const validateStep3 = () => {
+        return personalizedTravelHelp && flightTicketHelp && accommodationHelp; // Check if all radio options are selected
+    };
+    
+
     const handlePrevious = () => {
         if (step > 1) {
             setStep(step - 1);
@@ -64,10 +77,31 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     };
 
     const handleNext = () => {
-        if (step < 4) {
-            setStep(step + 1);
+        let isValid = true;
+    
+        switch (step) {
+            case 1:
+                isValid = validateStep1();
+                break;
+            case 2:
+                isValid = validateStep2();
+                break;
+            case 3:
+                isValid = validateStep3();
+                break;
+            default:
+                isValid = true;
+        }
+    
+        if (isValid) {
+            if (step < 4) {
+                setStep(prevStep => prevStep + 1); // Increment step only if validation is successful
+            }
+        } else {
+            alert("Please fill all the required fields before proceeding.");
         }
     };
+    
 
     const handleSubmit = async () => {
         setIsSubmitting(true);
