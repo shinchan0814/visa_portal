@@ -118,9 +118,9 @@ const CountryDetailPage = () => {
     return (
         <>
             <Head>
-                <title>{`Visa by Saathi.app - Get Visa for ${countryData.countryName}`}</title>
-                <meta name="description" content={`Apply for a ${countryData.visaType} visa to ${countryData.countryName} with Saathi.app. Easy process, ${countryData.visaTimeline} processing. Price: ${countryData.Price}.`} />
-                <meta name="keywords" content={`${countryData.countryName} visa, ${countryData.visaType}, Indian passport, travel to ${countryData.countryName}, visa application, Saathi.app`} />
+                <title>{`${countryData.countryName} visa for Indians | Apply online with Saathi.app`}</title>
+                <meta name="description" content={`Looking to get your ${countryData.countryName} visa hassle-free. Saathi.app is here to help Indian citizens with quick processing and expert assistance. Start your ${countryData.countryName} application today. `} />
+                <meta name="keywords" content={`Visa for Indians, Visa by saathi app, Saathi app, visa application, how to apply for ${countryData.countryName} visa, ${countryData.countryName} visa applications, Visa bulletin, Visa Card, visa free countries for indian passport, visa full form, visa mofa `} />
 
                 {/* Open Graph / Facebook */}
                 <meta property="og:type" content="website" />

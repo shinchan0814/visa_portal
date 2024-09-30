@@ -63,8 +63,8 @@ const App = () => {
   return (
     <>
       <Head>
-        <title>Visa by saathi.app</title>
-        <meta name="description" content="Saathi.app provides you the visa for more than 100+ countries in the world. With your Indian passport, travel to any country has become easier" />
+        <title>Visa for Indian Travelers | Saathi.app</title>
+        <meta name="description" content="Saathi.app offers visa for Indian travelers, providing comprehensive tools and insights to elevate your travel experience. Plan flawless trips, stay stress-free with real-time safety alerts, and ensure a smooth journey with Saathi.app - Your trusted travel companion. Explore visa options for over 50 countries worldwide." />
         <meta name="keywords" content="Get visa quickly, Guaranteed visa, Visa, travel from India, Passport, Europe, America travel" />
       </Head>
       <Box sx={{ flexGrow: 1 }}>
