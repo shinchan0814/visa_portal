@@ -68,7 +68,7 @@ const CountryBanner = ({ data }) => {
                 />
             )}
             <div className="country-info">
-                <h1 style={{ color: 'white', fontSize: isMobile ? '20px' : '30px', textShadow: '0 0 8px black', fontFamily: 'Nunito Sans, sans-serif' }}>{data.countryName}</h1>
+                <h1 style={{ color: 'white', fontSize: isMobile ? '20px' : '30px', textShadow: '0 0 8px black', fontFamily: 'Nunito Sans, sans-serif' }}>{data.countryName} visa for indians</h1>
                 <div className="black-overlay"
                     style={{
                         position: 'absolute',
