@@ -1,4 +1,4 @@
-﻿[
+[
   {
     "id": "1",
     "countryName": "United Arab Emirates",
@@ -17,7 +17,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/UAE/united-arab-emirates-5c5cc019.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 1,
+    "canonicalNames": [
+      "UAE",
+      "Dubai",
+      "Abu Dhabi",
+      "Emirates",
+      "Middle East"
+    ]
   },
   {
     "id": "2",
@@ -37,7 +45,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Egypt/egypt-f3c49d96.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "22",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 2,
+    "canonicalNames": [
+      "Cairo",
+      "Giza",
+      "Africa"
+    ]
   },
   {
     "id": "3",
@@ -57,7 +71,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Vietnam/vietnam-d04d9fb8.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "24",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 2,
+    "canonicalNames": [
+      "Hanoi",
+      "Ho Chi Minh",
+      "ASEAN"
+    ]
   },
   {
     "id": "4",
@@ -77,7 +97,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Singapore/singapore-290dbb2e.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "25",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 1,
+    "canonicalNames": [
+      "ASEAN"
+    ]
   },
   {
     "id": "5",
@@ -97,7 +121,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Hong%20Kong/hong-kong-72d98b57.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "24",
-    "visaTimeline": "1"
+    "visaTimeline": "1",
+    "priority": 4,
+    "canonicalNames": [
+      "HK"
+    ]
   },
   {
     "id": "6",
@@ -117,7 +145,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Indonesia/indonesia-9717114f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 2,
+    "canonicalNames": [
+      "Jakarta",
+      "Bali"
+    ]
   },
   {
     "id": "7",
@@ -137,7 +170,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Azerbaijan/azerbaijan-5e1ff64b.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "12",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 5,
+    "canonicalNames": [
+      "Baku"
+    ]
   },
   {
     "id": "8",
@@ -157,7 +194,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Australia/australia-8b200988.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "22",
-    "visaTimeline": "30"
+    "visaTimeline": "30",
+    "priority": 1,
+    "canonicalNames": [
+      "Sydney",
+      "Melbourne",
+      "Brisbane",
+      "Perth",
+      "Adelaide"
+    ]
   },
   {
     "id": "9",
@@ -177,7 +222,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Oman/oman-9ee0d7e4.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "29",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 1,
+    "canonicalNames": [
+      "Muscat",
+      "Middle East"
+    ]
   },
   {
     "id": "10",
@@ -197,7 +247,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Japan/japan-c4c370dd.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "15",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 1,
+    "canonicalNames": [
+      "Tokyo",
+      "Kyoto",
+      "Osaka",
+      "Yokohama"
+    ]
   },
   {
     "id": "11",
@@ -217,7 +274,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Malaysia/malaysia-8b04c7a1.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 1,
+    "canonicalNames": [
+      "Kuala Lumpur",
+      "ASEAN"
+    ]
   },
   {
     "id": "12",
@@ -237,7 +299,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Sri%20Lanka/sri-lanka-11d05de3.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 2,
+    "canonicalNames": [
+      "Colombo"
+    ]
   },
   {
     "id": "13",
@@ -257,7 +323,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/China/china-a377af9a.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "7",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 4,
+    "canonicalNames": [
+      "Beijing",
+      "Shanghai"
+    ]
   },
   {
     "id": "14",
@@ -277,7 +348,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Turkey/turkey-6674bd0b.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "11",
-    "visaTimeline": "14"
+    "visaTimeline": "14",
+    "priority": 2,
+    "canonicalNames": [
+      "Turkiye",
+      "Istanbul"
+    ]
   },
   {
     "id": "15",
@@ -297,7 +373,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Morocco/morocco-2ce5fd49.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "17",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 4,
+    "canonicalNames": [
+      "Casablanca",
+      "Africa"
+    ]
   },
   {
     "id": "16",
@@ -317,7 +398,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Bahrain/bahrain-57c070bc.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 6,
+    "canonicalNames": [
+      "Middle East"
+    ]
   },
   {
     "id": "17",
@@ -337,7 +422,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Cambodia/cambodia-26160e38.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "28",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 7,
+    "canonicalNames": [
+      "ASEAN"
+    ]
   },
   {
     "id": "18",
@@ -357,7 +446,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Antigua%20and%20Barbuda/antigua-and-barbuda-87d09fdb.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 7,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "19",
@@ -377,7 +470,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Armenia/armenia-8ac352b2.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "7",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 6,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "20",
@@ -397,7 +494,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Angola/angola-c0b81c6.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "22",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 8,
+    "canonicalNames": [
+      "Luanda",
+      "Africa"
+    ]
   },
   {
     "id": "21",
@@ -417,7 +519,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Burkina%20Faso/burkina-faso-ea0c936.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "28",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 10,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "22",
@@ -437,7 +543,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Benin/benin-af1695bc.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "27",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 10,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "23",
@@ -457,7 +567,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Bhutan/bhutan-d4857c4f.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "12",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 3,
+    "canonicalNames": [
+      "Thimphu"
+    ]
   },
   {
     "id": "24",
@@ -477,7 +591,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Cyprus/cyprus-16d5ec7e.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "18",
-    "visaTimeline": "14"
+    "visaTimeline": "14",
+    "priority": 6,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "25",
@@ -497,7 +615,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Ethiopia/ethiopia-fde96306.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "22",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 4,
+    "canonicalNames": [
+      "Abyssinia",
+      "Ethopia",
+      "Addis Ababa",
+      "Africa"
+    ]
   },
   {
     "id": "26",
@@ -517,7 +642,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Guinea/guinea-2c9394a1.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "26",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 7,
+    "canonicalNames": [
+      "Conakry",
+      "Africa"
+    ]
   },
   {
     "id": "27",
@@ -537,7 +667,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Equatorial%20Guinea/equatorial-guinea-bad4de8.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 7,
+    "canonicalNames": [
+      "Spanish Guinea",
+      "Africa"
+    ]
   },
   {
     "id": "28",
@@ -557,7 +692,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Jordan/jordan-c2b932ca.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "18",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 6,
+    "canonicalNames": [
+      "Amman",
+      "Middle East"
+    ]
   },
   {
     "id": "29",
@@ -577,7 +717,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Kenya/kenya-470d6fb.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "23",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 5,
+    "canonicalNames": [
+      "Nairobi",
+      "Nakuru",
+      "Africa"
+    ]
   },
   {
     "id": "30",
@@ -597,7 +743,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Laos/laos-6f683189.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "23",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 6,
+    "canonicalNames": [
+      "ASEAN"
+    ]
   },
   {
     "id": "31",
@@ -617,7 +767,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Madagascar/madagascar-76d487f8.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "23",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 4,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "32",
@@ -637,7 +791,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Mongolia/mongolia-ebc3904c.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "1",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 6,
+    "canonicalNames": [
+      "Ulaanbaatar"
+    ]
   },
   {
     "id": "33",
@@ -657,7 +815,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Papua%20New%20Guinea/papua-new-guinea-afddf825.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "23",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 5,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "34",
@@ -677,7 +839,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Qatar/qatar-f325a03f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "30",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 2,
+    "canonicalNames": [
+      "Katar",
+      "Kattar",
+      "Kataar",
+      "Kattaar",
+      "Doha",
+      "Middle East"
+    ]
   },
   {
     "id": "35",
@@ -697,7 +868,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Russia/russia-19b64b26.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "-5",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 2,
+    "canonicalNames": [
+      "Moscow"
+    ]
   },
   {
     "id": "36",
@@ -717,7 +892,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Rwanda/rwanda-c44e8bb0.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "20",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 7,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "37",
@@ -737,7 +916,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Saudi%20Arabia/saudi-arabia-7dc083a1.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 1,
+    "canonicalNames": [
+      "Riyadh",
+      "Makkah",
+      "Madinah",
+      "Jeddah",
+      "Haj",
+      "Middle East"
+    ]
   },
   {
     "id": "38",
@@ -757,7 +945,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Taiwan/taiwan-d60250e5.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "24",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 2,
+    "canonicalNames": [
+      "Republic of China",
+      "Taipei",
+      "Taichung",
+      "Tainan"
+    ]
   },
   {
     "id": "39",
@@ -777,7 +972,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Uzbekistan/uzbekistan-8bde4eb5.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "12",
-    "visaTimeline": "6"
+    "visaTimeline": "6",
+    "priority": 4,
+    "canonicalNames": [
+      "Tashkent"
+    ]
   },
   {
     "id": "40",
@@ -797,7 +996,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Argentina/argentina-bb90458a.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "15",
-    "visaTimeline": "14"
+    "visaTimeline": "14",
+    "priority": 2,
+    "canonicalNames": [
+      "South America",
+      "Buenos Aires"
+    ]
   },
   {
     "id": "41",
@@ -817,7 +1021,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Austria/austria-ac4adc5b.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "6",
-    "visaTimeline": "21"
+    "visaTimeline": "21",
+    "priority": 1,
+    "canonicalNames": [
+      "Vienna",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "42",
@@ -837,7 +1048,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Bangladesh/bangladesh-8b4e90b7.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "25",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 4,
+    "canonicalNames": [
+      "Dhaka"
+    ]
   },
   {
     "id": "43",
@@ -857,7 +1072,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Belgium/belgium-2b8e71fe.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "10",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 2,
+    "canonicalNames": [
+      "Brussels",
+      "Antwerp",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "44",
@@ -877,7 +1100,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Brazil/brazil-fa649f3f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "16"
+    "visaTimeline": "16",
+    "priority": 2,
+    "canonicalNames": [
+      "South America",
+      "Rio De Janerio",
+      "Sao Paulo"
+    ]
   },
   {
     "id": "45",
@@ -897,7 +1126,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Canada/canada-f3549bcd.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "-5",
-    "visaTimeline": "164"
+    "visaTimeline": "164",
+    "priority": 1,
+    "canonicalNames": [
+      "Vancouver",
+      "Toronto",
+      "Montreal",
+      "Ottawa",
+      "Calgary",
+      "Quebec"
+    ]
   },
   {
     "id": "46",
@@ -917,7 +1155,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Switzerland/switzerland-85ee46ef.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "9",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 1,
+    "canonicalNames": [
+      "Swiss",
+      "Zurich",
+      "Geneva",
+      "Schengen",
+      "Europe"
+    ]
   },
   {
     "id": "47",
@@ -937,7 +1183,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Chile/chile-c8b1fe0e.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "15",
-    "visaTimeline": "14"
+    "visaTimeline": "14",
+    "priority": 2,
+    "canonicalNames": [
+      "Santiago",
+      "South America"
+    ]
   },
   {
     "id": "48",
@@ -957,7 +1208,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Colombia/colombia-54283ac6.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 3,
+    "canonicalNames": [
+      "Bogota",
+      "Mendellin",
+      "Cartagena",
+      "Cali",
+      "South America"
+    ]
   },
   {
     "id": "49",
@@ -977,7 +1236,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Costa%20Rica/costa-rica-eafbd5d9.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "14"
+    "visaTimeline": "14",
+    "priority": 6,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "50",
@@ -997,7 +1260,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Cuba/cuba-31c1d72c.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 6,
+    "canonicalNames": [
+      "Havana",
+      "Trinidad",
+      "Caribbean"
+    ]
   },
   {
     "id": "51",
@@ -1017,7 +1286,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Czechia/czech-republic-970d533a.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "10",
-    "visaTimeline": "25"
+    "visaTimeline": "25",
+    "priority": 1,
+    "canonicalNames": [
+      "Czech Republic",
+      "Prague",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "52",
@@ -1037,7 +1314,17 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Germany/germany-b95c3f80.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "9",
-    "visaTimeline": "22"
+    "visaTimeline": "22",
+    "priority": 1,
+    "canonicalNames": [
+      "Berlin",
+      "Munich",
+      "Cologne",
+      "Frankfurt",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "53",
@@ -1057,7 +1344,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Estonia/estonia-1bfbc11b.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "5",
-    "visaTimeline": "25"
+    "visaTimeline": "25",
+    "priority": 6,
+    "canonicalNames": [
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "54",
@@ -1077,7 +1370,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Spain/spain-2b67ea83.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "13",
-    "visaTimeline": "21"
+    "visaTimeline": "21",
+    "priority": 1,
+    "canonicalNames": [
+      "Barcelona",
+      "Madrid",
+      "Seville",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "55",
@@ -1097,7 +1399,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Finland/finland-e666bf9c.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "4",
-    "visaTimeline": "25"
+    "visaTimeline": "25",
+    "priority": 2,
+    "canonicalNames": [
+      "Helsinki",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "56",
@@ -1117,7 +1426,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/France/france-82157dbd.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "11",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 1,
+    "canonicalNames": [
+      "French",
+      "Paris",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "57",
@@ -1137,7 +1454,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/UK/united-kingdom-809efadb.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "9",
-    "visaTimeline": "30"
+    "visaTimeline": "30",
+    "priority": 1,
+    "canonicalNames": [
+      "United Kingdom",
+      "Great Britain",
+      "London"
+    ]
   },
   {
     "id": "58",
@@ -1157,7 +1480,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Georgia/georgia-ae1faab1.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "13",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 10,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "59",
@@ -1177,7 +1504,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Ghana/ghana-9ef20c73.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 7,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "60",
@@ -1197,7 +1528,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Greece/greece-6270c0cd.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "15",
-    "visaTimeline": "25"
+    "visaTimeline": "25",
+    "priority": 1,
+    "canonicalNames": [
+      "Athens",
+      "Santorini",
+      "Mykonos",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "61",
@@ -1217,7 +1557,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Guyana/guyana-2a73a6ac.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 8,
+    "canonicalNames": [
+      "Guiana",
+      "South America",
+      "Caribbean"
+    ]
   },
   {
     "id": "62",
@@ -1237,7 +1583,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Hungary/hungary-59d64670.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "11",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 2,
+    "canonicalNames": [
+      "Budapest",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "63",
@@ -1257,7 +1610,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Israel/israel-a079f2f2.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "19",
-    "visaTimeline": "6"
+    "visaTimeline": "6",
+    "priority": 3,
+    "canonicalNames": [
+      "Palestine",
+      "Jerusalem",
+      "Tel Aviv",
+      "Middle East"
+    ]
   },
   {
     "id": "64",
@@ -1277,7 +1637,19 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Italy/italy-8f811954.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "13",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 1,
+    "canonicalNames": [
+      "Rome",
+      "Florence",
+      "Venice",
+      "Milan",
+      "Amalfi",
+      "Como",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "65",
@@ -1297,7 +1669,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Kyrgyzstan/kyrgyzstan-be3abc7d.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "7",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 10,
+    "canonicalNames": [
+      "Bishkek"
+    ]
   },
   {
     "id": "66",
@@ -1317,7 +1693,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/South%20Korea/south-korea-e38200e2.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "14",
-    "visaTimeline": "7"
+    "visaTimeline": "7",
+    "priority": 3,
+    "canonicalNames": [
+      "Seoul"
+    ]
   },
   {
     "id": "67",
@@ -1337,7 +1717,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Lebanon/lebanon-656b6ac2.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "16",
-    "visaTimeline": "25"
+    "visaTimeline": "25",
+    "priority": 8,
+    "canonicalNames": [
+      "Beirut",
+      "Middle East"
+    ]
   },
   {
     "id": "68",
@@ -1357,7 +1742,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Liechtenstein/liechtenstein-2d2099a9.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "9",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 8,
+    "canonicalNames": [
+      "FL",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "69",
@@ -1377,7 +1768,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Malta/malta-fdd7788d.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "19",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 9,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "70",
@@ -1397,7 +1792,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Netherlands/netherlands-439d5d5d.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "10",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 2,
+    "canonicalNames": [
+      "Holland",
+      "Amsterdam",
+      "Dutch",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "71",
@@ -1417,7 +1821,14 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Norway/norway-32d3ab34.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "5",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 2,
+    "canonicalNames": [
+      "Oslo",
+      "Scandinavian",
+      "Schengen",
+      "Europe"
+    ]
   },
   {
     "id": "72",
@@ -1437,7 +1848,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/New%20Zealand/new-zealand-56720807.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "13",
-    "visaTimeline": "21"
+    "visaTimeline": "21",
+    "priority": 2,
+    "canonicalNames": [
+      "Auckland",
+      "Queenstown"
+    ]
   },
   {
     "id": "73",
@@ -1457,7 +1873,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Philippines/philippines-247723ed.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 2,
+    "canonicalNames": [
+      "ASEAN",
+      "Manila"
+    ]
   },
   {
     "id": "74",
@@ -1477,7 +1898,15 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Poland/poland-b43f3f36.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "11",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 3,
+    "canonicalNames": [
+      "Warsaw",
+      "Krakow",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "75",
@@ -1497,7 +1926,16 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Sweden/sweden-fbdddd0.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "7",
-    "visaTimeline": "28"
+    "visaTimeline": "28",
+    "priority": 2,
+    "canonicalNames": [
+      "Scandinavian",
+      "Gothenburg",
+      "Stockholm",
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "76",
@@ -1517,7 +1955,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Slovenia/slovenia-41706c75.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "12",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 3,
+    "canonicalNames": [
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "77",
@@ -1537,7 +1981,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Slovakia/slovakia-966d88b.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "11",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 3,
+    "canonicalNames": [
+      "EU",
+      "Europe",
+      "Schengen"
+    ]
   },
   {
     "id": "78",
@@ -1557,7 +2007,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Tajikistan/tajikistan-eb802d90.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "8",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 10,
+    "canonicalNames": [
+      "Dushanbe"
+    ]
   },
   {
     "id": "79",
@@ -1577,7 +2031,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Tanzania/tanzania-be32ae65.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "24",
-    "visaTimeline": "11"
+    "visaTimeline": "11",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa",
+      "Dar es Salaam"
+    ]
   },
   {
     "id": "80",
@@ -1597,7 +2056,19 @@
     "imageUrl": "https://saathi.app/visa/images/countries/US/united-states-of-america-20918cc0.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "24",
-    "visaTimeline": "50"
+    "visaTimeline": "50",
+    "priority": 1,
+    "canonicalNames": [
+      "US",
+      "USA",
+      "America",
+      "New York City",
+      "San Francisco",
+      "SF",
+      "NYC",
+      "Las Vegas",
+      "Chicago"
+    ]
   },
   {
     "id": "81",
@@ -1617,7 +2088,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Uruguay/uruguay-311a4242.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "18",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 8,
+    "canonicalNames": [
+      "South America"
+    ]
   },
   {
     "id": "82",
@@ -1637,7 +2112,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/South%20Africa/south-africa-7189229f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "18",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 1,
+    "canonicalNames": [
+      "Cape Town",
+      "Johannesburg"
+    ]
   },
   {
     "id": "83",
@@ -1657,7 +2137,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Afghanistan/afghanistan-135702f.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "13",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 4,
+    "canonicalNames": [
+      "Kabul"
+    ]
   },
   {
     "id": "84",
@@ -1677,7 +2161,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Botswana/botswana-15ca798.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "22",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 8,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "85",
@@ -1697,7 +2185,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Moldova/moldova-12d5d89.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "13",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 8,
+    "canonicalNames": [
+      "Europe"
+    ]
   },
   {
     "id": "86",
@@ -1717,7 +2209,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Myanmar/myanmar-33565e9c.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "27",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 3,
+    "canonicalNames": [
+      "ASEAN",
+      "Burma",
+      "Mandalay"
+    ]
   },
   {
     "id": "87",
@@ -1737,7 +2235,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Mozambique/mozambique-3639e1b4.png",
     "developmentStatus": "Least Developed",
     "weather": "24",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 9,
+    "canonicalNames": [
+      "Maputo",
+      "Africa"
+    ]
   },
   {
     "id": "88",
@@ -1757,7 +2260,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Nigeria/nigeria-7e90fb53.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "29",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 4,
+    "canonicalNames": [
+      "Lagos",
+      "Africa"
+    ]
   },
   {
     "id": "89",
@@ -1777,7 +2285,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Uganda/uganda-85096c2b.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "23",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 4,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "90",
@@ -1797,7 +2309,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Zimbabwe/zimbabwe-c146afbc.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "21",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 5,
+    "canonicalNames": [
+      "Harare",
+      "Africa"
+    ]
   },
   {
     "id": "91",
@@ -1817,7 +2334,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Albania/albania-43175ec5.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "20",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 5,
+    "canonicalNames": [
+      "Europe"
+    ]
   },
   {
     "id": "92",
@@ -1837,7 +2358,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Algeria/algeria-b1cadc54.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "23",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 5,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "93",
@@ -1857,7 +2382,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Kuwait/kuwait-d63848ce.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 3,
+    "canonicalNames": [
+      "Middle East"
+    ]
   },
   {
     "id": "94",
@@ -1877,7 +2406,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Malawi/malawi-8637a18b.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "22",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "95",
@@ -1897,7 +2430,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Belarus/belarus-880c78a.moz.jpg",
     "developmentStatus": "Developed",
     "weather": "6",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 4,
+    "canonicalNames": [
+      "Minsk",
+      "Europe"
+    ]
   },
   {
     "id": "96",
@@ -1917,7 +2455,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Burundi/burundi-56a6204e.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "20",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "97",
@@ -1937,7 +2479,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Cabo%20Verde/cape-verde-2bbd8c7f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "24",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "98",
@@ -1957,7 +2503,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Comoros/comoros-c97e0ef.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "26",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "99",
@@ -1977,7 +2527,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Djibouti/djibouti-f98aa1b5.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "30",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "100",
@@ -1997,7 +2551,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Guinea-Bissau/guinea-bissau-da4d43f8.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "26",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 9,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "101",
@@ -2017,7 +2575,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Liberia/liberia-e8d22bc7.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "27",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 9,
+    "canonicalNames": [
+      "Monrovia",
+      "Africa"
+    ]
   },
   {
     "id": "102",
@@ -2037,7 +2600,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Marshall%20Islands/marshall-islands-f9365ebd.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 9,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "103",
@@ -2057,7 +2624,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Mauritania/mauritania-d3c84e4b.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "30",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 7,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "104",
@@ -2077,7 +2648,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Palau/palau-6c53bb12.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "29",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 9,
+    "canonicalNames": [
+      "Belau",
+      "Pelew"
+    ]
   },
   {
     "id": "105",
@@ -2097,7 +2673,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Saint%20Lucia/saint-lucia-ba9e70f7.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 7,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "106",
@@ -2117,7 +2697,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Samoa/samoa-5b49a065.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 7,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "107",
@@ -2137,7 +2721,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Seychelles/seychelles-e20a1603.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 4,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "108",
@@ -2157,7 +2745,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Sierra%20Leone/sierra-leone-7c25db6c.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "28",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 7,
+    "canonicalNames": [
+      "Freetown",
+      "Africa"
+    ]
   },
   {
     "id": "109",
@@ -2177,7 +2770,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Solomon%20Islands/solomon-islands-1e294267.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "28",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 8,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "110",
@@ -2197,7 +2794,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Somalia/somalia-ecb6daac.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "28",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 10,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "111",
@@ -2217,7 +2818,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Togo/togo-326f83c8.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "26",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 8,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "112",
@@ -2237,7 +2842,18 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Thailand/thailand-6e965fbf.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "29",
-    "visaTimeline": "4"
+    "visaTimeline": "4",
+    "priority": 1,
+    "canonicalNames": [
+      "ASEAN",
+      "Bangkok",
+      "Pattaya",
+      "Krabi",
+      "Phuket",
+      "Chiang Mi",
+      "Phi Phi",
+      "Ko Samui"
+    ]
   },
   {
     "id": "113",
@@ -2257,7 +2873,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Turks%20and%20Caicos%20Islands/turks-and-caicos-islands-37284d6.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 10,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "114",
@@ -2277,7 +2897,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Cook%20Islands/cook-islands-deb72e89.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 10,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "115",
@@ -2297,7 +2921,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Micronesia/micronesia-ac376ae9.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 10,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "116",
@@ -2317,7 +2945,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Gambia/gambia-1587bed6.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "30",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 10,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "117",
@@ -2337,7 +2969,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Senegal/senegal-3e8b6bab.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "30",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 10,
+    "canonicalNames": [
+      "Dakar",
+      "Africa"
+    ]
   },
   {
     "id": "118",
@@ -2357,7 +2994,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Haiti/haiti-56656262.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "25",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 7,
+    "canonicalNames": [
+      "Caribbean",
+      "Ayiti",
+      "Port-au-Prince"
+    ]
   },
   {
     "id": "119",
@@ -2377,7 +3020,13 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Barbados/barbados-36f1e953.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 4,
+    "canonicalNames": [
+      "Caribbean",
+      "Bim",
+      "Bridgetown"
+    ]
   },
   {
     "id": "121",
@@ -2397,7 +3046,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Montserrat/montserrat-80702b5f.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 10,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "122",
@@ -2417,7 +3070,12 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Saint%20Kitts%20and%20Nevis/saint-kitts-and-nevis-6f26e92c.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 10,
+    "canonicalNames": [
+      "Caribbean",
+      "St Kitts and Nevis"
+    ]
   },
   {
     "id": "123",
@@ -2437,7 +3095,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/British%20Virgin%20Islands/british-virgin-islands-6635be4b.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 5,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "124",
@@ -2457,7 +3119,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Jamaica/jamaica-ebabc6f5.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 5,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "126",
@@ -2477,7 +3143,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Dominica/dominica-ad35bd14.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 7,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "127",
@@ -2497,7 +3167,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Nepal/nepal-edc7d863.moz.jpg",
     "developmentStatus": "Least Developed",
     "weather": "12",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 2,
+    "canonicalNames": [
+      "Kathmandu"
+    ]
   },
   {
     "id": "128",
@@ -2517,7 +3191,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/El%20Salvador/el-salvador-2036376d.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "24",
-    "visaTimeline": "10"
+    "visaTimeline": "10",
+    "priority": 7,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "129",
@@ -2537,7 +3215,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Maldives/maldives-f5f5a86d.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "28",
-    "visaTimeline": "5"
+    "visaTimeline": "5",
+    "priority": 2,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "130",
@@ -2557,7 +3239,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/North%20Korea/north-korea-bf94ba43.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "9",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 6,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "131",
@@ -2577,7 +3263,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Saint%20Vincent%20and%20the%20Grenadines/saint-vincent-and-the-grenadines-6dd8571b.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "27",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 8,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "132",
@@ -2597,7 +3287,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Mauritius/mauritius-9d2b9de.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "25",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 1,
+    "canonicalNames": [
+      "Africa"
+    ]
   },
   {
     "id": "133",
@@ -2617,7 +3311,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Trinidad%20and%20Tobago/trinidad-and-tobago-c15888c1.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 8,
+    "canonicalNames": [
+      "Caribbean"
+    ]
   },
   {
     "id": "134",
@@ -2637,7 +3335,11 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Niue/niue-4024cede.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "26",
-    "visaTimeline": "20"
+    "visaTimeline": "20",
+    "priority": 9,
+    "canonicalNames": [
+      ""
+    ]
   },
   {
     "id": "135",
@@ -2657,6 +3359,10 @@
     "imageUrl": "https://saathi.app/visa/images/countries/Fiji/fiji-49166a7d.moz.jpg",
     "developmentStatus": "Developing",
     "weather": "24",
-    "visaTimeline": "0"
+    "visaTimeline": "0",
+    "priority": 7,
+    "canonicalNames": [
+      ""
+    ]
   }
 ]

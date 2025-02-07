@@ -7,6 +7,8 @@ import Chip from '@mui/material/Chip';
 import Box from '@mui/material/Box';
 import Head from 'next/head';
 import GoToTopButton from '../components/GoToTopButton';
+import { useMemo, useCallback } from 'react';
+import debounce from 'lodash/debounce';
 //import '../styles/app.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
 
@@ -21,12 +23,40 @@ const App = () => {
   const [stickyVisaFilters, setStickyVisaFilters] = useState(false);
   const [showMenu, setShowMenu] = useState(false);
 
+  // useEffect(() => {
+  //   fetch('./data/FinalDataCountry.json')
+  //     .then(response => response.json())
+  //     .then(data => setCountriesData(data))
+  //     .catch(error => console.error('Error loading the JSON data:', error));
+
+  //   const handleScroll = () => {
+  //     const searchBarElement = document.getElementById('searchBar');
+  //     if (searchBarElement) {
+  //       const searchBarOffset = searchBarElement.getBoundingClientRect().top;
+  //       setStickySearchBar(window.scrollY > searchBarOffset);
+  //     }
+  //   };
+
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => window.removeEventListener('scroll', handleScroll);
+  // }, []);
+
+  const debouncedSetSearchTerm = useCallback(
+    debounce((value) => {
+      console.log(value)
+      setSearchTerm(value);
+    }, 300),
+    []
+  );
   useEffect(() => {
     fetch('./data/FinalDataCountry.json')
       .then(response => response.json())
-      .then(data => setCountriesData(data))
+      .then(data => {
+        const sortedData = data.sort((a, b) => a.priority - b.priority);
+        setCountriesData(sortedData);
+      })
       .catch(error => console.error('Error loading the JSON data:', error));
-
+  
     const handleScroll = () => {
       const searchBarElement = document.getElementById('searchBar');
       if (searchBarElement) {
@@ -34,7 +64,7 @@ const App = () => {
         setStickySearchBar(window.scrollY > searchBarOffset);
       }
     };
-
+  
     window.addEventListener('scroll', handleScroll);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
@@ -56,10 +86,28 @@ const App = () => {
     }
   };
 
-  const filteredCountries = countriesData.filter(country =>
-    (visaFilters.includes('All') || visaFilters.includes(country.visaType)) &&
-    country.countryName.toLowerCase().includes(searchTerm.toLowerCase())
-  );
+  // const filteredCountries = countriesData.filter(country =>
+  //   (visaFilters.includes('All') || visaFilters.includes(country.visaType)) &&
+  //   country.countryName.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
+
+
+  // const filteredCountries = countriesData.filter(country =>
+  //   (visaFilters.includes('All') || visaFilters.includes(country.visaType)) &&
+  //   (country.countryName.toLowerCase().includes(searchTerm.toLowerCase()) ||
+  //    country.canonicalNames.some(name => name.toLowerCase().includes(searchTerm.toLowerCase())))
+  // );
+
+  const filteredCountries = useMemo(() => {
+    return countriesData.filter(country =>
+      (visaFilters.includes('All') || visaFilters.includes(country.visaType)) &&
+      (country.countryName.toLowerCase().includes(searchTerm?.toLowerCase() || '') ||
+       country.canonicalNames.some(name => 
+         name.toLowerCase().includes(searchTerm?.toLowerCase() || '')
+       ))
+    );
+  }, [countriesData, visaFilters, searchTerm]);
+
 
   return (
     <>
@@ -395,14 +443,22 @@ const App = () => {
                       label="✈️     Where to..."
                       variant="standard"
                       InputProps={{ disableUnderline: true }}
-                      onChange={(event) => setSearchTerm(event.target.value)}
+                      // onChange={(event) => setSearchTerm(event.target.value)}
+                      onChange={(event, newValue) => {
+                        debouncedSetSearchTerm(event.target.value || '');
+                      }}
                       InputLabelProps={{
                         style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' }, // Center-align the label text
                       }}
                     />
                   )}
-                  value={searchTerm}
-                  onChange={(event, newValue) => setSearchTerm(newValue || '')}
+                  value={searchTerm || null}
+                  onChange={(event, newValue) => {
+                    debouncedSetSearchTerm(newValue || '');
+                  }}
+                  isOptionEqualToValue={(option, value) => 
+                    option === value || (!option && !value)
+                  }
                   sx={{
                     width: ['90%', 300],
                     backgroundColor: 'white',
@@ -559,14 +615,22 @@ const App = () => {
                       label="✈️     Where to..."
                       variant="standard"
                       InputProps={{ disableUnderline: true }}
+                      onChange={(event, newValue) => {
+                        debouncedSetSearchTerm(event.target.value || '');
+                      }}
                       InputLabelProps={{
                         style: { color: 'grey', fontFamily: 'Nunito Sans, sans-serif' }, // Center-align the label text
                       }}
                     />
                   )}
-                  onInputChange={(event, newInputValue) => {
-                    setSearchTerm(newInputValue);
-                  }}
+                  // onInputChange={(event, newInputValue) => {
+                  //   setSearchTerm(newInputValue);
+                  // }}
+                  value={searchTerm || null}
+                
+                  isOptionEqualToValue={(option, value) => 
+                    option === value || (!option && !value)
+                  }
                   sx={{
                     width: 200,
                     height: 40,
