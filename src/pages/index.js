@@ -6,6 +6,7 @@ import Autocomplete from '@mui/material/Autocomplete';
 import Chip from '@mui/material/Chip';
 import Box from '@mui/material/Box';
 import Head from 'next/head';
+import GoToTopButton from '../components/GoToTopButton';
 //import '../styles/app.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
 
@@ -593,7 +594,9 @@ const App = () => {
             </Grid>
           ))}
         </Grid>
+        <GoToTopButton/>
       </Box>
+ 
     </>
   );
 };
