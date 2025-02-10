@@ -9,7 +9,7 @@ import '../styles/Header.css';
 import Script from "next/script";
 import { useRouter } from "next/router";
 import { useEffect } from "react";
-import * as fbq from "./lib/fpixel";
+import * as fbq from "../lib/fpixel";
 function App({ Component, pageProps }) {
 
   const router = useRouter();
