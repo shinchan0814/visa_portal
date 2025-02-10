@@ -9,6 +9,7 @@ import Head from 'next/head';
 import GoToTopButton from '../components/GoToTopButton';
 import { useMemo, useCallback } from 'react';
 import debounce from 'lodash/debounce';
+
 //import '../styles/app.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
 
@@ -40,6 +41,12 @@ const App = () => {
   //   window.addEventListener('scroll', handleScroll);
   //   return () => window.removeEventListener('scroll', handleScroll);
   // }, []);
+
+
+
+
+
+
 
   const debouncedSetSearchTerm = useCallback(
     debounce((value) => {
@@ -655,6 +662,7 @@ const App = () => {
                 visaType={country.visaType}
                 details={country.capital}
                 imageUrl={country.imageUrl}
+                // onClick={() => handleCountryClick(country.slug)}
               />
             </Grid>
           ))}

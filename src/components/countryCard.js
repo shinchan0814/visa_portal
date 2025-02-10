@@ -4,7 +4,7 @@ import  { useRouter}  from 'next/router';
 import Link from 'next/link';
 import { Language } from '@mui/icons-material';
 //import '../styles/styles.module.css'; // or import './styles.scss';
-
+import * as fbq from "../lib/fpixel";
 
 const visaTypeColors = {
   'E-visa': 'lightgreen',
@@ -20,6 +20,16 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
     // Use the router instance from above
     router.replace(`/country/${country.slug}`);
   };
+  const handleCountryClick = (countrySlug) => {
+    // Fire Meta Pixel event
+    fbq.event('CountryCardClick', { country_slug: countrySlug });
+  
+    // Optional: Debug in console
+    console.log('Country Clicked:', countrySlug);
+  };
+
+
+
   return (
     <Card sx={{
       width: ['100%','88%'],
@@ -174,6 +184,7 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
         </Grid>
         <Link href={`/country/${country.slug}`} passHref>
           <Button component="a" variant="contained" 
+          onClick={() => handleCountryClick(country.slug)} 
             sx={{ borderRadius: 4, width: 145, height: 35, marginTop: '16px', textTransform: 'none', fontSize: 18, backgroundColor: 'rgb(92,92,212, 0.70)' }}>
             <span style={{ color: 'white', fontFamily: 'Nunito Sans, sans-serif' }}>Let's go</span>
           </Button>
