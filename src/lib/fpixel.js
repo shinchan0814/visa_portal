@@ -4,7 +4,9 @@ export const FB_PIXEL_ID = "1121954586079830";
 export const pageview = (url) => {
   window.fbq("track", "PageView", { path: url });
 };
-
+export const slugview = (url) =>{
+  window.fbq('track',"slugView",{path:url})
+}
 // Track standard & custom events correctly
 export const event = (name, options = {}) => {
   if (["PageView", "Purchase", "Lead", "CompleteRegistration"].includes(name)) {

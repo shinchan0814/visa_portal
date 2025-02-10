@@ -9,7 +9,7 @@ import Documents from '../components/documents';
 import Box from '@mui/material/Box';
 import FaqSection from '../components/faqSection';
 import Head from 'next/head';
-
+import * as fbq from "../lib/fpixel";
 
 const CountryDetailPage = () => {
     const router = useRouter();
@@ -33,7 +33,7 @@ const CountryDetailPage = () => {
             setIsLoading(false);
             return;
         }
-
+        fbq.slugview()
         const fetchData = async () => {
             try {
                 const [countriesResponse, visaInfoResponse, faqsResponse, documentsResponse, sectionsResponse, processInfoResponse] = await Promise.all([
