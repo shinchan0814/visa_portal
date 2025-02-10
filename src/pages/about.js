@@ -27,7 +27,15 @@ const About = ({ data = [] }) => {  // Set a default value for data
             {data.map((section, index) => (
                 <div key={index} className="section-block" >
                     <h2 style={{fontFamily: 'Nunito Sans, sans-serif'}}>{section.heading}</h2>
-                    <p style={{fontFamily: 'Nunito Sans, sans-serif'}}>{section.content}</p>
+                    {/* <p style={{fontFamily: 'Nunito Sans, sans-serif'}}>{section.content}</p> */}
+                    <p style={{ fontFamily: 'Nunito Sans, sans-serif' }}>
+  {section.content.split("\n").map((line, index) => (
+    <React.Fragment key={index}>
+      {line}
+      <br />
+    </React.Fragment>
+  ))}
+</p>
                 </div>
             ))}
         </div>
