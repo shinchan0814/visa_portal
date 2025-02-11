@@ -23,6 +23,8 @@ const CountryCard = ({ country, countryName, slug, visaType, imageUrl, Safety, c
   const handleCountryClick = (countrySlug) => {
     // Fire Meta Pixel event
     fbq.event('CountryCardClick', { country_slug: countrySlug });
+    window.dataLayer.push({ event:'CountryCardClick', country_slug: countrySlug });
+    
   
     // Optional: Debug in console
     console.log('Country Clicked:', countrySlug);
