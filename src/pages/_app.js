@@ -14,6 +14,8 @@ function App({ Component, pageProps }) {
 
   const router = useRouter();
 
+
+
   useEffect(() => {
     // This pageview only triggers the first time (it's important for Pixel to have real information)
     fbq.pageview();
@@ -21,6 +23,22 @@ function App({ Component, pageProps }) {
     const handleRouteChange = () => {
       fbq.pageview();
     };
+
+
+    // Push route change event to GTM
+      window.dataLayer = window.dataLayer || [];
+      window.dataLayer.push({
+        event: "pageview",
+        page: url,
+      });
+  // Google Analytics Page View
+      window.gtag && window.gtag('config', 'G-MZ1H4GLECG', {
+        page_path: url,
+      });
+    
+
+
+
 
     router.events.on("routeChangeComplete", handleRouteChange);
     return () => {
@@ -31,6 +49,24 @@ function App({ Component, pageProps }) {
   // return <Component {...pageProps} />;
   return (
     <>
+
+        {/* Google Analytics (gtag.js) */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-MZ1H4GLECG"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MZ1H4GLECG');
+          `,
+        }}
+      />
 
      {/* Google Tag Manager - Head */}
      <Script
