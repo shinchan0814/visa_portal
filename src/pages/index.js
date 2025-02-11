@@ -9,6 +9,7 @@ import Head from 'next/head';
 import GoToTopButton from '../components/GoToTopButton';
 import { useMemo, useCallback } from 'react';
 import debounce from 'lodash/debounce';
+import { Link } from '@mui/material';
 
 //import '../styles/app.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
@@ -354,6 +355,7 @@ const App = () => {
               }}
             >
               {/* Logo */}
+              <Link href="/" style={{ textDecoration: 'none' }}>
               <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 61px', alignItems: 'center' }}>
                 <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
                 <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
@@ -361,6 +363,7 @@ const App = () => {
                   <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
                 </div>
               </div>
+              </Link>
 
               {/* Text sections */}
               <div style={{ display: 'flex', gap: '35px', padding: '5px 25px 0px 0px' }}>
@@ -531,11 +534,12 @@ const App = () => {
           <div style={{ flex: 1 }} />
 
           {/* Sort By */}
-          {!stickySearchBar && (
+          {/* {!stickySearchBar && (
             <Chip
               label="Sort By"
               variant="outlined"
               sx={{
+                display: 'none',
                 width: 160,
                 height: 45,
                 borderRadius: 4,
@@ -557,7 +561,7 @@ const App = () => {
                 },
               }}
             />
-          )}
+          )} */}
           {stickySearchBar && (
             <Box
               id="searchBar"

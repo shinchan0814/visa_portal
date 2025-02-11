@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import ProgressIndicator from '../components/progressIndicator';
-
+import * as fbq from "../lib/fpixel";
 function useWindowWidth() {
     const [windowWidth, setWindowWidth] = useState(
         typeof window !== 'undefined' ? window.innerWidth : 0
@@ -37,7 +37,7 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     const [isSubmitting, setIsSubmitting] = useState(false);
     const [showErrorPopup, setShowErrorPopup] = useState(false);
     const [showSuccessPopup, setShowSuccessPopup] = useState(false);
-
+    const [button,setButton] = useState(1);
     const windowWidth = useWindowWidth();
     const isMobile = windowWidth <= 768;
 
@@ -78,7 +78,10 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
 
     const handleNext = () => {
         let isValid = true;
-    
+
+        fbq.event('fromStepNext', { button: button });
+        setButton(button + 1);
+        console.log(button);
         switch (step) {
             case 1:
                 isValid = validateStep1();
@@ -140,8 +143,11 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
             if (response.ok) {
                 console.log('Form submitted successfully:', responseText);
                 setShowSuccessPopup(true);
+                fbq.event('formSubmit', { country: countryName });
             } else {
+                fbq.event('formSubmitFailed', { country: countryName , error: responseText });
                 throw new Error('Failed to submit form');
+                
             }
 
         } catch (error) {

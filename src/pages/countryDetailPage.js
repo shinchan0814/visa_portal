@@ -10,7 +10,7 @@ import Box from '@mui/material/Box';
 import FaqSection from '../components/faqSection';
 import Head from 'next/head';
 import * as fbq from "../lib/fpixel";
-
+import Link from 'next/link';
 const CountryDetailPage = () => {
     const router = useRouter();
     const params = useParams();
@@ -181,14 +181,15 @@ const CountryDetailPage = () => {
                 }}
             >
                 {/* Logo */}
-                <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft: "-15px" }}>
+                <Link href="/" passHref>
+                <div style={{ display: 'flex', gap: '9px', alignItems: 'center', marginLeft: "-15px" }} href='/' > 
                     <img src="/images/website/Saathi_img.png" alt="Logo" style={{ width: '28.24px', height: '46px', justifyContent: 'center' }} />
                     <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
                         <div style={{ fontWeight: 'bold', fontSize: '36px', color: 'rgba(96, 92, 212, 212)', padding: '0px 0px', fontFamily: 'Nunito Sans, sans-serif' }}>Saathi</div>
                         <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
                     </div>
                 </div>
-
+                </Link>
                 {/* Hamburger Icon and Menu for Mobile */}
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '15px', justifyContent: 'right' }}>
                     {/* Hamburger Icon */}
@@ -245,6 +246,7 @@ const CountryDetailPage = () => {
                 }}
             >
                 {/* Logo */}
+                <Link href="/" style={{ textDecoration: 'none' }}>
                 <div style={{ display: 'flex', gap: '9px', padding: '0px 0px 0px 72px', alignItems: 'center' }}>
                     <img src="/images/website/Saathi_img.png" alt="Twitter Cover" style={{ width: '28.24px', height: '46px' }} />
                     <div style={{ alignItems: 'baseline', display: 'flex', gap: '7px' }}>
@@ -252,7 +254,7 @@ const CountryDetailPage = () => {
                         <div style={{ fontWeight: 'bold', fontSize: '18px', color: 'rgba(96, 92, 212, 212)', fontFamily: 'Nunito Sans, sans-serif' }}>Visa</div>
                     </div>
                 </div>
-
+                </Link>
                 <div style={{ display: 'flex', gap: '35px', padding: '5px 60px 0px 0px' }}>
                     {/* Text section 1 */}
                     <div>

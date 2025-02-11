@@ -18,7 +18,7 @@
     "developmentStatus": "Developing",
     "weather": "27",
     "visaTimeline": "5",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "UAE",
       "Dubai",
@@ -195,7 +195,7 @@
     "developmentStatus": "Developed",
     "weather": "22",
     "visaTimeline": "30",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "Sydney",
       "Melbourne",
@@ -248,7 +248,7 @@
     "developmentStatus": "Developed",
     "weather": "15",
     "visaTimeline": "10",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "Tokyo",
       "Kyoto",
@@ -1156,7 +1156,7 @@
     "developmentStatus": "Developed",
     "weather": "9",
     "visaTimeline": "28",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "Swiss",
       "Zurich",
@@ -1315,7 +1315,7 @@
     "developmentStatus": "Developed",
     "weather": "9",
     "visaTimeline": "22",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "Berlin",
       "Munich",
@@ -1427,7 +1427,7 @@
     "developmentStatus": "Developed",
     "weather": "11",
     "visaTimeline": "28",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "French",
       "Paris",
@@ -1455,7 +1455,7 @@
     "developmentStatus": "Developed",
     "weather": "9",
     "visaTimeline": "30",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "United Kingdom",
       "Great Britain",
@@ -1529,7 +1529,7 @@
     "developmentStatus": "Developed",
     "weather": "15",
     "visaTimeline": "25",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "Athens",
       "Santorini",
@@ -2057,7 +2057,7 @@
     "developmentStatus": "Developed",
     "weather": "24",
     "visaTimeline": "50",
-    "priority": 1,
+    "priority": 0,
     "canonicalNames": [
       "US",
       "USA",
