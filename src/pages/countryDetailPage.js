@@ -118,6 +118,54 @@ const CountryDetailPage = () => {
     return (
         <>
             <Head>
+
+               {/* Google Analytics (gtag.js) */}
+      <Script
+        strategy="afterInteractive"
+        src="https://www.googletagmanager.com/gtag/js?id=G-MZ1H4GLECG"
+      />
+      <Script
+        id="google-analytics"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-MZ1H4GLECG');
+          `,
+        }}
+      />
+
+      {/* Google Tag Manager - Head */}
+      <Script
+        id="google-tag-manager"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: `
+            (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-TVKSSM2W');
+          `,
+        }}
+      />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
                 <title>{`${countryData.countryName} visa for Indians | Apply online with Saathi.app`}</title>
                 <meta name="description" content={`Looking to get your ${countryData.countryName} visa hassle-free. Saathi.app is here to help Indian citizens with quick processing and expert assistance. Start your ${countryData.countryName} application today. `} />
                 <meta name="keywords" content={`Visa for Indians, Visa by saathi app, Saathi app, visa application, how to apply for ${countryData.countryName} visa, ${countryData.countryName} visa applications, Visa bulletin, Visa Card, visa free countries for indian passport, visa full form, visa mofa `} />

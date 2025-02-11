@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import FaqSection from '../components/faqSection';
 import { useParams } from 'next/navigation';
 import Modal from '../components/modal';
-
+import * as fbq from "../lib/fpixel";
 const VisaPricing = ({ data }) => {
     const { slug } = useParams();
     const [faqs, setFaqs] = useState([]);
@@ -22,8 +22,19 @@ const VisaPricing = ({ data }) => {
 
 
     const handleBookSlotClick = () => {
+        // Get the current URL path and split it by "/"
+        const pathParts = window.location.pathname.split("/");
+        
+        // Get the last non-empty part of the path as the country name
+        const countryName = pathParts.filter(Boolean).pop();
+    console.log(countryName);
+        // Fire the Facebook event with the extracted country name
+        fbq.event('BookSlotForFree', { country: countryName });
+    
+        // Show the modal
         setShowModal(true);
     };
+    
 
     const handleCloseModal = () => {
         setShowModal(false);

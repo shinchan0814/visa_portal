@@ -1,10 +1,20 @@
 import React, { useState, useEffect } from 'react';
 //import '../styles/About.module.css'; // Ensure you have a CSS file for styling
-
+import * as fbq from "../lib/fpixel"
 const About = ({ data = [] }) => {  // Set a default value for data
     const [isMobile, setIsMobile] = useState(false);
 
     useEffect(() => {
+
+
+        const pathParts = window.location.pathname.split("/");
+        
+        // Get the last non-empty part of the path as the country name
+        const countryName = pathParts.filter(Boolean).pop()
+
+        fbq.event("fromAbout",{country: countryName});
+
+        // console.log("about")
         const handleResize = () => {
             setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
         };

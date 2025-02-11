@@ -79,18 +79,22 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
     const handleNext = () => {
         let isValid = true;
 
-        fbq.event('fromStepNext', { button: button });
-        setButton(button + 1);
-        console.log(button);
+        // fbq.event('fromStepNext', { button: button });
+        // setButton(button + 1);
+        // console.log(button);
         switch (step) {
             case 1:
                 isValid = validateStep1();
+                fbq.event("fromStepOne",{country:countryName,name:name,email:email,phone:phone});
+                // console.log(countryName,name,email,phone)
                 break;
             case 2:
                 isValid = validateStep2();
+                fbq.event("fromStepTwo",{country:countryName,departure:departure,arrival:arrival});
                 break;
             case 3:
                 isValid = validateStep3();
+                fbq.event("fromStepThree",{country:countryName,personalizedTravelHelp:personalizedTravelHelp , flightTicketHelp:flightTicketHelp , accommodationHelp :accommodationHelp,email:email,phone:phone});
                 break;
             default:
                 isValid = true;
@@ -145,7 +149,7 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
                 setShowSuccessPopup(true);
                 fbq.event('formSubmit', { country: countryName });
             } else {
-                fbq.event('formSubmitFailed', { country: countryName , error: responseText });
+                fbq.event('formSubmitFailed', { country: countryName ,name:name,phone:phone,email:email, error: responseText });
                 throw new Error('Failed to submit form');
                 
             }

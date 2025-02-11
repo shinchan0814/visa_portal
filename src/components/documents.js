@@ -34,6 +34,16 @@ const Documents = ({ data }) => {
   const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
+
+
+    const pathParts = window.location.pathname.split("/");
+        
+    // Get the last non-empty part of the path as the country name
+    const countryName = pathParts.filter(Boolean).pop()
+
+    fbq.event("fromDocuments",{country: countryName});
+
+
       const handleResize = () => {
           setIsMobile(window.innerWidth <= 768); // Adjust breakpoint as needed
       };
