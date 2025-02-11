@@ -4,7 +4,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 //import '../styles/Documents.module.css';
 //import '../styles/styles.module.css'; // or import './styles.scss';
-
+import * as fbq from "../lib/fpixel"
 // Add all FontAwesome solid icons to the library
 library.add(fas);
 
