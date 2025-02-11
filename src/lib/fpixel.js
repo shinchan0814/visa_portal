@@ -5,7 +5,7 @@ export const pageview = (url) => {
   window.fbq("track", "PageView", { path: url });
 };
 export const slugview = (url) =>{
-  window.fbq('track',"slugView",{path:url})
+  window.fbq('trackCustom',"slugView",{path:url})
 }
 // Track standard & custom events correctly
 export const event = (name, options = {}) => {
