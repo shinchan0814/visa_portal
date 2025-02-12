@@ -166,7 +166,7 @@ function App({ Component, pageProps }) {
 
   return (
     <>
-      {/* Google Analytics (gtag.js) */}
+      {/* Google Analytics (gtag.js)
       <Script
         strategy="afterInteractive"
         src="https://www.googletagmanager.com/gtag/js?id=G-MZ1H4GLECG"
@@ -182,7 +182,7 @@ function App({ Component, pageProps }) {
             gtag('config', 'G-MZ1H4GLECG');
           `,
         }}
-      />
+      /> */}
 
       {/* Google Tag Manager - Head */}
       <Script
@@ -198,7 +198,6 @@ function App({ Component, pageProps }) {
           `,
         }}
       />
-
       {/* Facebook Pixel */}
       <Script
         id="fb-pixel"
