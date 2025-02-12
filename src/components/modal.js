@@ -86,15 +86,19 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
             case 1:
                 isValid = validateStep1();
                 fbq.event("fromStepOne",{country:countryName,name:name,email:email,phone:phone});
+                window.dataLayer.push({event:"fromStepOne",country:countryName,name:name,email:email,phone:phone});
                 // console.log(countryName,name,email,phone)
                 break;
             case 2:
                 isValid = validateStep2();
                 fbq.event("fromStepTwo",{country:countryName,departure:departure,arrival:arrival});
+                window.dataLayer.push({event:"fromStepTwo",country:countryName,departure:departure,arrival:arrival});
                 break;
             case 3:
                 isValid = validateStep3();
                 fbq.event("fromStepThree",{country:countryName,personalizedTravelHelp:personalizedTravelHelp , flightTicketHelp:flightTicketHelp , accommodationHelp :accommodationHelp,email:email,phone:phone});
+                window.dataLayer.push({event:"fromStepThree",personalizedTravelHelp:personalizedTravelHelp , flightTicketHelp:flightTicketHelp , accommodationHelp :accommodationHelp,email:email,phone:phone});
+
                 break;
             default:
                 isValid = true;
@@ -114,9 +118,9 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
         setIsSubmitting(true);
         const formData = {
             country: countryName,
-            name,
-            email,
-            phone,
+            name: name,
+            email: email,
+            phone: phone,
             number_travellers: parseInt(travellers),
             departure_date: departure,
             arrival_date: arrival,
@@ -148,8 +152,10 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
                 console.log('Form submitted successfully:', responseText);
                 setShowSuccessPopup(true);
                 fbq.event('formSubmit', { country: countryName });
+                window.dataLayer.push({event:'formSubmit',  country: countryName });
             } else {
                 fbq.event('formSubmitFailed', { country: countryName ,name:name,phone:phone,email:email, error: responseText });
+                window.dataLayer.push({event:'formSubmit',  country: countryName,name:name,phone:phone,email:email, error: responseText });
                 throw new Error('Failed to submit form');
                 
             }
