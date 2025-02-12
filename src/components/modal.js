@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useParams } from 'next/navigation';
 import ProgressIndicator from '../components/progressIndicator';
 import * as fbq from "../lib/fpixel";
+import { hashData } from "../lib/hashing";
 function useWindowWidth() {
     const [windowWidth, setWindowWidth] = useState(
         typeof window !== 'undefined' ? window.innerWidth : 0
@@ -76,7 +77,7 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
         }
     };
 
-    const handleNext = () => {
+      const handleNext = async () => {
         let isValid = true;
 
         // fbq.event('fromStepNext', { button: button });
@@ -85,7 +86,12 @@ const Modal = ({ showModal, closeModal, countryName, currentStep = 1 }) => {
         switch (step) {
             case 1:
                 isValid = validateStep1();
-                fbq.event("fromStepOne",{country:countryName,name:name,email:email,phone:phone});
+                // const hashedEmail = hashData(email) ;
+                // const hashedPhone =  hashData(phone) ;
+                const hashedEmail = email ? await hashData(email) : null;
+                const hashedPhone = phone ? await hashData(phone) : null;
+                fbq.event("fromStepOne",{country:countryName,name:name,email:hashedEmail,phone:hashedPhone});
+                console.log(countryName,name,hashedEmail,hashedPhone);
                 window.dataLayer.push({event:"fromStepOne",country:countryName,name:name,email:email,phone:phone});
                 // console.log(countryName,name,email,phone)
                 break;
