@@ -51,7 +51,7 @@ const App = () => {
 
   const debouncedSetSearchTerm = useCallback(
     debounce((value) => {
-      console.log(value)
+      // console.log(value)
       setSearchTerm(value);
     }, 300),
     []
