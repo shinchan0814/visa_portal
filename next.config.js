@@ -1,3 +1,12 @@
 module.exports = {
-    reactStrictMode: false
-}
+    reactStrictMode: false,
+    async rewrites() {
+      return [
+        {
+          source: "/blog/:path*",
+          destination: "https://blog.saathi.app/:path*"
+        }
+      ];
+    }
+  };
+  
